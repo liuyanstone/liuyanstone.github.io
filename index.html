@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yan Liu | Senior Economist, World Bank Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-light: #2a5a8c;
+      --accent: #c8a45a;
+      --text: #2d3748;
+      --text-light: #64748b;
+      --bg: #fafbfc;
+      --white: #ffffff;
+      --border: #e2e8f0;
+      --section-bg: #f1f5f9;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      z-index: 1000;
+      transition: box-shadow 0.3s;
+    }
+
+    nav.scrolled {
+      box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 64px;
+    }
+
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-light);
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--primary);
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 5px;
+    }
+
+    .hamburger span {
+      width: 24px;
+      height: 2px;
+      background: var(--text);
+      transition: 0.3s;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 10rem 2rem 5rem;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: var(--white);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .hero .subtitle {
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.9;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero .tagline {
+      font-size: 1rem;
+      font-weight: 300;
+      opacity: 0.7;
+      max-width: 600px;
+      margin: 1rem auto 2rem;
+      line-height: 1.8;
+    }
+
+    .hero-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .hero-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.5rem;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 6px;
+      color: var(--white);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 400;
+      transition: all 0.2s;
+    }
+
+    .hero-links a:hover {
+      background: rgba(255,255,255,0.15);
+      border-color: rgba(255,255,255,0.5);
+    }
+
+    /* Sections */
+    section {
+      padding: 5rem 2rem;
+    }
+
+    section:nth-child(even) {
+      background: var(--section-bg);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      margin-bottom: 3rem;
+    }
+
+    .section-divider {
+      width: 50px;
+      height: 3px;
+      background: var(--accent);
+      margin-bottom: 3rem;
+      border-radius: 2px;
+    }
+
+    /* About */
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .about-text p {
+      margin-bottom: 1rem;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+
+    .about-highlights {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .highlight-card {
+      background: var(--white);
+      padding: 1.5rem;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .highlight-card h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .highlight-card p {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--primary);
+    }
+
+    /* Experience Timeline */
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--border);
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 3rem;
+      padding-left: 1.5rem;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -2rem;
+      top: 0.4rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--white);
+      margin-left: -4px;
+    }
+
+    .timeline-item.current::before {
+      background: var(--primary);
+      box-shadow: 0 0 0 4px rgba(26,58,92,0.15);
+    }
+
+    .timeline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .timeline-org {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .timeline-location {
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+
+    .timeline-role {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.2rem;
+    }
+
+    .timeline-date {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-bottom: 0.8rem;
+    }
+
+    .timeline-details {
+      list-style: none;
+    }
+
+    .timeline-details li {
+      position: relative;
+      padding-left: 1.2rem;
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .timeline-details li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.55rem;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .sub-role {
+      margin-top: 1.5rem;
+    }
+
+    /* Education */
+    .education-grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .edu-card {
+      background: var(--white);
+      padding: 1.8rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    .edu-year {
+      background: var(--primary);
+      color: var(--white);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .edu-info h3 {
+      font-size: 1.05rem;
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .edu-info .degree {
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-bottom: 0.3rem;
+    }
+
+    .edu-info .edu-detail {
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+
+    /* Publications */
+    .pub-category {
+      margin-bottom: 2.5rem;
+    }
+
+    .pub-category h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .pub-list {
+      list-style: none;
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .pub-item {
+      padding: 1rem 1.2rem;
+      background: var(--white);
+      border-radius: 6px;
+      border-left: 3px solid var(--accent);
+      font-size: 0.9rem;
+      line-height: 1.6;
+      transition: box-shadow 0.2s;
+    }
+
+    .pub-item:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .pub-item a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .pub-item a:hover {
+      color: var(--primary-light);
+      text-decoration: underline;
+    }
+
+    .pub-item .pub-authors {
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    .pub-item .pub-venue {
+      color: var(--text-light);
+      font-size: 0.85rem;
+      font-style: italic;
+    }
+
+    .pub-item .pub-note {
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-top: 0.3rem;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .skill-card {
+      background: var(--white);
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .skill-card .skill-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .skill-card h4 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .skill-card p {
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+
+    /* Contact */
+    .contact-cards {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .contact-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--white);
+      padding: 1.5rem 2rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+
+    .contact-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+
+    .contact-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contact-icon svg {
+      width: 22px;
+      height: 22px;
+      fill: var(--white);
+    }
+
+    .contact-label {
+      font-size: 0.8rem;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .contact-value {
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--primary);
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        flex-direction: column;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid var(--border);
+        gap: 1rem;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .hero {
+        padding: 8rem 1.5rem 4rem;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .about-content {
+        grid-template-columns: 1fr;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .edu-card {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    /* Animations */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">Yan Liu</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Yan Liu</h1>
+      <p class="subtitle">Senior Economist &middot; World Bank Group</p>
+      <p class="tagline">Researching the economic impacts of AI and digital transformation on labor markets, productivity, and development.</p>
+      <div class="hero-links">
+        <a href="#publications">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Publications
+        </a>
+        <a href="#experience">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          Experience
+        </a>
+        <a href="#contact">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Contact
+        </a>
+        <a href="https://scholar.google.com/citations?user=FH2cEKoAAAAJ&hl=en" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Google Scholar
+        </a>
+        <a href="https://github.com/liuyanstone" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="section-divider"></div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I am a Senior Economist at the <strong>World Bank Group</strong>, working in the Digital Transformation & AI Vertical. My research focuses on the economic impacts of artificial intelligence and digital transformation on labor markets, productivity, and development outcomes.</p>
+          <p>I am a core author of the <strong>World Development Report 2026: Harnessing AI for Development</strong>. I have led and co-authored multiple flagship reports, including the <em>Digital Progress and Trends Report</em> series, which has been downloaded over 220,000 times collectively.</p>
+          <p>I hold a Ph.D. in Applied Microeconomics from <strong>Peking University</strong> and was a Visiting Fellow at <strong>Harvard University</strong>. My research has been published in leading journals including <em>World Development</em>, <em>Canadian Journal of Economics</em>, and <em>The World Economy</em>.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h4>Current Focus</h4>
+            <p>AI & Digital Transformation, Labor Markets, Development Economics</p>
+          </div>
+          <div class="highlight-card">
+            <h4>Education</h4>
+            <p>Ph.D., Peking University &middot; Visiting Fellow, Harvard University</p>
+          </div>
+          <div class="highlight-card">
+            <h4>Languages</h4>
+            <p>Chinese (Native) &middot; English (Fluent)</p>
+          </div>
+          <div class="highlight-card">
+            <h4>Technical Skills</h4>
+            <p>Stata, MATLAB, Python &middot; Chinese CPA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="section-divider"></div>
+      <div class="timeline">
+
+        <!-- World Bank -->
+        <div class="timeline-item current">
+          <div class="timeline-header">
+            <span class="timeline-org">World Bank Group</span>
+            <span class="timeline-location">Washington DC, US</span>
+          </div>
+
+          <div class="timeline-role">Senior Economist, Digital Transformation & AI Vertical</div>
+          <div class="timeline-date">January 2025 &ndash; Present</div>
+          <ul class="timeline-details">
+            <li>Core author of the World Bank Group's corporate flagship <em>World Development Report 2026: Harnessing AI for Development</em>.</li>
+            <li>Led the second edition of the global flagship <em>Digital Progress and Trends Report 2025: Strengthening AI Foundations</em>, downloaded 60,000+ times.</li>
+            <li>Published 3 research papers on labor market impacts of digital transformation and AI.</li>
+            <li>Provided cross-support to Indonesia, the Philippines, Saudi Arabia, Egypt, Lebanon, and Central Asia on digital jobs and skills analysis.</li>
+          </ul>
+
+          <div class="sub-role">
+            <div class="timeline-role">Senior Economist, Analytics and Research Unit</div>
+            <div class="timeline-date">November 2023 &ndash; December 2024</div>
+            <ul class="timeline-details">
+              <li>Supervised the Analytics and Research unit (~8&ndash;10 economists and data scientists), formulated team strategy and research directions.</li>
+              <li>Published two Policy Research Working Papers with 15,000+ combined downloads. Invited speaker at the 2025 Infra4Development conference and the CEPR conference on Generative AI.</li>
+            </ul>
+          </div>
+
+          <div class="sub-role">
+            <div class="timeline-role">Economist, Digital Development Global Practice</div>
+            <div class="timeline-date">July 2022 &ndash; October 2023</div>
+            <ul class="timeline-details">
+              <li>Led a cross-GP team and coauthored the inaugural <em>Digital Progress and Trends Report 2023</em>, downloaded 160,000+ times.</li>
+              <li>Created the ICT Sector Dataset covering 130+ countries from 2000 to present.</li>
+              <li>Core team member for the Digital Transformation Database web portal.</li>
+            </ul>
+          </div>
+
+          <div class="sub-role">
+            <div class="timeline-role">Economist, Investment Climate Unit</div>
+            <div class="timeline-date">September 2018 &ndash; July 2022</div>
+            <ul class="timeline-details">
+              <li>Led a team of seven and coauthored <em>An Investment Perspective on Global Value Chains</em>, downloaded 10,000+ times and cited in the 2025 Economic Report of the President.</li>
+              <li>Provided technical support and policy advisory to projects across Western Balkans, Central Asia, Southeast Asia, South Africa, and more.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ADB -->
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span class="timeline-org">Asian Development Bank</span>
+            <span class="timeline-location">Beijing, China</span>
+          </div>
+          <div class="timeline-role">Consultant, Economics Unit</div>
+          <div class="timeline-date">October 2017 &ndash; March 2018</div>
+          <ul class="timeline-details">
+            <li>Collected and updated China's high-frequency economic indicators, conducted macroeconomic analysis, and drafted economic development reports.</li>
+          </ul>
+        </div>
+
+        <!-- IMF -->
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span class="timeline-org">International Monetary Fund</span>
+            <span class="timeline-location">Beijing, China</span>
+          </div>
+          <div class="timeline-role">Research Economist, Resident Representative Office of China</div>
+          <div class="timeline-date">June 2015 &ndash; September 2016</div>
+          <ul class="timeline-details">
+            <li>Maintained China's macro economy database, prepared analysis on high-frequency data, and wrote monthly economic updates.</li>
+            <li>Conducted empirical research on SME financing obstacles. Presented findings at People's Bank of China, CBRC, and IMF seminars.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="section-divider"></div>
+      <div class="education-grid">
+        <div class="edu-card fade-in">
+          <div class="edu-year">2013&ndash;2018</div>
+          <div class="edu-info">
+            <h3>Peking University</h3>
+            <div class="degree">Ph.D. in Applied Microeconomics</div>
+            <div class="edu-detail">Guanghua School of Management &middot; Average Grade: 93/100</div>
+            <div class="edu-detail">President Scholarship, Excellent Academic Performance Award</div>
+          </div>
+        </div>
+        <div class="edu-card fade-in">
+          <div class="edu-year">2017</div>
+          <div class="edu-info">
+            <h3>Harvard University</h3>
+            <div class="degree">Visiting Fellow</div>
+            <div class="edu-detail">J.F. Kennedy School &middot; Supervised by Prof. Robert Z. Lawrence</div>
+            <div class="edu-detail">Research on labor income share, industry concentration, and structural transformation</div>
+          </div>
+        </div>
+        <div class="edu-card fade-in">
+          <div class="edu-year">2009&ndash;2013</div>
+          <div class="edu-info">
+            <h3>Peking University</h3>
+            <div class="degree">B.A. in Economics</div>
+            <div class="edu-detail">Guanghua School of Management &middot; Core GPA: 3.75/4</div>
+            <div class="edu-detail">Leo KoGuan Scholarship, Excellent Academic Performance Award</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <div class="section-divider"></div>
+
+      <!-- Journals -->
+      <div class="pub-category">
+        <h3>Journal Articles & Working Papers</h3>
+        <ul class="pub-list">
+          <li class="pub-item fade-in">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305750X25003468" target="_blank">"Who On Earth Is Using Generative AI?"</a>
+            <div class="pub-authors">Yan Liu, He Wang</div>
+            <div class="pub-venue">World Development, 2026</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099520009172451039/idu1aa745fd01bcf014ac51b11d1e9f762ce51e5" target="_blank">"Generative AI: Catalyst for Growth or Harbinger of Premature De-professionalization?"</a>
+            <div class="pub-authors">Yan Liu</div>
+            <div class="pub-venue">World Bank Policy Research Working Paper, Sep 2024. The World Economy, Under Review.</div>
+            <div class="pub-note">5,000+ downloads within months of publication</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5504741" target="_blank">"Labor Demand in the Shadow of Generative AI: Evidence from the US Job Posting Data"</a>
+            <div class="pub-authors">Yan Liu, He Wang, Shu Yu</div>
+            <div class="pub-venue">American Economic Journal: Applied Economics, Under Review</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099451102172652767" target="_blank">"Click, Code, Earn: The Returns to Digital Skills"</a>
+            <div class="pub-authors">Yan Liu, Antonio Martins-Neto, Saloni Khurana, Juan Porras</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5495020" target="_blank">"Who On Earth Is Using Generative AI? Tracking Global Trends and Shifts in 2025"</a>
+            <div class="pub-authors">Yan Liu, Jingyun Huang, He Wang</div>
+            <div class="pub-venue">World Bank Policy Research Working Paper</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://onlinelibrary.wiley.com/doi/10.1111/twec.13633" target="_blank">"The Effects of Foreign Direct Investment on Human Capital Accumulation &ndash; Evidence from China"</a>
+            <div class="pub-authors">Yan Liu</div>
+            <div class="pub-venue">The World Economy, Volume 47, Issue 12, Pages 4487&ndash;4515, Dec 2024</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://onlinelibrary.wiley.com/doi/10.1111/caje.12654" target="_blank">"The Impact of Foreign Direct Investment on Innovation at Domestic Firms: Evidence from the Deregulation of Foreign Investment in China"</a>
+            <div class="pub-authors">Yan Liu, Xuan Wang</div>
+            <div class="pub-venue">Canadian Journal of Economics, Volume 56, Issue 2, Pages 676&ndash;718, May 2023</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="http://aeconf.com/Articles/May2020/aef210110.pdf" target="_blank">"Tackling Small and Medium-Sized Enterprise (SMEs) Financing in China"</a>
+            <div class="pub-authors">Yan Liu, W. Raphael Lam</div>
+            <div class="pub-venue">Annals of Economics and Finance, Volume 21, Issue 1, Pages 209&ndash;239, May 2020</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://journal.hep.com.cn/fec/EN/2018/13/2" target="_blank">"Agricultural Roots in Intergenerational Transfers in China"</a>
+            <div class="pub-authors">Yan Liu, Qingqing Zong</div>
+            <div class="pub-venue">Frontiers of Economics in China, Volume 13, Issue 2, Pages 249&ndash;280, 2018</div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Books -->
+      <div class="pub-category">
+        <h3>Books & Book Chapters</h3>
+        <ul class="pub-list">
+          <li class="pub-item fade-in">
+            <a href="https://www.worldbank.org/en/publication/dptr2025-ai-foundations" target="_blank">"Digital Progress and Trends Report 2025: Strengthening AI Foundations"</a>
+            <div class="pub-authors">Christine Zhenwei Qiang, Yan Liu et al.</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, 2025</div>
+            <div class="pub-note">60,000+ downloads</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://www.worldbank.org/en/publication/digital-progress-and-trends-report" target="_blank">"Digital Progress and Trends Report 2023"</a>
+            <div class="pub-authors">Christine Zhenwei Qiang, Yan Liu et al.</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, Mar 2024</div>
+            <div class="pub-note">160,000+ downloads</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://openknowledge.worldbank.org/handle/10986/35526" target="_blank">"An Investment Perspective on Global Value Chains"</a>
+            <div class="pub-authors">Christine Zhenwei Qiang, Yan Liu, Victor Steenbergen</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, May 2021</div>
+            <div class="pub-note">10,000+ downloads &middot; Cited in the 2025 Economic Report of the President</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://www.piie.com/bookstore/2023/behind-curve-can-manufacturing-still-provide-inclusive-growth" target="_blank">"Behind the Curve: Can Manufacturing Still Provide Inclusive Growth?"</a>
+            <div class="pub-authors">Robert Z. Lawrence, Yan Liu et al.</div>
+            <div class="pub-venue">Peterson Institute for International Economics, Sep 2024</div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Policy Papers -->
+      <div class="pub-category">
+        <h3>Policy Papers & Reports</h3>
+        <ul class="pub-list">
+          <li class="pub-item fade-in">
+            <a href="https://openknowledge.worldbank.org/entities/publication/0335f503-66ce-5ef0-93df-140672569400" target="_blank">"A New Dawn for Global Value Chain Participation in the Philippines"</a>
+            <div class="pub-authors">Souleymane Coulibaly, Yan Liu et al.</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, 2022</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/732601621326114842/investment-reform-map-for-lao-pdr-a-foundation-for-a-new-investment-policy-and-promotion-strategy-lao-pdr-investment-climate-reform-project" target="_blank">"Investment Reform Map for Lao PDR"</a>
+            <div class="pub-authors">Forneris Xavier, Yan Liu et al.</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, 2021</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/956231593150550672" target="_blank">"Foreign Direct Investment and Employment Outcomes in Developing Countries"</a>
+            <div class="pub-authors">Yan Liu, Sarav Abhishek, Sinha Aarushi</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, 2020</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://openknowledge.worldbank.org/handle/10986/33760" target="_blank">"Investment Linkages and Incentives: Promoting Technology Transfer and Productivity Spillovers from FDI"</a>
+            <div class="pub-authors">Yan Liu, Yassin Sabha, Willem Douw</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, 2020</div>
+          </li>
+          <li class="pub-item fade-in">
+            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099135001212235481" target="_blank">"Boosting Foreign Direct Investment: Kosovo Country Economic Memorandum"</a>
+            <div class="pub-authors">Harald Jedlicka, Yan Liu et al.</div>
+            <div class="pub-venue">Washington, D.C.: World Bank Group, 2021</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="section-divider"></div>
+      <div class="contact-cards">
+        <a href="mailto:yanliu@worldbank.org" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="white" stroke-width="2"/><polyline points="22,6 12,13 2,6" fill="none" stroke="white" stroke-width="2"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Work Email</div>
+            <div class="contact-value">yanliu@worldbank.org</div>
+          </div>
+        </a>
+        <a href="mailto:liustonepku@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="white" stroke-width="2"/><polyline points="22,6 12,13 2,6" fill="none" stroke="white" stroke-width="2"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Personal Email</div>
+            <div class="contact-value">liustonepku@gmail.com</div>
+          </div>
+        </a>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" fill="none" stroke="white" stroke-width="2"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+1 (202) 352-8934</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" fill="none" stroke="white" stroke-width="2"/><circle cx="12" cy="10" r="3" fill="none" stroke="white" stroke-width="2"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Washington, D.C.</div>
+          </div>
+        </div>
+        <a href="https://scholar.google.com/citations?user=FH2cEKoAAAAJ&hl=en" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" fill="none" stroke="white" stroke-width="2"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" fill="none" stroke="white" stroke-width="2"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Google Scholar</div>
+            <div class="contact-value">Yan Liu</div>
+          </div>
+        </a>
+        <a href="https://github.com/liuyanstone" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="white"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">liuyanstone</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Yan Liu. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Fade-in animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Active nav link
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
