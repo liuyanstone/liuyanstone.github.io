@@ -1,0 +1,551 @@
+  <header class="masthead">
+    <div class="wrap">
+      <div class="home-link">
+        __HOMELINK__
+        <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch colour theme">Theme</button>
+      </div>
+      <p class="eyebrow">Evidence repository</p>
+      <h1>The Development Impact of Digital Transformation&nbsp;and&nbsp;AI</h1>
+      <p class="lede">
+        A searchable repository of __N__ studies on what digital technology actually does to growth, jobs, firms,
+        welfare, inclusion, the public sector and the environment — organised by digital topic and by outcome, and
+        sorted by how credibly each study identifies a causal effect. Where the underlying paper reports them,
+        each entry carries the method, the data and the estimated magnitude.
+      </p>
+      <div class="masthead-meta">
+        <span>Compiled by <strong>Yan Liu</strong>, Senior Economist, World Bank Group</span>
+        <span>__NCAUSAL__ of __N__ entries use an experimental or quasi-experimental design</span>
+        <span>Last updated __UPDATED__</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <div class="stats" id="statStrip"></div>
+
+    <section id="matrix-sec">
+      <div class="sec-head"><h2 class="sec-title">Where the evidence is — and isn't</h2></div>
+      <p class="sec-note">
+        Each cell counts the studies linking a digital topic to an outcome; the smaller figure is how many of those
+        are experimental or quasi-experimental. Shading tracks the total. Click any cell to filter the repository
+        below to that intersection — click again to clear. Thin and empty cells are the interesting ones: they mark
+        the questions the literature has not yet answered credibly.
+      </p>
+      <div class="matrix-scroll">
+        <table class="matrix" id="matrix">
+          <caption class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Study counts by digital topic and outcome</caption>
+        </table>
+      </div>
+      <div class="matrix-legend">
+        <span>Fewer studies</span>
+        <span class="ramp" id="ramp" aria-hidden="true"></span>
+        <span>More studies</span>
+        <span style="margin-left:auto">Small figure = experimental or quasi-experimental studies in that cell</span>
+      </div>
+      <div class="gaps" id="gaps"></div>
+    </section>
+
+    <section id="filters-sec">
+      <div class="sec-head"><h2 class="sec-title">Filter the repository</h2></div>
+      <div class="controls">
+        <div class="ctl-row">
+          <span class="ctl-label" id="lbl-topic">Digital topic</span>
+          <div class="chips" id="topicChips" role="group" aria-labelledby="lbl-topic"></div>
+        </div>
+        <div class="ctl-row">
+          <span class="ctl-label" id="lbl-out">Outcome</span>
+          <div class="chips" id="outcomeChips" role="group" aria-labelledby="lbl-out"></div>
+        </div>
+        <div class="ctl-row">
+          <span class="ctl-label" id="lbl-tier">Strength of identification</span>
+          <div class="chips" id="tierChips" role="group" aria-labelledby="lbl-tier"></div>
+        </div>
+        <div class="ctl-row">
+          <div class="search-row">
+            <div class="search-box">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <label for="q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Search</label>
+              <input type="search" id="q" placeholder="Search authors, country, method, finding — e.g. &ldquo;Aadhaar&rdquo;, &ldquo;difference-in-differences&rdquo;, &ldquo;Kenya&rdquo;" autocomplete="off">
+            </div>
+            <label for="regionSel" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Region</label>
+            <select class="sel" id="regionSel"><option value="">All regions</option></select>
+            <label for="sortSel" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Sort</label>
+            <select class="sel" id="sortSel">
+              <option value="strength">Sort: strongest evidence first</option>
+              <option value="year">Sort: newest first</option>
+              <option value="topic">Sort: by topic</option>
+            </select>
+            <button class="btn-reset" id="resetBtn" type="button">Reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="key-sec">
+      <div class="sec-head"><h2 class="sec-title">How the evidence is graded</h2></div>
+      <p class="sec-note">
+        The repository separates studies that can support a causal claim from those that document an association.
+        Both are useful — but only the first two categories below license statements of the form
+        &ldquo;X caused Y to change by Z&rdquo;.
+      </p>
+      <div class="keygrid" id="keyGrid"></div>
+    </section>
+
+    <section id="results-sec">
+      <div class="results-bar">
+        <div class="results-count" id="resultsCount"></div>
+        <div class="active-filters" id="activeFilters"></div>
+      </div>
+      <div class="cards" id="cards"></div>
+      <button class="load-more" id="loadMore" type="button" hidden>Show more studies</button>
+    </section>
+
+    <footer class="pagefoot">
+      <p>
+        <strong>Sources and method.</strong> Entries are drawn from peer-reviewed economics journals, NBER and CEPR
+        working papers, World Bank Policy Research Working Papers, and publications of the IMF, OECD, ILO, ITU and
+        allied agencies, together with working papers circulated on SSRN and arXiv. The grading reflects the
+        identification strategy the authors themselves use.
+      </p>
+      <p>
+        <strong>Caveats.</strong> A strong design does not make an estimate universally valid: most entries identify a
+        local effect for one population, one technology generation and one period. Magnitudes are reported as stated
+        in the source. Where a study reports many estimates, the entry gives the headline result. Follow the link on
+        each entry back to the paper before citing a number.
+      </p>
+      <p style="margin-top:1rem;color:var(--faint)">&copy; __YEAR__ Yan Liu &middot; Evidence repository on the development impact of digital transformation and AI</p>
+    </footer>
+  </main>
+
+  <script id="evidence-data" type="application/json">__DATA__</script>
+  <script>
+  (function () {
+    "use strict";
+
+    var DB = JSON.parse(document.getElementById('evidence-data').textContent);
+
+    var TOPICS = [
+      ['broadband',      'Broadband &amp; internet infrastructure'],
+      ['devices',        'Digital devices'],
+      ['ixp',            'Internet exchange points'],
+      ['datacenters',    'Data centers'],
+      ['cloud',          'Cloud computing'],
+      ['dpi',            'Digital public infrastructure &amp; gov platforms'],
+      ['skills',         'Digital skills'],
+      ['transformation', 'Broader digital transformation'],
+      ['ai',             'Artificial intelligence'],
+      ['cyber',          'Cybersecurity'],
+      ['datagov',        'Data governance']
+    ];
+    var OUTCOMES = [
+      ['growth',      'Economic growth'],
+      ['labor',       'Labor market'],
+      ['firms',       'Firms &amp; industrial organisation'],
+      ['welfare',     'Household &amp; consumer welfare'],
+      ['inclusion',   'Inclusion'],
+      ['govt',        'Public sector effectiveness'],
+      ['humancap',    'Education &amp; human capital'],
+      ['environment', 'Environment &amp; resilience']
+    ];
+    var TIERS = [
+      ['rct',         'Experimental',       'Randomised controlled trials and field experiments. Treatment is assigned by the researcher, so the comparison group is credible by construction.'],
+      ['quasi',       'Quasi-experimental', 'Difference-in-differences, instrumental variables, regression discontinuity, event studies and synthetic controls that exploit a plausibly exogenous source of variation.'],
+      ['structural',  'Model-based',        'Structural, general-equilibrium or task-based models. Internally consistent and useful for aggregation, but the magnitudes depend on the assumptions imposed.'],
+      ['descriptive', 'Descriptive',        'Cross-sectional correlations, panel associations, case studies and agency statistics. Informative about patterns; they do not identify a causal effect.'],
+      ['review',      'Review',             'Literature reviews, meta-analyses and evidence syntheses that aggregate many primary studies.']
+    ];
+
+    var TOPIC_LABEL = {}, OUT_LABEL = {}, TIER_LABEL = {}, TIER_DESC = {};
+    TOPICS.forEach(function (t) { TOPIC_LABEL[t[0]] = t[1]; });
+    OUTCOMES.forEach(function (o) { OUT_LABEL[o[0]] = o[1]; });
+    TIERS.forEach(function (t) { TIER_LABEL[t[0]] = t[1]; TIER_DESC[t[0]] = t[2]; });
+
+    var TIER_RANK = { rct: 0, quasi: 1, structural: 2, review: 3, descriptive: 4 };
+    var CAUSAL = { rct: 1, quasi: 1 };
+
+    var state = { topics: [], outcomes: [], tiers: [], region: '', q: '', sort: 'strength', limit: 40 };
+
+    /* ---------- helpers ---------- */
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+    /* highlight reported magnitudes so coefficients are scannable. runs on escaped text only. */
+    var NUM_RE = new RegExp(
+      '(?:[−-]?\\d[\\d,]*(?:\\.\\d+)?\\s?(?:percentage points?|percentage-points?|percent|%|p\\.p\\.|log points?|basis points?|standard deviations?|std\\.? dev\\.?|SDs?)' +
+      '|(?:US)?\\$\\s?\\d[\\d,]*(?:\\.\\d+)?\\s?(?:trillion|billion|million|bn|mn|k)?' +
+      '|[−-]?\\d[\\d,]*(?:\\.\\d+)?\\s?(?:times|fold|-fold)\\b' +
+      '|\\b\\d+(?:\\.\\d+)?x\\b)', 'gi');
+    function hiNums(escaped) { return escaped.replace(NUM_RE, function (m) { return '<b class="num">' + m + '</b>'; }); }
+    function toggle(arr, v) {
+      var i = arr.indexOf(v);
+      if (i > -1) { arr.splice(i, 1); } else { arr.push(v); }
+    }
+    function haystack(d) {
+      if (!d._h) {
+        d._h = [d.authors, d.title, d.venue, d.region, d.countries, d.design, d.data,
+                d.findings, d.magnitude, d.period, d.year,
+                (d.topics || []).map(function (t) { return TOPIC_LABEL[t] || t; }).join(' '),
+                (d.outcomes || []).map(function (o) { return OUT_LABEL[o] || o; }).join(' '),
+                TIER_LABEL[d.tier] || ''].join(' · ').toLowerCase();
+      }
+      return d._h;
+    }
+
+    /* ---------- filtering ---------- */
+    function matches(d, skip) {
+      skip = skip || {};
+      if (!skip.topics && state.topics.length &&
+          !state.topics.some(function (t) { return (d.topics || []).indexOf(t) > -1; })) return false;
+      if (!skip.outcomes && state.outcomes.length &&
+          !state.outcomes.some(function (o) { return (d.outcomes || []).indexOf(o) > -1; })) return false;
+      if (!skip.tiers && state.tiers.length && state.tiers.indexOf(d.tier) < 0) return false;
+      if (!skip.region && state.region && d._reg !== state.region) return false;
+      if (!skip.q && state.q) {
+        var terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+        var h = haystack(d);
+        for (var i = 0; i < terms.length; i++) { if (h.indexOf(terms[i]) < 0) return false; }
+      }
+      return true;
+    }
+    function filtered() { return DB.filter(function (d) { return matches(d); }); }
+
+    /* ---------- region normalisation ---------- */
+    var REGION_MAP = [
+      [/global|cross-?countr|multi-?countr|worldwide|international|\b\d{2,3} countries/i, 'Global / cross-country'],
+      [/sub-?saharan|\bssa\b|africa|kenya|nigeria|tanzania|ghana|rwanda|senegal|malawi|uganda|ethiopia|mozambique|liberia|zambia|south africa|niger\b|benin|togo|c[oô]te|burkina|cameroon|congo|madagascar|mali\b|sierra leone|botswana|namibia|zimbabwe|djibouti|somalia|sudan/i, 'Africa'],
+      [/india|bangladesh|pakistan|sri lanka|nepal|afghanistan|south asia|bhutan|maldives/i, 'South Asia'],
+      [/china|indonesia|philippines|vietnam|viet nam|thailand|malaysia|cambodia|myanmar|lao|east asia|korea|japan|singapore|mongolia|pacific|papua/i, 'East Asia & Pacific'],
+      [/brazil|mexico|colombia|peru|chile|argentina|latin america|caribbean|ecuador|bolivia|paraguay|uruguay|guatemala|honduras|el salvador|nicaragua|costa rica|panama|dominican|haiti|jamaica|venezuela/i, 'Latin America & Caribbean'],
+      [/jordan|egypt|morocco|tunisia|lebanon|iraq|yemen|middle east|\bmena\b|algeria|libya|saudi|emirates|qatar|kuwait|oman|bahrain|iran|israel|palestin|west bank|turkey|t[uü]rkiye/i, 'Middle East & North Africa'],
+      [/united states|\bus\b|\busa\b|u\.s\.|america(?!n samoa)|canada|north america/i, 'North America'],
+      [/europe|\beu\b|\boecd\b|germany|france|italy|spain|netherlands|denmark|sweden|norway|finland|portugal|poland|hungary|austria|belgium|switzerland|ireland|greece|czech|romania|bulgaria|croatia|slovak|sloven|estonia|latvia|lithuania|united kingdom|\buk\b|britain|russia|ukraine|serbia|albania|georgia|armenia|kazakh|uzbek|tajik|kyrgyz|azerbaijan|moldova|belarus/i, 'Europe & Central Asia'],
+      [/theory|theoretical|simulation|model/i, 'Theory / simulation']
+    ];
+    function normRegion(d) {
+      var s = ((d.region || '') + ' ' + (d.countries || '')).trim();
+      if (!s) return 'Unspecified';
+      for (var i = 0; i < REGION_MAP.length; i++) { if (REGION_MAP[i][0].test(s)) return REGION_MAP[i][1]; }
+      return 'Other';
+    }
+    DB.forEach(function (d) { d._reg = normRegion(d); });
+
+    /* ---------- stat strip ---------- */
+    function renderStats() {
+      var causal = DB.filter(function (d) { return CAUSAL[d.tier]; }).length;
+      var years = DB.map(function (d) { return d.year; }).filter(function (y) { return y && y > 1900; });
+      var recent = DB.filter(function (d) { return d.year >= 2024; }).length;
+      var stats = [
+        [DB.length, 'Studies'],
+        [causal, 'Causally identified'],
+        [Math.round(100 * causal / DB.length) + '%', 'Share causal'],
+        [DB.filter(function (d) { return d.tier === 'rct'; }).length, 'Experiments'],
+        [recent, 'Published 2024+'],
+        [TOPICS.length + '×' + OUTCOMES.length, 'Topic × outcome cells'],
+        [Math.min.apply(null, years) + '–' + Math.max.apply(null, years), 'Coverage']
+      ];
+      document.getElementById('statStrip').innerHTML = stats.map(function (s) {
+        return '<div class="stat"><div class="n">' + esc(s[0]) + '</div><div class="l">' + esc(s[1]) + '</div></div>';
+      }).join('');
+    }
+
+    /* ---------- matrix ---------- */
+    function renderMatrix() {
+      var counts = {}, max = 0;
+      TOPICS.forEach(function (t) {
+        counts[t[0]] = {};
+        OUTCOMES.forEach(function (o) { counts[t[0]][o[0]] = { n: 0, c: 0 }; });
+      });
+      DB.forEach(function (d) {
+        (d.topics || []).forEach(function (t) {
+          if (!counts[t]) return;
+          (d.outcomes || []).forEach(function (o) {
+            if (!counts[t][o]) return;
+            counts[t][o].n++;
+            if (CAUSAL[d.tier]) counts[t][o].c++;
+          });
+        });
+      });
+      TOPICS.forEach(function (t) { OUTCOMES.forEach(function (o) { max = Math.max(max, counts[t[0]][o[0]].n); }); });
+
+      function shade(n) {
+        if (!n) return 'transparent';
+        var a = 0.09 + 0.72 * Math.pow(n / max, 0.55);
+        return 'rgba(42,110,160,' + a.toFixed(3) + ')';
+      }
+      var html = '<thead><tr><th scope="col">Topic ↓ &nbsp;/&nbsp; Outcome →</th>';
+      OUTCOMES.forEach(function (o) { html += '<th scope="col">' + o[1] + '</th>'; });
+      html += '<th scope="col">All</th></tr></thead><tbody>';
+
+      TOPICS.forEach(function (t) {
+        var rowTot = 0, rowCau = 0;
+        html += '<tr><th scope="row">' + t[1] + '</th>';
+        OUTCOMES.forEach(function (o) {
+          var c = counts[t[0]][o[0]];
+          rowTot += c.n; rowCau += c.c;
+          var on = state.topics.length === 1 && state.topics[0] === t[0] &&
+                   state.outcomes.length === 1 && state.outcomes[0] === o[0];
+          html += '<td><button class="cell' + (on ? ' on' : '') + '" style="background:' + shade(c.n) + '"' +
+                  (c.n ? '' : ' disabled') +
+                  ' data-t="' + t[0] + '" data-o="' + o[0] + '"' +
+                  ' aria-label="' + c.n + ' studies, ' + c.c + ' causal">' +
+                  '<span class="tot">' + (c.n || '·') + '</span>' +
+                  (c.n ? '<span class="caus">' + c.c + ' causal</span>' : '') +
+                  '</button></td>';
+        });
+        html += '<td><button class="cell" disabled style="background:var(--surface-2)">' +
+                '<span class="tot">' + rowTot + '</span><span class="caus">' + rowCau + ' causal</span></button></td></tr>';
+      });
+      html += '</tbody>';
+      document.getElementById('matrix').innerHTML = html;
+
+      var ramp = document.getElementById('ramp');
+      ramp.innerHTML = [0.08, 0.25, 0.42, 0.6, 0.8].map(function (a) {
+        return '<i style="background:rgba(42,110,160,' + a + ')"></i>';
+      }).join('');
+
+      Array.prototype.forEach.call(document.querySelectorAll('.cell[data-t]'), function (btn) {
+        btn.addEventListener('click', function () {
+          var t = btn.getAttribute('data-t'), o = btn.getAttribute('data-o');
+          var already = state.topics.length === 1 && state.topics[0] === t &&
+                        state.outcomes.length === 1 && state.outcomes[0] === o;
+          state.topics = already ? [] : [t];
+          state.outcomes = already ? [] : [o];
+          state.limit = 40;
+          renderAll();
+          document.getElementById('results-sec').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+
+      renderGaps(counts);
+    }
+
+    /* ---------- where the evidence runs out ---------- */
+    function renderGaps(counts) {
+      var described = [], unstudied = [];
+      TOPICS.forEach(function (t) {
+        OUTCOMES.forEach(function (o) {
+          var c = counts[t[0]][o[0]];
+          var pair = { t: t[0], o: o[0], label: t[1] + ' &rarr; ' + o[1], n: c.n };
+          if (c.n === 0) { unstudied.push(pair); }
+          else if (c.c === 0) { described.push(pair); }
+        });
+      });
+      described.sort(function (a, b) { return b.n - a.n; });
+
+      var html = '';
+      if (described.length) {
+        html += '<div class="gapcol"><h3>Described but not identified <span>' + described.length + ' cells</span></h3>' +
+          '<p>Studies exist, but none of them use a design that supports a causal claim. ' +
+          'Treat the magnitudes in these cells as associations.</p><div class="gaplist">' +
+          described.slice(0, 10).map(function (g) {
+            return '<button type="button" class="gapchip" data-t="' + g.t + '" data-o="' + g.o + '">' +
+                   g.label + '<span class="c">' + g.n + '</span></button>';
+          }).join('') + '</div></div>';
+      }
+      if (unstudied.length) {
+        html += '<div class="gapcol"><h3>No studies in this repository <span>' + unstudied.length + ' cells</span></h3>' +
+          '<p>Nothing yet links these topics to these outcomes. Some are genuine research frontiers ' +
+          '(data centers and inclusion, cloud and the labor market); others simply await entry.</p>' +
+          '<div class="gaplist">' + unstudied.slice(0, 12).map(function (g) {
+            return '<span class="gapchip empty">' + g.label + '</span>';
+          }).join('') + '</div></div>';
+      }
+      var el = document.getElementById('gaps');
+      el.innerHTML = html;
+      Array.prototype.forEach.call(el.querySelectorAll('.gapchip[data-t]'), function (b) {
+        b.addEventListener('click', function () {
+          state.topics = [b.getAttribute('data-t')];
+          state.outcomes = [b.getAttribute('data-o')];
+          state.limit = 40;
+          renderAll();
+          document.getElementById('results-sec').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    }
+
+    /* ---------- chips ---------- */
+    function chipRow(el, defs, key, cls) {
+      el.innerHTML = defs.map(function (d) {
+        var slug = d[0], label = d[1];
+        var skip = {}; skip[key] = true;
+        var n = DB.filter(function (r) {
+          if (!matches(r, skip)) return false;
+          if (key === 'tiers') return r.tier === slug;
+          if (key === 'topics') return (r.topics || []).indexOf(slug) > -1;
+          return (r.outcomes || []).indexOf(slug) > -1;
+        }).length;
+        var on = state[key].indexOf(slug) > -1;
+        return '<button type="button" class="chip' + (cls ? ' ' + cls : '') + (on ? ' on' : '') +
+               '" data-t="' + slug + '" data-key="' + key + '" aria-pressed="' + on + '">' +
+               label + '<span class="c">' + n + '</span></button>';
+      }).join('');
+      Array.prototype.forEach.call(el.querySelectorAll('.chip'), function (btn) {
+        btn.addEventListener('click', function () {
+          toggle(state[btn.getAttribute('data-key')], btn.getAttribute('data-t'));
+          state.limit = 40;
+          renderAll();
+        });
+      });
+    }
+
+    /* ---------- key ---------- */
+    function renderKey() {
+      document.getElementById('keyGrid').innerHTML = TIERS.map(function (t) {
+        var n = DB.filter(function (d) { return d.tier === t[0]; }).length;
+        return '<div class="keyitem" data-t="' + t[0] + '"><h4>' + t[1] +
+               '<span class="kn">' + n + '</span></h4><p>' + t[2] + '</p></div>';
+      }).join('');
+    }
+
+    /* ---------- cards ---------- */
+    function card(d) {
+      var head = esc(d.authors) + ' <span class="yr">(' + esc(d.year) + ')</span>';
+      var h = '<article class="card" data-t="' + esc(d.tier) + '">' +
+        '<div class="card-top"><div style="flex:1 1 300px;min-width:0">' +
+        '<div class="cite">' + (d.url ? '<a href="' + esc(d.url) + '" target="_blank" rel="noopener">' + head + '</a>' : head) + '</div>' +
+        (d.title ? '<div class="paper-title">' + esc(d.title) + '</div>' : '') +
+        (d.venue ? '<div class="venue">' + esc(d.venue) + '</div>' : '') +
+        '</div><span class="tier-badge" data-t="' + esc(d.tier) + '">' + esc(TIER_LABEL[d.tier] || d.tier) + '</span></div>';
+
+      h += '<div class="tags">';
+      (d.topics || []).forEach(function (t) { h += '<span class="tag">' + (TOPIC_LABEL[t] || esc(t)) + '</span>'; });
+      (d.outcomes || []).forEach(function (o) { h += '<span class="tag">' + (OUT_LABEL[o] || esc(o)) + '</span>'; });
+      var geo = d.countries || d.region;
+      if (geo) h += '<span class="tag geo">' + esc(geo) + '</span>';
+      if (d.period) h += '<span class="tag geo">' + esc(d.period) + '</span>';
+      h += '</div>';
+
+      h += '<dl>';
+      if (d.design) h += '<div class="field"><dt>Method</dt><dd>' + esc(d.design) + '</dd></div>';
+      if (d.data)   h += '<div class="field"><dt>Data</dt><dd>' + esc(d.data) + '</dd></div>';
+      h += '</dl>';
+      if (d.findings) h += '<p class="findings">' + hiNums(esc(d.findings)) + '</p>';
+      if (d.magnitude) h += '<div class="mag">' + hiNums(esc(d.magnitude)) + '</div>';
+      return h + '</article>';
+    }
+
+    function renderCards() {
+      var rows = filtered();
+      rows.sort(function (a, b) {
+        if (state.sort === 'year') return (b.year || 0) - (a.year || 0) || TIER_RANK[a.tier] - TIER_RANK[b.tier];
+        if (state.sort === 'topic') {
+          var at = (a.topics || [])[0] || '', bt = (b.topics || [])[0] || '';
+          var ai = TOPICS.findIndex(function (t) { return t[0] === at; });
+          var bi = TOPICS.findIndex(function (t) { return t[0] === bt; });
+          return ai - bi || TIER_RANK[a.tier] - TIER_RANK[b.tier] || (b.year || 0) - (a.year || 0);
+        }
+        return TIER_RANK[a.tier] - TIER_RANK[b.tier] || (b.year || 0) - (a.year || 0);
+      });
+
+      var causal = rows.filter(function (d) { return CAUSAL[d.tier]; }).length;
+      document.getElementById('resultsCount').innerHTML =
+        '<span>' + rows.length + '</span> stud' + (rows.length === 1 ? 'y' : 'ies') +
+        ' <span style="font-family:var(--sans);font-weight:400;font-size:.8rem;color:var(--muted)"> &middot; ' +
+        causal + ' causally identified</span>';
+
+      var af = [];
+      state.topics.forEach(function (t) { af.push(['topics', t, TOPIC_LABEL[t]]); });
+      state.outcomes.forEach(function (o) { af.push(['outcomes', o, OUT_LABEL[o]]); });
+      state.tiers.forEach(function (t) { af.push(['tiers', t, TIER_LABEL[t]]); });
+      var afEl = document.getElementById('activeFilters');
+      afEl.innerHTML = af.map(function (a) {
+        return '<span class="afilter">' + a[2] +
+               '<button type="button" data-key="' + a[0] + '" data-v="' + a[1] + '" aria-label="Remove filter">&times;</button></span>';
+      }).join('');
+      Array.prototype.forEach.call(afEl.querySelectorAll('button'), function (b) {
+        b.addEventListener('click', function () {
+          toggle(state[b.getAttribute('data-key')], b.getAttribute('data-v'));
+          renderAll();
+        });
+      });
+
+      var el = document.getElementById('cards');
+      if (!rows.length) {
+        el.innerHTML = '<div class="empty"><strong>No studies match these filters</strong>' +
+          'Try removing a filter, or search a broader term. An empty result is also a finding: ' +
+          'it may mean the literature has not covered this intersection.</div>';
+        document.getElementById('loadMore').hidden = true;
+        return;
+      }
+      var shown = rows.slice(0, state.limit);
+      el.innerHTML = shown.map(card).join('');
+      var more = document.getElementById('loadMore');
+      more.hidden = rows.length <= state.limit;
+      more.textContent = 'Show more studies (' + (rows.length - shown.length) + ' remaining)';
+    }
+
+    function renderAll() {
+      chipRow(document.getElementById('topicChips'), TOPICS, 'topics');
+      chipRow(document.getElementById('outcomeChips'), OUTCOMES, 'outcomes');
+      chipRow(document.getElementById('tierChips'), TIERS.map(function (t) { return [t[0], t[1]]; }), 'tiers', 'tier');
+      renderMatrix();
+      renderCards();
+      writeHash();
+    }
+
+    /* ---------- url state ---------- */
+    function writeHash() {
+      var p = [];
+      if (state.topics.length) p.push('t=' + state.topics.join(','));
+      if (state.outcomes.length) p.push('o=' + state.outcomes.join(','));
+      if (state.tiers.length) p.push('e=' + state.tiers.join(','));
+      if (state.region) p.push('r=' + encodeURIComponent(state.region));
+      if (state.q) p.push('q=' + encodeURIComponent(state.q));
+      var h = p.length ? '#' + p.join('&') : '';
+      if (h !== location.hash) history.replaceState(null, '', location.pathname + location.search + h);
+    }
+    function readHash() {
+      var h = location.hash.replace(/^#/, '');
+      if (!h) return;
+      h.split('&').forEach(function (kv) {
+        var i = kv.indexOf('='); if (i < 0) return;
+        var k = kv.slice(0, i), v = decodeURIComponent(kv.slice(i + 1));
+        if (k === 't') state.topics = v.split(',').filter(Boolean);
+        if (k === 'o') state.outcomes = v.split(',').filter(Boolean);
+        if (k === 'e') state.tiers = v.split(',').filter(Boolean);
+        if (k === 'r') state.region = v;
+        if (k === 'q') state.q = v;
+      });
+    }
+
+    /* ---------- wiring ---------- */
+    var regions = {};
+    DB.forEach(function (d) { regions[d._reg] = (regions[d._reg] || 0) + 1; });
+    var regSel = document.getElementById('regionSel');
+    Object.keys(regions).sort(function (a, b) { return regions[b] - regions[a]; }).forEach(function (r) {
+      var op = document.createElement('option');
+      op.value = r; op.textContent = r + ' (' + regions[r] + ')';
+      regSel.appendChild(op);
+    });
+
+    var qEl = document.getElementById('q'), qT;
+    qEl.addEventListener('input', function () {
+      clearTimeout(qT);
+      qT = setTimeout(function () { state.q = qEl.value.trim(); state.limit = 40; renderAll(); }, 160);
+    });
+    regSel.addEventListener('change', function () { state.region = regSel.value; state.limit = 40; renderAll(); });
+    document.getElementById('sortSel').addEventListener('change', function (e) { state.sort = e.target.value; renderCards(); });
+    document.getElementById('resetBtn').addEventListener('click', function () {
+      state = { topics: [], outcomes: [], tiers: [], region: '', q: '', sort: state.sort, limit: 40 };
+      qEl.value = ''; regSel.value = '';
+      renderAll();
+    });
+    document.getElementById('loadMore').addEventListener('click', function () { state.limit += 40; renderCards(); });
+
+    var tb = document.getElementById('themeBtn');
+    tb.addEventListener('click', function () {
+      var cur = document.documentElement.getAttribute('data-theme');
+      if (!cur) {
+        cur = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+    });
+
+    readHash();
+    qEl.value = state.q; regSel.value = state.region;
+    renderStats(); renderKey(); renderAll();
+  })();
+  </script>
