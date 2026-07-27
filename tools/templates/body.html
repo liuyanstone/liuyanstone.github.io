@@ -350,7 +350,7 @@
           '<p>Nothing yet links these topics to these outcomes. Some are genuine research frontiers ' +
           '(data centers and inclusion, cloud and the labor market); others simply await entry.</p>' +
           '<div class="gaplist">' + unstudied.slice(0, 12).map(function (g) {
-            return '<span class="gapchip empty">' + g.label + '</span>';
+            return '<span class="gapchip unstudied">' + g.label + '</span>';
           }).join('') + '</div></div>';
       }
       var el = document.getElementById('gaps');

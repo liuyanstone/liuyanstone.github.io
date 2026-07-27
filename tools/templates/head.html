@@ -222,7 +222,8 @@
     }
     .gapchip:hover { border-color:var(--navy); color:var(--navy); }
     .gapchip .c { font-family:var(--mono); font-size:.64rem; color:var(--faint); margin-left:.35rem; }
-    .gapchip.empty { background:transparent; border-style:dashed; color:var(--faint); cursor:default; }
+    /* not .empty — that class is the no-results panel and would win on padding */
+    .gapchip.unstudied { background:transparent; border-style:dashed; color:var(--faint); cursor:default; }
 
     /* ============ controls ============ */
     .controls { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:1.05rem 1.15rem; box-shadow:var(--shadow-sm); }
