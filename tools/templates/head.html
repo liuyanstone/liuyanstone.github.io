@@ -86,13 +86,16 @@
     }
 
     * { margin:0; padding:0; box-sizing:border-box; }
-    html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+    /* Root sizing drives the whole dashboard: content is sized in rem, so raising this
+       enlarges every table, chip, card and finding proportionally. The masthead/hero below
+       pins its own sizes in px so the heading stays put while the dashboard grows. */
+    html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; font-size: 18px; }
     body {
       font-family: var(--sans);
       background: var(--bg);
       color: var(--body);
-      line-height: 1.6;
-      font-size: 15px;
+      line-height: 1.62;
+      font-size: 1rem;
       overflow-x: hidden;
     }
     a { color: var(--navy); }
@@ -119,29 +122,30 @@
     :root[data-theme="dark"] .masthead { background: linear-gradient(160deg,#16283a 0%,#101f2e 55%,#0c1825 100%); }
     :root[data-theme="light"] .masthead { background: linear-gradient(160deg,#1a3a5c 0%,#14304c 55%,#102538 100%); }
 
+    /* Hero text is pinned in px so it is unaffected by the root-size increase above. */
     .eyebrow {
-      font-size: .68rem; letter-spacing: .18em; text-transform: uppercase;
+      font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
       color: var(--gold); font-weight: 600; margin-bottom: .7rem;
     }
     .masthead h1 {
       font-family: var(--display);
-      font-size: clamp(1.85rem, 4.2vw, 3rem);
+      font-size: clamp(30px, 4.2vw, 48px);
       line-height: 1.12; font-weight: 700; color: #fff;
       text-wrap: balance; margin-bottom: .7rem; letter-spacing: -.01em;
     }
     .lede {
-      max-width: 68ch; color: #c2d4e6; font-size: 1rem; line-height: 1.65;
+      max-width: 68ch; color: #c2d4e6; font-size: 16px; line-height: 1.65;
     }
     .masthead-meta {
       margin-top: 1.4rem; display:flex; flex-wrap:wrap; gap:.5rem 1.6rem;
-      font-size: .78rem; color: #9fb8cf;
+      font-size: 12.5px; color: #9fb8cf;
     }
     .masthead-meta a { color:#cfe0ef; text-decoration: underline; text-underline-offset: 2px; }
     .home-link {
       position:absolute; top:1.1rem; right:1.5rem; display:flex; gap:.5rem; align-items:center;
     }
     .home-link a, .theme-btn {
-      font-size:.74rem; color:#cfe0ef; text-decoration:none; border:1px solid rgba(255,255,255,.28);
+      font-size:12px; color:#cfe0ef; text-decoration:none; border:1px solid rgba(255,255,255,.28);
       padding:.32rem .7rem; border-radius:999px; background:rgba(255,255,255,.06);
       cursor:pointer; font-family:var(--sans); transition: background .2s, border-color .2s;
     }
@@ -205,7 +209,7 @@
     .ramp i:first-child { border-left:1px solid var(--border); }
 
     /* ============ evidence gaps ============ */
-    .gaps { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1rem; margin-top:1.2rem; align-items:start; }
+    .gaps { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:1rem; margin-top:1.2rem; align-items:start; }
     .gapcol { border:1px solid var(--border); border-radius:10px; padding:.9rem 1rem; background:var(--surface); }
     .gapcol h3 {
       font-size:.8rem; font-weight:700; color:var(--ink); margin-bottom:.3rem;
@@ -218,7 +222,8 @@
     .gapchip {
       font-family:var(--sans); font-size:.7rem; padding:.22rem .55rem; border-radius:5px;
       border:1px solid var(--border-str); background:var(--surface-2); color:var(--body);
-      cursor:pointer; line-height:1.45; text-align:left; flex:0 0 auto; align-self:flex-start;
+      cursor:pointer; line-height:1.45; text-align:left; flex:0 1 auto; align-self:flex-start;
+      max-width:100%; overflow-wrap:break-word;
     }
     .gapchip:hover { border-color:var(--navy); color:var(--navy); }
     .gapchip .c { font-family:var(--mono); font-size:.64rem; color:var(--faint); margin-left:.35rem; }
@@ -291,7 +296,7 @@
     .card {
       background:var(--surface); border:1px solid var(--border); border-radius:10px;
       border-left:4px solid var(--t-descriptive); padding:1rem 1.15rem; box-shadow:var(--shadow-sm);
-      transition: box-shadow .15s, transform .15s;
+      transition: box-shadow .15s, transform .15s; overflow-wrap:break-word;
     }
     .card:hover { box-shadow: var(--shadow-md); }
     .card[data-t="rct"]         { border-left-color: var(--t-rct); }
@@ -321,9 +326,10 @@
     .tags { display:flex; flex-wrap:wrap; gap:.3rem; margin:.6rem 0 .55rem; }
     .tag {
       font-size:.67rem; padding:.16rem .5rem; border-radius:4px; background:var(--surface-2);
-      color:var(--muted); border:1px solid var(--border); white-space:nowrap;
+      color:var(--muted); border:1px solid var(--border); white-space:nowrap; max-width:100%;
     }
-    .tag.geo { background:transparent; border-style:dashed; }
+    /* geography/period tags can carry long strings, so let them wrap instead of forcing the card wide */
+    .tag.geo { background:transparent; border-style:dashed; white-space:normal; overflow-wrap:anywhere; }
 
     .field { display:grid; grid-template-columns: 74px 1fr; gap:.55rem; font-size:.82rem; margin-top:.32rem; align-items:start; }
     .field dt { font-size:.63rem; text-transform:uppercase; letter-spacing:.08em; color:var(--faint); font-weight:600; padding-top:.18rem; }
