@@ -245,6 +245,53 @@
  {
   "id": "p010",
   "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "descriptive",
+  "design": "Empirical analysis of cyber-insurance broker/policy microdata (adverse selection and screening)",
+  "authors": "Dingchen Ning",
+  "year": 2026,
+  "title": "Selection and Screening in Cyber Insurance Markets",
+  "venue": "Working paper (SSRN)",
+  "url": "https://sites.google.com/view/dingchenning/research",
+  "region": "United States",
+  "countries": "United States",
+  "period": "Not precisely specified in verified abstract; recent cyber-i…",
+  "data": "Microdata from a major cyber-insurance broker on firms' insurance applications, broker use, and policy purchase decisions",
+  "findings": "Firms with higher underlying cyber risk are more likely both to engage an insurance broker and to purchase cyber coverage, evidence of adverse selection into the market. Insurers appear to manage this risk mainly through coverage caps/sub-limits rather than through risk-based price differentiation, and standard survey-based underwriting questionnaires are only weakly correlated with firms' actual measured cyber risk.",
+  "magnitude": "Riskier firms self-select into brokered cyber coverage, yet insurer underwriting surveys are only weakly correlated with actual firm risk",
+  "source": "new"
+ },
+ {
+  "id": "p011",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms",
+   "govt"
+  ],
+  "tier": "descriptive",
+  "design": "Archival analysis of newly mandated SEC cybersecurity disclosures in annual reports",
+  "authors": "Elina Haapamäki, Jukka Sihvonen",
+  "year": 2026,
+  "title": "Mandatory Cybersecurity Disclosure: Early Evidence from 10-K Reports",
+  "venue": "International Journal of Accounting Information Systems",
+  "url": "https://doi.org/10.1016/j.accinf.2026.100775",
+  "region": "United States",
+  "countries": "United States",
+  "period": "Fiscal years ending on/after December 15, 2023 (first mandat…",
+  "data": "10-K cybersecurity risk-management, strategy, and governance disclosures filed by U.S. public companies under the SEC's new mandatory cybersecurity disclosure rule",
+  "findings": "Provides early archival evidence on how firms are complying with the SEC's 2023 rule requiring annual 10-K disclosure of cybersecurity risk management, strategy, and board governance, and material incident reporting within four business days on Form 8-K Item 1.05, documenting variation in disclosure quality, length, and boilerplate versus substantive content across early adopters.",
+  "magnitude": "Documents substantial cross-firm variation in the quality and specificity of newly mandated cybersecurity risk disclosures under the SEC's 2023 rule",
+  "source": "new"
+ },
+ {
+  "id": "p012",
+  "topics": [
    "datacenters"
   ],
   "outcomes": [
@@ -269,7 +316,54 @@
   "source": "new"
  },
  {
-  "id": "p011",
+  "id": "p013",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "humancap"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences around the 2019 FTC/YouTube COPPA settlement",
+  "authors": "Garrett A. Johnson, Tesary Lin, Liang Zhong, James C. Cooper",
+  "year": 2026,
+  "title": "COPPAcalypse? The YouTube Settlement's Impact on Kids' Content",
+  "venue": "Management Science",
+  "url": "https://doi.org/10.1287/mnsc.2024.05295",
+  "region": "United States",
+  "countries": "United States (global platform, US regulation)",
+  "period": "Around the 2019 FTC-YouTube COPPA settlement",
+  "data": "YouTube channel- and video-level data on content production and monetization for child-directed content, before and after the FTC's 2019 COPPA settlement restricted personalized advertising on kids' content",
+  "findings": "After YouTube's 2019 COPPA settlement eliminated targeted advertising and most data collection on child-directed content, monetization for kids' content creators fell sharply, and the platform saw a shift in the volume and mix of child-directed content produced, illustrating how privacy rules that cut off behavioral advertising revenue can reshape content-creator supply incentives on a two-sided platform.",
+  "magnitude": "Removing targeted ads from child-directed content after the COPPA settlement reduced monetization and reshaped kids' content supply on YouTube",
+  "source": "new"
+ },
+ {
+  "id": "p014",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "humancap"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences using a novel linked database of hospital ransomware attacks and Medicare claims",
+  "authors": "Hannah T. Neprash, Claire McGlave, Sayeh Nikpay",
+  "year": 2026,
+  "title": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+  "venue": "American Economic Journal: Economic Policy, Vol. 18",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20240594",
+  "region": "United States",
+  "countries": "United States",
+  "period": "2016-2021",
+  "data": "Original database of hospital ransomware attacks linked to Medicare fee-for-service claims data, 2016-2021",
+  "findings": "Ransomware attacks decrease hospital patient volume by 17-24% during the initial attack week, with volumes recovering within about three weeks. Among patients already hospitalized when an attack begins, in-hospital mortality rises by 34-38% (roughly 3 in 100 hospitalized Medicare patients die in normal times, versus about 4 in 100 during an attack). The authors estimate ransomware attacks killed between 42 and 67 Medicare patients from 2016-2021, with the true toll across all payers likely higher.",
+  "magnitude": "In-hospital mortality rises 34-38% for patients already admitted when a ransomware attack hits; hospital volume falls 17-24% in the first week",
+  "source": "new"
+ },
+ {
+  "id": "p015",
   "topics": [
    "dpi"
   ],
@@ -293,7 +387,7 @@
   "source": "new"
  },
  {
-  "id": "p012",
+  "id": "p016",
   "topics": [
    "transformation",
    "datacenters",
@@ -318,7 +412,7 @@
   "source": "new"
  },
  {
-  "id": "p013",
+  "id": "p017",
   "topics": [
    "ai"
   ],
@@ -341,7 +435,7 @@
   "source": "new"
  },
  {
-  "id": "p014",
+  "id": "p018",
   "topics": [
    "transformation"
   ],
@@ -366,7 +460,30 @@
   "source": "new"
  },
  {
-  "id": "p015",
+  "id": "p019",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences comparing EU vs. non-EU Google Maps search/traffic around the Digital Markets Act's self-preferencing ban",
+  "authors": "Louis-Daniel Pape, Michelangelo Rossi",
+  "year": 2026,
+  "title": "Is Competition Only One Click Away? The Digital Markets Act's Impact on Google Maps",
+  "venue": "Marketing Science",
+  "url": "https://doi.org/10.1287/mksc.2025.0159",
+  "region": "European Union",
+  "countries": "European Union (vs. non-EU comparison)",
+  "period": "Around the DMA's 2024 self-preferencing compliance deadline",
+  "data": "Search and click/traffic data for online mapping services, comparing EU markets (subject to the DMA's ban on Google self-preferencing Maps in search results) with non-EU markets",
+  "findings": "After the DMA required Google to stop self-preferencing Google Maps in search results, search queries for maps and traffic to Google Maps increased by more than 21% in the EU relative to non-EU markets, indicating that removing self-preferencing measurably increased user search/switching activity and, by implication, competitors' visibility in map-related search results.",
+  "magnitude": "Ending Google's self-preferencing of Maps under the DMA increased EU map-related search queries and Google Maps traffic by more than 21%",
+  "source": "new"
+ },
+ {
+  "id": "p020",
   "topics": [
    "ai",
    "skills"
@@ -391,7 +508,7 @@
   "source": "new"
  },
  {
-  "id": "p016",
+  "id": "p021",
   "topics": [
    "datacenters",
    "cloud"
@@ -415,7 +532,7 @@
   "source": "new"
  },
  {
-  "id": "p017",
+  "id": "p022",
   "topics": [
    "datacenters"
   ],
@@ -439,7 +556,7 @@
   "source": "new"
  },
  {
-  "id": "p018",
+  "id": "p023",
   "topics": [
    "ai"
   ],
@@ -462,7 +579,7 @@
   "source": "new"
  },
  {
-  "id": "p019",
+  "id": "p024",
   "topics": [
    "datacenters"
   ],
@@ -486,7 +603,7 @@
   "source": "new"
  },
  {
-  "id": "p020",
+  "id": "p025",
   "topics": [
    "datacenters"
   ],
@@ -510,7 +627,7 @@
   "source": "new"
  },
  {
-  "id": "p021",
+  "id": "p026",
   "topics": [
    "devices"
   ],
@@ -533,7 +650,7 @@
   "source": "repo"
  },
  {
-  "id": "p022",
+  "id": "p027",
   "topics": [
    "ai",
    "datacenters",
@@ -560,7 +677,7 @@
   "source": "new"
  },
  {
-  "id": "p023",
+  "id": "p028",
   "topics": [
    "datacenters"
   ],
@@ -584,7 +701,7 @@
   "source": "new"
  },
  {
-  "id": "p024",
+  "id": "p029",
   "topics": [
    "ai",
    "datacenters"
@@ -608,7 +725,7 @@
   "source": "new"
  },
  {
-  "id": "p025",
+  "id": "p030",
   "topics": [
    "ai",
    "transformation"
@@ -634,7 +751,7 @@
   "source": "new"
  },
  {
-  "id": "p026",
+  "id": "p031",
   "topics": [
    "skills"
   ],
@@ -658,7 +775,7 @@
   "source": "new"
  },
  {
-  "id": "p027",
+  "id": "p032",
   "topics": [
    "datacenters"
   ],
@@ -682,7 +799,7 @@
   "source": "new"
  },
  {
-  "id": "p028",
+  "id": "p033",
   "topics": [
    "ai"
   ],
@@ -706,7 +823,7 @@
   "source": "new"
  },
  {
-  "id": "p029",
+  "id": "p034",
   "topics": [
    "ai"
   ],
@@ -729,7 +846,7 @@
   "source": "new"
  },
  {
-  "id": "p030",
+  "id": "p035",
   "topics": [
    "ai",
    "transformation"
@@ -754,7 +871,7 @@
   "source": "new"
  },
  {
-  "id": "p031",
+  "id": "p036",
   "topics": [
    "skills"
   ],
@@ -778,7 +895,7 @@
   "source": "new"
  },
  {
-  "id": "p032",
+  "id": "p037",
   "topics": [
    "broadband"
   ],
@@ -802,7 +919,7 @@
   "source": "new"
  },
  {
-  "id": "p033",
+  "id": "p038",
   "topics": [
    "datacenters",
    "ai"
@@ -827,7 +944,7 @@
   "source": "new"
  },
  {
-  "id": "p034",
+  "id": "p039",
   "topics": [
    "ai"
   ],
@@ -851,7 +968,7 @@
   "source": "new"
  },
  {
-  "id": "p035",
+  "id": "p040",
   "topics": [
    "devices"
   ],
@@ -874,7 +991,7 @@
   "source": "new"
  },
  {
-  "id": "p036",
+  "id": "p041",
   "topics": [
    "ai",
    "skills"
@@ -899,7 +1016,7 @@
   "source": "new"
  },
  {
-  "id": "p037",
+  "id": "p042",
   "topics": [
    "skills"
   ],
@@ -923,7 +1040,7 @@
   "source": "new"
  },
  {
-  "id": "p038",
+  "id": "p043",
   "topics": [
    "ai"
   ],
@@ -947,7 +1064,7 @@
   "source": "new"
  },
  {
-  "id": "p039",
+  "id": "p044",
   "topics": [
    "ai",
    "skills"
@@ -972,7 +1089,7 @@
   "source": "new"
  },
  {
-  "id": "p040",
+  "id": "p045",
   "topics": [
    "ai",
    "skills"
@@ -996,7 +1113,7 @@
   "source": "new"
  },
  {
-  "id": "p041",
+  "id": "p046",
   "topics": [
    "datacenters"
   ],
@@ -1020,7 +1137,7 @@
   "source": "new"
  },
  {
-  "id": "p042",
+  "id": "p047",
   "topics": [
    "ai",
    "transformation",
@@ -1046,7 +1163,7 @@
   "source": "new"
  },
  {
-  "id": "p043",
+  "id": "p048",
   "topics": [
    "broadband",
    "devices"
@@ -1070,7 +1187,7 @@
   "source": "new"
  },
  {
-  "id": "p044",
+  "id": "p049",
   "topics": [
    "broadband",
    "devices",
@@ -1099,7 +1216,7 @@
   "source": "new"
  },
  {
-  "id": "p045",
+  "id": "p050",
   "topics": [
    "ai",
    "skills"
@@ -1124,7 +1241,7 @@
   "source": "new"
  },
  {
-  "id": "p046",
+  "id": "p051",
   "topics": [
    "ai",
    "datacenters"
@@ -1148,7 +1265,7 @@
   "source": "new"
  },
  {
-  "id": "p047",
+  "id": "p052",
   "topics": [
    "datacenters",
    "ai"
@@ -1173,7 +1290,7 @@
   "source": "new"
  },
  {
-  "id": "p048",
+  "id": "p053",
   "topics": [
    "broadband",
    "datacenters",
@@ -1200,7 +1317,7 @@
   "source": "new"
  },
  {
-  "id": "p049",
+  "id": "p054",
   "topics": [
    "broadband",
    "datacenters"
@@ -1225,7 +1342,30 @@
   "source": "new"
  },
  {
-  "id": "p050",
+  "id": "p055",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Event study of bank stock returns, loans, and deposits around data breach announcements",
+  "authors": "Isarin Durongkadej, Heng Emily Wang",
+  "year": 2025,
+  "title": "Data Breach Announcement Effect on Bank Loans, Deposits, and Stock Performance",
+  "venue": "Journal of Financial Services Research",
+  "url": "https://doi.org/10.1007/s10693-025-00447-z",
+  "region": "United States",
+  "countries": "United States",
+  "period": "Not precisely specified in verified abstract; recent bank da…",
+  "data": "Bank-level data breach announcements matched to stock returns, deposit flows, and loan growth for affected banks",
+  "findings": "Data breach announcements at banks are associated with negative stock market reactions and measurable effects on subsequent deposit-taking and lending activity, indicating that cybersecurity incidents impose a customer-trust cost on financial institutions beyond direct remediation expenses, consistent with depositors and borrowers reacting to perceived operational and reputational risk.",
+  "magnitude": "Bank data breaches trigger negative stock reactions and subsequent disruption to deposit and loan growth",
+  "source": "new"
+ },
+ {
+  "id": "p056",
   "topics": [
    "cloud"
   ],
@@ -1249,7 +1389,55 @@
   "source": "new"
  },
  {
-  "id": "p051",
+  "id": "p057",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "welfare"
+  ],
+  "tier": "review",
+  "design": "Marketing Science Institute-commissioned synthesis of the empirical privacy-regulation literature",
+  "authors": "Jean-Pierre Dubé, John G. Lynch, Dirk Bergemann, Mert Demirer, Avi Goldfarb, Garrett Johnson, Anja Lambrecht, Tesary Lin…",
+  "year": 2025,
+  "title": "Frontiers: The Intended and Unintended Consequences of Privacy Regulation for Consumer Marketing",
+  "venue": "Marketing Science, 44(5): 975-984",
+  "url": "https://doi.org/10.1287/mksc.2024.0901",
+  "region": "United States; European Union (review)",
+  "countries": "Primarily US and EU evidence",
+  "period": "Synthesizes GDPR/CCPA-era literature through 2024",
+  "data": "Synthesis of the empirical literature on GDPR, CCPA, and related privacy regulations' effects on advertising, competition, and consumer marketing",
+  "findings": "The review concludes that privacy regulations like GDPR and CCPA generate real consumer privacy benefits but also impose unintended costs: they can reduce marketing effectiveness (particularly for personalized channels like display and email), raise compliance costs that fall disproportionately on small businesses and new entrants, and increase concentration among the largest data-holding incumbents, potentially entrenching dominant platforms' market power in digital advertising.",
+  "magnitude": "Synthesizes evidence that privacy rules protect consumers but systematically raise concentration and burden small businesses more than large incumbents",
+  "source": "new"
+ },
+ {
+  "id": "p058",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "growth"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences on transatlantic (US-EU) venture capital investment flows",
+  "authors": "Jian Jia, Ginger Zhe Jin, Mario Leccese, Liad Wagman",
+  "year": 2025,
+  "title": "How Does Privacy Regulation Affect Transatlantic Venture Investment? Evidence from GDPR",
+  "venue": "NBER Working Paper 33909",
+  "url": "https://www.nber.org/papers/w33909",
+  "region": "European Union; United States",
+  "countries": "United States, European Union",
+  "period": "Extends the Jia-Jin-Wagman (2021) sample with a longer post-…",
+  "data": "Cross-border venture capital deal-level data tracking US investors funding EU startups (and vice versa) before and after GDPR",
+  "findings": "Extending the analysis of short-run GDPR effects to focus specifically on transatlantic capital flows, the paper documents that GDPR is associated with a pullback specifically in cross-border (US-to-EU) venture investment, with distant US investors reducing funding to EU data-intensive startups more than domestic EU investors do, indicating GDPR raised the relative cost of information-intensive due diligence and monitoring for foreign investors.",
+  "magnitude": "GDPR is associated with a disproportionate pullback in cross-border (US-to-EU) venture capital relative to domestic EU investment",
+  "source": "new"
+ },
+ {
+  "id": "p059",
   "topics": [
    "dpi"
   ],
@@ -1272,7 +1460,7 @@
   "source": "new"
  },
  {
-  "id": "p052",
+  "id": "p060",
   "topics": [
    "ai",
    "skills"
@@ -1297,7 +1485,7 @@
   "source": "new"
  },
  {
-  "id": "p053",
+  "id": "p061",
   "topics": [
    "dpi"
   ],
@@ -1322,7 +1510,7 @@
   "source": "new"
  },
  {
-  "id": "p054",
+  "id": "p062",
   "topics": [
    "dpi"
   ],
@@ -1345,7 +1533,7 @@
   "source": "repo"
  },
  {
-  "id": "p055",
+  "id": "p063",
   "topics": [
    "transformation"
   ],
@@ -1368,7 +1556,7 @@
   "source": "new"
  },
  {
-  "id": "p056",
+  "id": "p064",
   "topics": [
    "ai"
   ],
@@ -1392,7 +1580,7 @@
   "source": "new"
  },
  {
-  "id": "p057",
+  "id": "p065",
   "topics": [
    "skills",
    "transformation"
@@ -1416,7 +1604,7 @@
   "source": "new"
  },
  {
-  "id": "p058",
+  "id": "p066",
   "topics": [
    "transformation"
   ],
@@ -1439,7 +1627,7 @@
   "source": "new"
  },
  {
-  "id": "p059",
+  "id": "p067",
   "topics": [
    "dpi"
   ],
@@ -1462,7 +1650,7 @@
   "source": "repo"
  },
  {
-  "id": "p060",
+  "id": "p068",
   "topics": [
    "ai",
    "datacenters"
@@ -1487,7 +1675,7 @@
   "source": "new"
  },
  {
-  "id": "p061",
+  "id": "p069",
   "topics": [
    "transformation"
   ],
@@ -1510,7 +1698,7 @@
   "source": "new"
  },
  {
-  "id": "p062",
+  "id": "p070",
   "topics": [
    "ai",
    "transformation"
@@ -1535,7 +1723,7 @@
   "source": "new"
  },
  {
-  "id": "p063",
+  "id": "p071",
   "topics": [
    "ai"
   ],
@@ -1559,7 +1747,7 @@
   "source": "new"
  },
  {
-  "id": "p064",
+  "id": "p072",
   "topics": [
    "transformation"
   ],
@@ -1582,7 +1770,31 @@
   "source": "new"
  },
  {
-  "id": "p065",
+  "id": "p073",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms",
+   "govt"
+  ],
+  "tier": "structural",
+  "design": "Network/contagion simulation using Fedwire payment data (2022 JFE) extended with COVID-period stress test (2025 FRBNY)",
+  "authors": "Thomas M. Eisenbach, Anna Kovner, Michael Junho Lee",
+  "year": 2025,
+  "title": "When It Rains, It Pours: Cyber Vulnerability and Financial Conditions (building on \"Cyber Risk and the U.S. Financial System: A Pre-Mortem Analysis,\" Journal of Financial Economics, 2022)",
+  "venue": "Federal Reserve Bank of New York, Economic Policy Review, Vol. 31(1); companion paper in Journal of Financial Economics 145(3)",
+  "url": "https://www.newyorkfed.org/research/epr/2025/epr_2025_cyber-vulnerability_eisenbach",
+  "region": "United States",
+  "countries": "United States",
+  "period": "~2 decades of payment data, with focus on 2020 (COVID-19 ons…",
+  "data": "Simulation model of the Fedwire interbank payment network calibrated to daily payment flows; stress-tested using changes in payment activity/concentration during the COVID-19 shock",
+  "findings": "A cyberattack that impairs payment operations at one or more large banks can propagate liquidity stress through the interbank payment network to otherwise healthy, unaffected banks, even without any solvency problems. During the onset of COVID-19 in 2020, increased concentration and intraday liquidity stress in payment activity raised the system's vulnerability to a cyber event by approximately 50% relative to the rest of 2020, showing that cyber vulnerability is state-dependent on financial conditions rather than constant.",
+  "magnitude": "Payment-system vulnerability to a cyberattack rose by about 50% during the COVID-19 shock as liquidity conditions tightened",
+  "source": "new"
+ },
+ {
+  "id": "p074",
   "topics": [
    "cloud"
   ],
@@ -1607,7 +1819,7 @@
   "source": "new"
  },
  {
-  "id": "p066",
+  "id": "p075",
   "topics": [
    "datacenters"
   ],
@@ -1631,7 +1843,7 @@
   "source": "new"
  },
  {
-  "id": "p067",
+  "id": "p076",
   "topics": [
    "ai",
    "transformation",
@@ -1657,7 +1869,7 @@
   "source": "new"
  },
  {
-  "id": "p068",
+  "id": "p077",
   "topics": [
    "cloud"
   ],
@@ -1681,7 +1893,7 @@
   "source": "new"
  },
  {
-  "id": "p069",
+  "id": "p078",
   "topics": [
    "ai",
    "transformation"
@@ -1706,7 +1918,7 @@
   "source": "new"
  },
  {
-  "id": "p070",
+  "id": "p079",
   "topics": [
    "dpi",
    "broadband"
@@ -1731,7 +1943,7 @@
   "source": "new"
  },
  {
-  "id": "p071",
+  "id": "p080",
   "topics": [
    "datacenters"
   ],
@@ -1754,7 +1966,7 @@
   "source": "repo"
  },
  {
-  "id": "p072",
+  "id": "p081",
   "topics": [
    "ai"
   ],
@@ -1778,7 +1990,7 @@
   "source": "new"
  },
  {
-  "id": "p073",
+  "id": "p082",
   "topics": [
    "ai",
    "datacenters"
@@ -1802,7 +2014,7 @@
   "source": "new"
  },
  {
-  "id": "p074",
+  "id": "p083",
   "topics": [
    "ai",
    "skills"
@@ -1827,7 +2039,7 @@
   "source": "new"
  },
  {
-  "id": "p075",
+  "id": "p084",
   "topics": [
    "broadband"
   ],
@@ -1850,7 +2062,7 @@
   "source": "repo"
  },
  {
-  "id": "p076",
+  "id": "p085",
   "topics": [
    "broadband"
   ],
@@ -1874,7 +2086,7 @@
   "source": "new"
  },
  {
-  "id": "p077",
+  "id": "p086",
   "topics": [
    "ai"
   ],
@@ -1897,7 +2109,7 @@
   "source": "repo"
  },
  {
-  "id": "p078",
+  "id": "p087",
   "topics": [
    "ai"
   ],
@@ -1921,7 +2133,7 @@
   "source": "new"
  },
  {
-  "id": "p079",
+  "id": "p088",
   "topics": [
    "dpi"
   ],
@@ -1944,7 +2156,7 @@
   "source": "repo"
  },
  {
-  "id": "p080",
+  "id": "p089",
   "topics": [
    "ai"
   ],
@@ -1968,7 +2180,7 @@
   "source": "new"
  },
  {
-  "id": "p081",
+  "id": "p090",
   "topics": [
    "broadband"
   ],
@@ -1991,7 +2203,7 @@
   "source": "repo"
  },
  {
-  "id": "p082",
+  "id": "p091",
   "topics": [
    "broadband"
   ],
@@ -2015,7 +2227,7 @@
   "source": "new"
  },
  {
-  "id": "p083",
+  "id": "p092",
   "topics": [
    "devices"
   ],
@@ -2038,7 +2250,7 @@
   "source": "repo"
  },
  {
-  "id": "p084",
+  "id": "p093",
   "topics": [
    "broadband",
    "devices"
@@ -2064,7 +2276,7 @@
   "source": "new"
  },
  {
-  "id": "p085",
+  "id": "p094",
   "topics": [
    "cloud"
   ],
@@ -2088,7 +2300,7 @@
   "source": "new"
  },
  {
-  "id": "p086",
+  "id": "p095",
   "topics": [
    "ai",
    "skills"
@@ -2115,7 +2327,7 @@
   "source": "new"
  },
  {
-  "id": "p087",
+  "id": "p096",
   "topics": [
    "broadband"
   ],
@@ -2138,7 +2350,7 @@
   "source": "repo"
  },
  {
-  "id": "p088",
+  "id": "p097",
   "topics": [
    "ai"
   ],
@@ -2161,7 +2373,7 @@
   "source": "repo"
  },
  {
-  "id": "p089",
+  "id": "p098",
   "topics": [
    "ai"
   ],
@@ -2185,7 +2397,7 @@
   "source": "new"
  },
  {
-  "id": "p090",
+  "id": "p099",
   "topics": [
    "skills"
   ],
@@ -2208,7 +2420,7 @@
   "source": "repo"
  },
  {
-  "id": "p091",
+  "id": "p100",
   "topics": [
    "broadband"
   ],
@@ -2231,7 +2443,7 @@
   "source": "repo"
  },
  {
-  "id": "p092",
+  "id": "p101",
   "topics": [
    "broadband",
    "devices"
@@ -2255,7 +2467,7 @@
   "source": "new"
  },
  {
-  "id": "p093",
+  "id": "p102",
   "topics": [
    "ai",
    "transformation"
@@ -2280,7 +2492,7 @@
   "source": "new"
  },
  {
-  "id": "p094",
+  "id": "p103",
   "topics": [
    "datacenters"
   ],
@@ -2303,7 +2515,7 @@
   "source": "repo"
  },
  {
-  "id": "p095",
+  "id": "p104",
   "topics": [
    "broadband"
   ],
@@ -2327,7 +2539,7 @@
   "source": "new"
  },
  {
-  "id": "p096",
+  "id": "p105",
   "topics": [
    "ai"
   ],
@@ -2351,7 +2563,7 @@
   "source": "new"
  },
  {
-  "id": "p097",
+  "id": "p106",
   "topics": [
    "cloud"
   ],
@@ -2374,7 +2586,7 @@
   "source": "repo"
  },
  {
-  "id": "p098",
+  "id": "p107",
   "topics": [
    "skills"
   ],
@@ -2399,7 +2611,7 @@
   "source": "new"
  },
  {
-  "id": "p099",
+  "id": "p108",
   "topics": [
    "ai",
    "skills",
@@ -2425,7 +2637,7 @@
   "source": "new"
  },
  {
-  "id": "p100",
+  "id": "p109",
   "topics": [
    "ai",
    "transformation"
@@ -2450,7 +2662,7 @@
   "source": "new"
  },
  {
-  "id": "p101",
+  "id": "p110",
   "topics": [
    "datagov"
   ],
@@ -2473,7 +2685,7 @@
   "source": "repo"
  },
  {
-  "id": "p102",
+  "id": "p111",
   "topics": [
    "transformation"
   ],
@@ -2496,7 +2708,7 @@
   "source": "repo"
  },
  {
-  "id": "p103",
+  "id": "p112",
   "topics": [
    "dpi"
   ],
@@ -2519,7 +2731,7 @@
   "source": "repo"
  },
  {
-  "id": "p104",
+  "id": "p113",
   "topics": [
    "broadband",
    "devices"
@@ -2544,7 +2756,7 @@
   "source": "new"
  },
  {
-  "id": "p105",
+  "id": "p114",
   "topics": [
    "broadband"
   ],
@@ -2567,7 +2779,7 @@
   "source": "repo"
  },
  {
-  "id": "p106",
+  "id": "p115",
   "topics": [
    "dpi",
    "devices"
@@ -2592,7 +2804,7 @@
   "source": "new"
  },
  {
-  "id": "p107",
+  "id": "p116",
   "topics": [
    "cloud",
    "datacenters"
@@ -2618,7 +2830,7 @@
   "source": "new"
  },
  {
-  "id": "p108",
+  "id": "p117",
   "topics": [
    "broadband"
   ],
@@ -2641,7 +2853,7 @@
   "source": "repo"
  },
  {
-  "id": "p109",
+  "id": "p118",
   "topics": [
    "ai",
    "datacenters"
@@ -2666,7 +2878,7 @@
   "source": "new"
  },
  {
-  "id": "p110",
+  "id": "p119",
   "topics": [
    "broadband"
   ],
@@ -2690,7 +2902,7 @@
   "source": "new"
  },
  {
-  "id": "p111",
+  "id": "p120",
   "topics": [
    "devices"
   ],
@@ -2713,7 +2925,7 @@
   "source": "new"
  },
  {
-  "id": "p112",
+  "id": "p121",
   "topics": [
    "datacenters"
   ],
@@ -2736,7 +2948,7 @@
   "source": "repo"
  },
  {
-  "id": "p113",
+  "id": "p122",
   "topics": [
    "ai",
    "skills",
@@ -2762,7 +2974,7 @@
   "source": "new"
  },
  {
-  "id": "p114",
+  "id": "p123",
   "topics": [
    "broadband"
   ],
@@ -2785,7 +2997,7 @@
   "source": "repo"
  },
  {
-  "id": "p115",
+  "id": "p124",
   "topics": [
    "transformation"
   ],
@@ -2808,7 +3020,7 @@
   "source": "repo"
  },
  {
-  "id": "p116",
+  "id": "p125",
   "topics": [
    "ai"
   ],
@@ -2832,7 +3044,31 @@
   "source": "repo"
  },
  {
-  "id": "p117",
+  "id": "p126",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "govt",
+   "firms"
+  ],
+  "tier": "descriptive",
+  "design": "Institutional/macro-financial-stability analysis of systemic cyber risk",
+  "authors": "International Monetary Fund (Monetary and Capital Markets Department)",
+  "year": 2024,
+  "title": "Cyber Risk: A Growing Concern for Macrofinancial Stability (Chapter 3)",
+  "venue": "Global Financial Stability Report, April 2024",
+  "url": "https://www.imf.org/en/Publications/GFSR/Issues/2024/04/16/global-financial-stability-report-april-2024",
+  "region": "Global",
+  "countries": "Global, with emphasis on emerging market and developing economies",
+  "period": "Recent cyber incident data through 2023/2024",
+  "data": "Global database of reported cyber incidents affecting financial institutions, cross-referenced with financial stability indicators",
+  "findings": "The IMF concludes that cyber incidents affecting the financial sector have not yet been systemic, but the tail risk of extreme losses from a major cyber incident has increased materially. Financial institutions face exposure through loss of confidence, disruption of critical services, and spillovers to other institutions, and the report finds that cyber-risk policy frameworks remain generally inadequate, especially in emerging market and developing economies, warranting stronger supervisory and disclosure frameworks.",
+  "magnitude": "Tail risk of extreme, potentially systemic losses from a major cyberattack on the financial sector has risen, with policy frameworks judged inadequate especially in developing economies",
+  "source": "new"
+ },
+ {
+  "id": "p127",
   "topics": [
    "broadband"
   ],
@@ -2855,7 +3091,7 @@
   "source": "new"
  },
  {
-  "id": "p118",
+  "id": "p128",
   "topics": [
    "devices",
    "transformation"
@@ -2879,7 +3115,7 @@
   "source": "new"
  },
  {
-  "id": "p119",
+  "id": "p129",
   "topics": [
    "transformation",
    "datacenters"
@@ -2903,7 +3139,30 @@
   "source": "new"
  },
  {
-  "id": "p120",
+  "id": "p130",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Event study / difference-in-differences on Amazon marketplace rankings around DMA compliance",
+  "authors": "Joel Waldfogel",
+  "year": 2024,
+  "title": "Amazon Self-Preferencing in the Shadow of the Digital Markets Act",
+  "venue": "NBER Working Paper 32299",
+  "url": "https://www.nber.org/papers/w32299",
+  "region": "European Union",
+  "countries": "European Union (vs. US/non-EU comparison)",
+  "period": "Around the DMA's 2024 compliance deadline",
+  "data": "Amazon marketplace search-result rankings and Buy Box allocation data for Amazon's own private-label products versus third-party sellers, EU versus non-EU",
+  "findings": "Examines whether Amazon altered its degree of self-preferencing of its own products in search rankings and the Buy Box in the EU in response to the DMA's gatekeeper obligations, providing evidence on how large digital platforms adjust ranking algorithms and default allocations when a competition regulation specifically targets self-preferencing conduct.",
+  "magnitude": "Documents changes in Amazon's self-preferencing of its own-brand products in EU search rankings following DMA gatekeeper obligations",
+  "source": "new"
+ },
+ {
+  "id": "p131",
   "topics": [
    "broadband"
   ],
@@ -2926,7 +3185,7 @@
   "source": "repo"
  },
  {
-  "id": "p121",
+  "id": "p132",
   "topics": [
    "ai"
   ],
@@ -2950,7 +3209,7 @@
   "source": "new"
  },
  {
-  "id": "p122",
+  "id": "p133",
   "topics": [
    "ai"
   ],
@@ -2973,7 +3232,7 @@
   "source": "repo"
  },
  {
-  "id": "p123",
+  "id": "p134",
   "topics": [
    "skills"
   ],
@@ -2996,7 +3255,32 @@
   "source": "repo"
  },
  {
-  "id": "p124",
+  "id": "p135",
+  "topics": [
+   "datagov",
+   "cloud"
+  ],
+  "outcomes": [
+   "growth",
+   "firms"
+  ],
+  "tier": "structural",
+  "design": "Cross-country panel econometrics linking a data-regulation restrictiveness index to downstream digital-services trade",
+  "authors": "Martina Francesca Ferracane, Erik van der Marel",
+  "year": 2024,
+  "title": "Governing Personal Data and Trade in Digital Services",
+  "venue": "Review of International Economics",
+  "url": "https://doi.org/10.1111/roie.12735",
+  "region": "Global",
+  "countries": "Cross-country panel (includes World Bank Digital Services Trade Restrictiveness Index countries)",
+  "period": "Recent cross-country regulatory and trade data",
+  "data": "A cross-country index of personal-data regulation stringency (drawing on the World Bank's Digital Trade/Data regulation database) matched to bilateral digital-services trade flows",
+  "findings": "Building on the authors' related World Bank policy research (Ferracane & van der Marel 2021, \"Regulating Personal Data: Data Models and Digital Services Trade\"), the paper establishes an econometric link between the stringency of a country's personal-data regulatory regime and the performance of its data-reliant downstream service industries, showing that more restrictive data-governance models (e.g., stricter localization or cross-border transfer conditions) are associated with reduced digital-services trade competitiveness for data-dependent sectors.",
+  "magnitude": "Countries with more restrictive personal-data regulatory regimes show systematically weaker digital-services trade performance in data-reliant sectors",
+  "source": "new"
+ },
+ {
+  "id": "p136",
   "topics": [
    "ai",
    "skills"
@@ -3021,7 +3305,7 @@
   "source": "new"
  },
  {
-  "id": "p125",
+  "id": "p137",
   "topics": [
    "ai",
    "transformation"
@@ -3047,7 +3331,7 @@
   "source": "new"
  },
  {
-  "id": "p126",
+  "id": "p138",
   "topics": [
    "ai"
   ],
@@ -3070,7 +3354,7 @@
   "source": "new"
  },
  {
-  "id": "p127",
+  "id": "p139",
   "topics": [
    "broadband"
   ],
@@ -3093,7 +3377,7 @@
   "source": "repo"
  },
  {
-  "id": "p128",
+  "id": "p140",
   "topics": [
    "cloud"
   ],
@@ -3116,7 +3400,7 @@
   "source": "repo"
  },
  {
-  "id": "p129",
+  "id": "p141",
   "topics": [
    "ai"
   ],
@@ -3139,7 +3423,7 @@
   "source": "repo"
  },
  {
-  "id": "p130",
+  "id": "p142",
   "topics": [
    "ai"
   ],
@@ -3164,7 +3448,7 @@
   "source": "new"
  },
  {
-  "id": "p131",
+  "id": "p143",
   "topics": [
    "dpi"
   ],
@@ -3187,7 +3471,7 @@
   "source": "repo"
  },
  {
-  "id": "p132",
+  "id": "p144",
   "topics": [
    "datacenters"
   ],
@@ -3210,7 +3494,7 @@
   "source": "repo"
  },
  {
-  "id": "p133",
+  "id": "p145",
   "topics": [
    "skills"
   ],
@@ -3233,7 +3517,7 @@
   "source": "new"
  },
  {
-  "id": "p134",
+  "id": "p146",
   "topics": [
    "ai"
   ],
@@ -3257,7 +3541,7 @@
   "source": "new"
  },
  {
-  "id": "p135",
+  "id": "p147",
   "topics": [
    "dpi"
   ],
@@ -3280,7 +3564,7 @@
   "source": "new"
  },
  {
-  "id": "p136",
+  "id": "p148",
   "topics": [
    "transformation",
    "skills"
@@ -3305,7 +3589,7 @@
   "source": "new"
  },
  {
-  "id": "p137",
+  "id": "p149",
   "topics": [
    "cloud"
   ],
@@ -3328,7 +3612,55 @@
   "source": "new"
  },
  {
-  "id": "p138",
+  "id": "p150",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms",
+   "growth"
+  ],
+  "tier": "descriptive",
+  "design": "NLP/computational linguistics on earnings calls to construct firm-level cyber-risk exposure measure; predictive panel regressions",
+  "authors": "Rustam Jamilov, Hélène Rey, Ahmed Tahoun",
+  "year": 2024,
+  "title": "The Anatomy of Cyber Risk",
+  "venue": "NBER Working Paper 28906",
+  "url": "https://www.nber.org/papers/w28906",
+  "region": "Global",
+  "countries": "90+ countries",
+  "period": "2003-2025",
+  "data": "Computational linguistics analysis of quarterly earnings-call transcripts for over 14,000 firms in more than 90 countries, validated with human auditors and large language models against actual cyberattack incidents",
+  "findings": "The novel cyber-risk exposure measure affects stock returns and profits, is priced in the options market, and predicts actual future cyberattacks at the firm level. Cyber risk propagates from individual firms to their sector and across firms in a network pattern. The authors estimate the global cost of cyber risk exposure at hundreds of billions of dollars annually.",
+  "magnitude": "Global cyber-risk exposure estimated to cost hundreds of billions of dollars annually across 14,000+ firms in 90+ countries",
+  "source": "new"
+ },
+ {
+  "id": "p151",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "welfare"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences using firm-level web analytics (page views, e-commerce revenue) around GDPR enforcement",
+  "authors": "Samuel G. Goldberg, Garrett A. Johnson, Scott K. Shriver",
+  "year": 2024,
+  "title": "Regulating Privacy Online: An Economic Evaluation of the GDPR",
+  "venue": "American Economic Journal: Economic Policy, 16(1): 325-358",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20210309",
+  "region": "European Union",
+  "countries": "European Union (EU users of sampled websites)",
+  "period": "Around GDPR's May 2018 enforcement deadline",
+  "data": "Adobe Analytics data for 1,084 websites, comparing EU user page views and e-commerce revenue before and after GDPR enforcement",
+  "findings": "Following GDPR enforcement, EU website page views and website (e-commerce) revenue both fell by about 12% on average, with the effect concentrated among smaller firms, which lack the scale to implement compliance as efficiently as large incumbents. The paper decomposes the drop into changes in actual user behavior versus changes in how user activity is recorded (consent-related measurement effects).",
+  "magnitude": "GDPR enforcement is associated with a roughly 12% decline in both EU website page views and e-commerce revenue, concentrated among smaller firms",
+  "source": "new"
+ },
+ {
+  "id": "p152",
   "topics": [
    "dpi",
    "transformation"
@@ -3353,7 +3685,7 @@
   "source": "new"
  },
  {
-  "id": "p139",
+  "id": "p153",
   "topics": [
    "dpi",
    "transformation"
@@ -3378,7 +3710,7 @@
   "source": "new"
  },
  {
-  "id": "p140",
+  "id": "p154",
   "topics": [
    "ai"
   ],
@@ -3402,7 +3734,7 @@
   "source": "new"
  },
  {
-  "id": "p141",
+  "id": "p155",
   "topics": [
    "ai"
   ],
@@ -3426,7 +3758,7 @@
   "source": "new"
  },
  {
-  "id": "p142",
+  "id": "p156",
   "topics": [
    "datacenters"
   ],
@@ -3449,7 +3781,7 @@
   "source": "repo"
  },
  {
-  "id": "p143",
+  "id": "p157",
   "topics": [
    "cloud"
   ],
@@ -3474,7 +3806,7 @@
   "source": "new"
  },
  {
-  "id": "p144",
+  "id": "p158",
   "topics": [
    "ai"
   ],
@@ -3497,7 +3829,7 @@
   "source": "new"
  },
  {
-  "id": "p145",
+  "id": "p159",
   "topics": [
    "broadband",
    "devices"
@@ -3522,7 +3854,7 @@
   "source": "new"
  },
  {
-  "id": "p146",
+  "id": "p160",
   "topics": [
    "transformation"
   ],
@@ -3546,7 +3878,7 @@
   "source": "new"
  },
  {
-  "id": "p147",
+  "id": "p161",
   "topics": [
    "cloud"
   ],
@@ -3570,7 +3902,7 @@
   "source": "new"
  },
  {
-  "id": "p148",
+  "id": "p162",
   "topics": [
    "dpi"
   ],
@@ -3593,7 +3925,7 @@
   "source": "repo"
  },
  {
-  "id": "p149",
+  "id": "p163",
   "topics": [
    "broadband"
   ],
@@ -3616,7 +3948,7 @@
   "source": "repo"
  },
  {
-  "id": "p150",
+  "id": "p164",
   "topics": [
    "datacenters",
    "ai"
@@ -3640,7 +3972,7 @@
   "source": "new"
  },
  {
-  "id": "p151",
+  "id": "p165",
   "topics": [
    "broadband"
   ],
@@ -3663,7 +3995,7 @@
   "source": "repo"
  },
  {
-  "id": "p152",
+  "id": "p166",
   "topics": [
    "ai"
   ],
@@ -3686,7 +4018,7 @@
   "source": "repo"
  },
  {
-  "id": "p153",
+  "id": "p167",
   "topics": [
    "ai",
    "skills"
@@ -3711,7 +4043,7 @@
   "source": "new"
  },
  {
-  "id": "p154",
+  "id": "p168",
   "topics": [
    "broadband"
   ],
@@ -3735,7 +4067,7 @@
   "source": "repo"
  },
  {
-  "id": "p155",
+  "id": "p169",
   "topics": [
    "dpi"
   ],
@@ -3758,7 +4090,7 @@
   "source": "repo"
  },
  {
-  "id": "p156",
+  "id": "p170",
   "topics": [
    "transformation"
   ],
@@ -3781,7 +4113,7 @@
   "source": "repo"
  },
  {
-  "id": "p157",
+  "id": "p171",
   "topics": [
    "transformation"
   ],
@@ -3804,7 +4136,7 @@
   "source": "repo"
  },
  {
-  "id": "p158",
+  "id": "p172",
   "topics": [
    "datacenters"
   ],
@@ -3829,7 +4161,7 @@
   "source": "new"
  },
  {
-  "id": "p159",
+  "id": "p173",
   "topics": [
    "dpi"
   ],
@@ -3852,7 +4184,7 @@
   "source": "repo"
  },
  {
-  "id": "p160",
+  "id": "p174",
   "topics": [
    "ai",
    "transformation"
@@ -3877,7 +4209,7 @@
   "source": "repo"
  },
  {
-  "id": "p161",
+  "id": "p175",
   "topics": [
    "broadband"
   ],
@@ -3901,7 +4233,7 @@
   "source": "repo"
  },
  {
-  "id": "p162",
+  "id": "p176",
   "topics": [
    "broadband"
   ],
@@ -3924,7 +4256,7 @@
   "source": "repo"
  },
  {
-  "id": "p163",
+  "id": "p177",
   "topics": [
    "dpi"
   ],
@@ -3947,7 +4279,30 @@
   "source": "repo"
  },
  {
-  "id": "p164",
+  "id": "p178",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Textual analysis of 10-K/10-Q risk disclosures to build firm-level cyber-risk factor; asset-pricing tests",
+  "authors": "Chris Florackis, Christodoulos Louca, Roni Michaely, Michael Weber",
+  "year": 2023,
+  "title": "Cybersecurity Risk",
+  "venue": "Review of Financial Studies, 36(1): 351-407 (NBER Working Paper 28196)",
+  "url": "https://www.nber.org/papers/w28196",
+  "region": "United States",
+  "countries": "United States",
+  "period": "Not precisely specified in verified abstract; disclosure-era…",
+  "data": "Computational textual analysis of cybersecurity risk disclosures in SEC 10-K/10-Q filings, validated against realized hacking incidents and human/LLM auditor coding",
+  "findings": "The firm-level cybersecurity-risk exposure measure is higher in IT-intensive industries, correlates with the characteristics of firms that later suffer attacks, and predicts future cyberattacks. Portfolios of firms with high cyber-risk exposure outperform low-exposure portfolios by up to 8.3% per year on average, consistent with a priced risk premium, but these same high-exposure firms underperform during periods of elevated realized cybersecurity risk.",
+  "magnitude": "High cyber-risk-exposure stock portfolios earn up to 8.3%/year excess return as compensation for priced cyber risk",
+  "source": "new"
+ },
+ {
+  "id": "p179",
   "topics": [
    "skills"
   ],
@@ -3970,7 +4325,7 @@
   "source": "repo"
  },
  {
-  "id": "p165",
+  "id": "p180",
   "topics": [
    "dpi"
   ],
@@ -3993,7 +4348,7 @@
   "source": "repo"
  },
  {
-  "id": "p166",
+  "id": "p181",
   "topics": [
    "ai"
   ],
@@ -4016,7 +4371,7 @@
   "source": "repo"
  },
  {
-  "id": "p167",
+  "id": "p182",
   "topics": [
    "broadband"
   ],
@@ -4039,7 +4394,7 @@
   "source": "repo"
  },
  {
-  "id": "p168",
+  "id": "p183",
   "topics": [
    "cloud"
   ],
@@ -4062,7 +4417,7 @@
   "source": "repo"
  },
  {
-  "id": "p169",
+  "id": "p184",
   "topics": [
    "transformation"
   ],
@@ -4085,7 +4440,7 @@
   "source": "repo"
  },
  {
-  "id": "p170",
+  "id": "p185",
   "topics": [
    "broadband"
   ],
@@ -4108,7 +4463,31 @@
   "source": "new"
  },
  {
-  "id": "p171",
+  "id": "p186",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "inclusion",
+   "welfare"
+  ],
+  "tier": "rct",
+  "design": "Lab-in-the-field / online experiment on scam-message identification",
+  "authors": "Elif Kubilay, Eva Raiber, Lisa Spantig, Jana Cahlíková, Lucy Kaaria",
+  "year": 2023,
+  "title": "Financial Fraud in Developing Countries: Common Scam Detection Tips Do Not Help Distinguish Scam From Non-Scam Messages",
+  "venue": "ECONtribute Policy Brief No. 056 / CEPR VoxEU",
+  "url": "https://ideas.repec.org/p/ajk/ajkpbs/056.html",
+  "region": "Sub-Saharan Africa",
+  "countries": "Kenya",
+  "period": "2022-2023",
+  "data": "Online experiment in Kenya (registered as an AEA RCT, ID AEARCTR-0008754) presenting participants with a mix of real scam and legitimate financial/mobile-money messages, with randomized provision of standard scam-detection guidance",
+  "findings": "Conventional scam-detection tips (e.g., 'watch for spelling errors,' 'be wary of urgency') do not improve participants' ability to distinguish fraudulent from legitimate financial messages. Providing these tips instead makes people over-cautious, increasing false positives, partly because genuine official communications often contain the same 'red flag' features the tips warn about, undermining trust in legitimate mobile money and financial-service communications.",
+  "magnitude": "Standard scam-detection tips fail to raise scam-identification accuracy and instead increase false-positive suspicion of legitimate financial messages",
+  "source": "new"
+ },
+ {
+  "id": "p187",
   "topics": [
    "ai"
   ],
@@ -4132,7 +4511,7 @@
   "source": "new"
  },
  {
-  "id": "p172",
+  "id": "p188",
   "topics": [
    "transformation",
    "broadband",
@@ -4162,7 +4541,30 @@
   "source": "new"
  },
  {
-  "id": "p173",
+  "id": "p189",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences on web-technology vendor counts and market concentration",
+  "authors": "Garrett A. Johnson, Scott K. Shriver, Samuel G. Goldberg",
+  "year": 2023,
+  "title": "Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR",
+  "venue": "Management Science, 69(10): 5695-5721 (Lead Article)",
+  "url": "https://doi.org/10.1287/mnsc.2023.4709",
+  "region": "Global (EU regulation)",
+  "countries": "European Union",
+  "period": "Around GDPR's May 2018 enforcement",
+  "data": "Website-level counts of web technology vendors (analytics, ad-tech) before and after GDPR, comparable to related comScore/vendor-tracking panels used in this literature",
+  "findings": "GDPR increased concentration among web technology vendors, an unintended consequence working against the regulation's competition goals: the number of vendors serving the average website fell, and market share shifted toward the largest incumbent providers, which had more resources to adapt to compliance costs. The paper frames this as a case where privacy regulation's compliance-cost burden falls disproportionately on smaller ad-tech vendors, harming short-run competition even as it advances privacy protection.",
+  "magnitude": "GDPR increased web-technology vendor market concentration, with the largest incumbents gaining relative share as smaller vendors exited",
+  "source": "new"
+ },
+ {
+  "id": "p190",
   "topics": [
    "datacenters"
   ],
@@ -4185,7 +4587,7 @@
   "source": "repo"
  },
  {
-  "id": "p174",
+  "id": "p191",
   "topics": [
    "broadband"
   ],
@@ -4208,7 +4610,31 @@
   "source": "repo"
  },
  {
-  "id": "p175",
+  "id": "p192",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "welfare"
+  ],
+  "tier": "structural",
+  "design": "Structural model of consumer opt-out and advertiser valuation using proprietary ad-tech tracking/prediction data",
+  "authors": "Guy Aridor, Yeon-Koo Che, Tobias Salz",
+  "year": 2023,
+  "title": "The Effect of Privacy Regulation on the Data Industry: Empirical Evidence from GDPR",
+  "venue": "RAND Journal of Economics, 54(4) (NBER Working Paper 26900)",
+  "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1756-2171.12455",
+  "region": "European Union",
+  "countries": "European Union",
+  "period": "January-July 2018 (around GDPR's May 2018 enforcement)",
+  "data": "Anonymized data from a third-party advertising intermediary tracking keyword searches and purchases for online travel agencies, including the intermediary's proprietary consumer-prediction algorithm",
+  "findings": "GDPR's opt-in consent requirement caused a 12.5% drop in the number of consumers the intermediary could observe/track. However, privacy-conscious consumers who opt out exert a positive information externality on those who remain opted in, making the remaining pool more predictable; the intermediary's ability to predict consumer behavior did not significantly worsen, and the average value of remaining tracked consumers to advertisers rose, partially offsetting the losses from reduced tracking coverage.",
+  "magnitude": "GDPR's opt-in rule cut the tracked consumer pool by 12.5%, but the value of each remaining tracked consumer rose, partly offsetting advertiser losses",
+  "source": "new"
+ },
+ {
+  "id": "p193",
   "topics": [
    "transformation"
   ],
@@ -4232,7 +4658,30 @@
   "source": "new"
  },
  {
-  "id": "p176",
+  "id": "p194",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Event study of equity/commodity markets around a critical-infrastructure ransomware attack",
+  "authors": "John W. Goodell, Shaen Corbet",
+  "year": 2023,
+  "title": "Commodity Market Interactions With Energy-Firm Distress: Evidence From the Colonial Pipeline Ransomware Attack",
+  "venue": "Finance Research Letters, 51: 103329",
+  "url": "https://doi.org/10.1016/j.frl.2022.103329",
+  "region": "United States",
+  "countries": "United States",
+  "period": "May 2021 (Colonial Pipeline ransomware attack and surroundin…",
+  "data": "High-frequency equity and commodity (energy futures) price data surrounding the six-day Colonial Pipeline shutdown following the DarkSide ransomware attack",
+  "findings": "The ransomware-induced shutdown of Colonial Pipeline generated measurable distress spillovers from the energy firm into related commodity markets, with energy futures and related equities showing significant co-movement and volatility around the attack window, illustrating how a ransomware attack on a single pipeline operator propagated into broader financial and commodity market pricing.",
+  "magnitude": "Ransomware shutdown of a single pipeline operator produced significant, measurable spillovers into energy commodity markets during the 6-day outage",
+  "source": "new"
+ },
+ {
+  "id": "p195",
   "topics": [
    "broadband"
   ],
@@ -4257,7 +4706,7 @@
   "source": "new"
  },
  {
-  "id": "p177",
+  "id": "p196",
   "topics": [
    "dpi"
   ],
@@ -4282,7 +4731,7 @@
   "source": "new"
  },
  {
-  "id": "p178",
+  "id": "p197",
   "topics": [
    "dpi"
   ],
@@ -4305,7 +4754,7 @@
   "source": "repo"
  },
  {
-  "id": "p179",
+  "id": "p198",
   "topics": [
    "ai"
   ],
@@ -4328,7 +4777,7 @@
   "source": "new"
  },
  {
-  "id": "p180",
+  "id": "p199",
   "topics": [
    "broadband"
   ],
@@ -4351,7 +4800,7 @@
   "source": "repo"
  },
  {
-  "id": "p181",
+  "id": "p200",
   "topics": [
    "broadband"
   ],
@@ -4374,7 +4823,7 @@
   "source": "repo"
  },
  {
-  "id": "p182",
+  "id": "p201",
   "topics": [
    "ai"
   ],
@@ -4397,7 +4846,7 @@
   "source": "new"
  },
  {
-  "id": "p183",
+  "id": "p202",
   "topics": [
    "broadband"
   ],
@@ -4422,7 +4871,7 @@
   "source": "new"
  },
  {
-  "id": "p184",
+  "id": "p203",
   "topics": [
    "transformation"
   ],
@@ -4445,7 +4894,7 @@
   "source": "repo"
  },
  {
-  "id": "p185",
+  "id": "p204",
   "topics": [
    "ai",
    "datacenters"
@@ -4469,7 +4918,7 @@
   "source": "new"
  },
  {
-  "id": "p186",
+  "id": "p205",
   "topics": [
    "datacenters"
   ],
@@ -4492,7 +4941,7 @@
   "source": "repo"
  },
  {
-  "id": "p187",
+  "id": "p206",
   "topics": [
    "skills"
   ],
@@ -4515,7 +4964,7 @@
   "source": "repo"
  },
  {
-  "id": "p188",
+  "id": "p207",
   "topics": [
    "transformation"
   ],
@@ -4539,7 +4988,7 @@
   "source": "new"
  },
  {
-  "id": "p189",
+  "id": "p208",
   "topics": [
    "skills"
   ],
@@ -4562,7 +5011,7 @@
   "source": "repo"
  },
  {
-  "id": "p190",
+  "id": "p209",
   "topics": [
    "ai"
   ],
@@ -4585,7 +5034,7 @@
   "source": "repo"
  },
  {
-  "id": "p191",
+  "id": "p210",
   "topics": [
    "ai"
   ],
@@ -4608,7 +5057,7 @@
   "source": "repo"
  },
  {
-  "id": "p192",
+  "id": "p211",
   "topics": [
    "ai"
   ],
@@ -4632,7 +5081,7 @@
   "source": "new"
  },
  {
-  "id": "p193",
+  "id": "p212",
   "topics": [
    "dpi"
   ],
@@ -4655,7 +5104,30 @@
   "source": "new"
  },
  {
-  "id": "p194",
+  "id": "p213",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Event study around CCPA passage (2018) and enforcement (2020) using retail-sector stock returns",
+  "authors": "Pankaj C. Patel, Pejvak Oghazi, S. Arunachalam",
+  "year": 2023,
+  "title": "Does Consumer Privacy Act Influence Firm Performance in the Retail Industry? Evidence from a US State-Level Law Change",
+  "venue": "Journal of Business Research",
+  "url": "https://doi.org/10.1016/j.jbusres.2023.113881",
+  "region": "United States",
+  "countries": "United States (California/CCPA)",
+  "period": "CCPA passage (June 2018) and enforcement (January 2020)",
+  "data": "Stock market event-study data for a sample of US retail firms around CCPA's passage and enforcement dates",
+  "findings": "CCPA's passage did not produce a statistically meaningful average stock market reaction across the full sample of retail firms, but firms with greater intangible-asset intensity, and firms with both higher complexity and intangibility, realized significantly positive cumulative abnormal returns, suggesting investors expected some retailers (particularly those with strong existing data/brand assets) to benefit competitively from the new privacy regime relative to peers.",
+  "magnitude": "CCPA had no average stock-market effect on retailers, but firms with high intangible-asset intensity saw significantly positive abnormal returns",
+  "source": "new"
+ },
+ {
+  "id": "p214",
   "topics": [
    "ai",
    "transformation"
@@ -4680,7 +5152,7 @@
   "source": "new"
  },
  {
-  "id": "p195",
+  "id": "p215",
   "topics": [
    "broadband"
   ],
@@ -4705,7 +5177,7 @@
   "source": "new"
  },
  {
-  "id": "p196",
+  "id": "p216",
   "topics": [
    "ai"
   ],
@@ -4729,7 +5201,7 @@
   "source": "new"
  },
  {
-  "id": "p197",
+  "id": "p217",
   "topics": [
    "devices"
   ],
@@ -4754,7 +5226,7 @@
   "source": "new"
  },
  {
-  "id": "p198",
+  "id": "p218",
   "topics": [
    "ai",
    "skills"
@@ -4779,7 +5251,7 @@
   "source": "new"
  },
  {
-  "id": "p199",
+  "id": "p219",
   "topics": [
    "dpi"
   ],
@@ -4803,7 +5275,7 @@
   "source": "new"
  },
  {
-  "id": "p200",
+  "id": "p220",
   "topics": [
    "ai"
   ],
@@ -4826,7 +5298,7 @@
   "source": "repo"
  },
  {
-  "id": "p201",
+  "id": "p221",
   "topics": [
    "transformation"
   ],
@@ -4849,7 +5321,7 @@
   "source": "repo"
  },
  {
-  "id": "p202",
+  "id": "p222",
   "topics": [
    "transformation"
   ],
@@ -4872,7 +5344,7 @@
   "source": "new"
  },
  {
-  "id": "p203",
+  "id": "p223",
   "topics": [
    "broadband",
    "devices"
@@ -4898,7 +5370,7 @@
   "source": "new"
  },
  {
-  "id": "p204",
+  "id": "p224",
   "topics": [
    "ai"
   ],
@@ -4922,7 +5394,7 @@
   "source": "new"
  },
  {
-  "id": "p205",
+  "id": "p225",
   "topics": [
    "transformation",
    "broadband"
@@ -4946,7 +5418,7 @@
   "source": "new"
  },
  {
-  "id": "p206",
+  "id": "p226",
   "topics": [
    "ai"
   ],
@@ -4969,7 +5441,7 @@
   "source": "repo"
  },
  {
-  "id": "p207",
+  "id": "p227",
   "topics": [
    "ai"
   ],
@@ -4993,7 +5465,7 @@
   "source": "new"
  },
  {
-  "id": "p208",
+  "id": "p228",
   "topics": [
    "broadband"
   ],
@@ -5016,7 +5488,7 @@
   "source": "repo"
  },
  {
-  "id": "p209",
+  "id": "p229",
   "topics": [
    "dpi",
    "broadband"
@@ -5041,7 +5513,7 @@
   "source": "new"
  },
  {
-  "id": "p210",
+  "id": "p230",
   "topics": [
    "broadband"
   ],
@@ -5064,7 +5536,7 @@
   "source": "repo"
  },
  {
-  "id": "p211",
+  "id": "p231",
   "topics": [
    "datagov"
   ],
@@ -5087,7 +5559,7 @@
   "source": "repo"
  },
  {
-  "id": "p212",
+  "id": "p232",
   "topics": [
    "broadband",
    "devices"
@@ -5112,7 +5584,7 @@
   "source": "new"
  },
  {
-  "id": "p213",
+  "id": "p233",
   "topics": [
    "broadband"
   ],
@@ -5135,7 +5607,30 @@
   "source": "repo"
  },
  {
-  "id": "p214",
+  "id": "p234",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences tracking third-party web-technology vendors on a large website panel pre/post GDPR",
+  "authors": "Christian Peukert, Stefan Bechtold, Michail Batikas, Tobias Kretschmer",
+  "year": 2022,
+  "title": "Regulatory Spillovers and Data Governance: Evidence from the GDPR",
+  "venue": "Marketing Science, 41(4): 746-768",
+  "url": "https://doi.org/10.1287/mksc.2021.1339",
+  "region": "Global websites, EU regulation",
+  "countries": "Global website sample subject to EU regulatory spillover",
+  "period": "12 months before and 6 months after GDPR's May 2018 effectiv…",
+  "data": "Panel of 110,000+ websites and their third-party HTTP requests (web technology vendors), tracked for 12 months pre- and 6 months post-GDPR",
+  "findings": "Websites substantially reduced the number of third-party web-technology vendors they use after GDPR, and this reduction extended even to websites not legally bound by the GDPR, evidence of a global regulatory spillover. Market concentration in web-technology services increased after GDPR: the largest vendor (Google) lost relatively less business than smaller vendors and significantly gained share in key markets such as advertising and analytics. Effects were largest among less popular websites and for vendors collecting personal data.",
+  "magnitude": "GDPR reduced websites' use of third-party vendors and increased market concentration, with Google gaining share in ad-tech/analytics even on non-EU-regulated sites",
+  "source": "new"
+ },
+ {
+  "id": "p235",
   "topics": [
    "transformation",
    "ai",
@@ -5161,7 +5656,7 @@
   "source": "new"
  },
  {
-  "id": "p215",
+  "id": "p236",
   "topics": [
    "dpi"
   ],
@@ -5185,7 +5680,7 @@
   "source": "repo"
  },
  {
-  "id": "p216",
+  "id": "p237",
   "topics": [
    "transformation"
   ],
@@ -5209,7 +5704,7 @@
   "source": "new"
  },
  {
-  "id": "p217",
+  "id": "p238",
   "topics": [
    "ai"
   ],
@@ -5233,7 +5728,7 @@
   "source": "new"
  },
  {
-  "id": "p218",
+  "id": "p239",
   "topics": [
    "broadband"
   ],
@@ -5256,7 +5751,7 @@
   "source": "repo"
  },
  {
-  "id": "p219",
+  "id": "p240",
   "topics": [
    "dpi"
   ],
@@ -5280,7 +5775,7 @@
   "source": "new"
  },
  {
-  "id": "p220",
+  "id": "p241",
   "topics": [
    "skills"
   ],
@@ -5303,7 +5798,7 @@
   "source": "repo"
  },
  {
-  "id": "p221",
+  "id": "p242",
   "topics": [
    "broadband"
   ],
@@ -5326,7 +5821,7 @@
   "source": "repo"
  },
  {
-  "id": "p222",
+  "id": "p243",
   "topics": [
    "dpi"
   ],
@@ -5349,7 +5844,7 @@
   "source": "repo"
  },
  {
-  "id": "p223",
+  "id": "p244",
   "topics": [
    "cloud"
   ],
@@ -5372,7 +5867,7 @@
   "source": "repo"
  },
  {
-  "id": "p224",
+  "id": "p245",
   "topics": [
    "dpi"
   ],
@@ -5395,7 +5890,7 @@
   "source": "repo"
  },
  {
-  "id": "p225",
+  "id": "p246",
   "topics": [
    "ai",
    "skills"
@@ -5420,7 +5915,7 @@
   "source": "new"
  },
  {
-  "id": "p226",
+  "id": "p247",
   "topics": [
    "dpi"
   ],
@@ -5444,7 +5939,7 @@
   "source": "repo"
  },
  {
-  "id": "p227",
+  "id": "p248",
   "topics": [
    "broadband",
    "devices"
@@ -5469,7 +5964,7 @@
   "source": "new"
  },
  {
-  "id": "p228",
+  "id": "p249",
   "topics": [
    "broadband"
   ],
@@ -5493,7 +5988,7 @@
   "source": "new"
  },
  {
-  "id": "p229",
+  "id": "p250",
   "topics": [
    "dpi"
   ],
@@ -5516,7 +6011,7 @@
   "source": "repo"
  },
  {
-  "id": "p230",
+  "id": "p251",
   "topics": [
    "broadband"
   ],
@@ -5539,7 +6034,7 @@
   "source": "repo"
  },
  {
-  "id": "p231",
+  "id": "p252",
   "topics": [
    "dpi"
   ],
@@ -5563,30 +6058,54 @@
   "source": "new"
  },
  {
-  "id": "p232",
+  "id": "p253",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "growth"
+  ],
+  "tier": "structural",
+  "design": "Structural equilibrium model of app entry/exit and usage estimated on Google Play Store panel, pre/post GDPR",
+  "authors": "Rebecca Janßen, Reinhold Kesler, Michael E. Kummer, Joel Waldfogel",
+  "year": 2022,
+  "title": "GDPR and the Lost Generation of Innovative Apps",
+  "venue": "NBER Working Paper 30028",
+  "url": "https://www.nber.org/papers/w30028",
+  "region": "Global (Google Play Store, EU-affected)",
+  "countries": "Global app market with EU regulatory treatment",
+  "period": "2016-2019",
+  "data": "Panel of 4.1 million apps on the Google Play Store, 2016-2019, tracking entry, exit, and usage",
+  "findings": "Rebecca Janßen et al. 2022 use data on 4.1 million apps at the Google Play Store from 2016 to 2019 and document that GDPR induced the exit of about a third of available apps; and in the quarters following implementation, entry of new apps fell by half. The paper estimates a structural model of demand and entry in the app market. Comparing long-run equilibria with and without GDPR, the paper finds that GDPR reduces consumer surplus and aggregate app usage by about a third. Whatever the privacy benefits of GDPR, they come at substantial costs in foregone innovation.",
+  "magnitude": "GDPR is associated with a one-third exit rate among existing apps, a roughly 50% drop in new app entry, and a one-third fall in consumer surplus and usage",
+  "source": "new"
+ },
+ {
+  "id": "p254",
   "topics": [
    "datagov"
   ],
   "outcomes": [
    "firms"
   ],
-  "tier": "structural",
-  "design": "Structural model",
-  "authors": "Rebecca Janßen et al.",
+  "tier": "quasi",
+  "design": "Difference-in-differences around Apple's 2021 App Tracking Transparency (ATT) rollout",
+  "authors": "Reinhold Kesler",
   "year": 2022,
-  "title": "",
-  "venue": "",
-  "url": "https://www.nber.org/system/files/working_papers/w30028/w30028.pdf",
-  "region": "United States + EU",
-  "countries": "",
-  "period": "",
-  "data": "",
-  "findings": "Rebecca Janßen et al. 2022 use data on 4.1 million apps at the Google Play Store from 2016 to 2019 and document that GDPR induced the exit of about a third of available apps; and in the quarters following implementation, entry of new apps fell by half. The paper estimates a structural model of demand and entry in the app market. Comparing long-run equilibria with and without GDPR, the paper finds that GDPR reduces consumer surplus and aggregate app usage by about a third. Whatever the privacy benefits of GDPR, they come at substantial costs in foregone innovation.",
-  "magnitude": "",
-  "source": "repo"
+  "title": "The Impact of Apple's App Tracking Transparency on App Monetization",
+  "venue": "Working paper (SSRN)",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4090786",
+  "region": "Global",
+  "countries": "Global App Store market",
+  "period": "Around Apple's April 2021 ATT rollout",
+  "data": "App-level monetization and ranking data for iOS apps before and after Apple's App Tracking Transparency framework required opt-in consent for cross-app tracking",
+  "findings": "Apple's ATT policy, which requires opt-in consent before apps can track users across other companies' apps and websites, reduced app monetization reliant on targeted advertising, with effects concentrated among smaller developers and ad-supported apps that depended heavily on cross-app tracking data, paralleling GDPR-style findings that privacy interventions raise compliance/adaptation costs disproportionately for smaller firms even when imposed by a platform rather than a government.",
+  "magnitude": "Apple's App Tracking Transparency opt-in requirement reduced monetization for ad-supported apps, hitting smaller developers hardest",
+  "source": "new"
  },
  {
-  "id": "p233",
+  "id": "p255",
   "topics": [
    "skills"
   ],
@@ -5609,7 +6128,7 @@
   "source": "new"
  },
  {
-  "id": "p234",
+  "id": "p256",
   "topics": [
    "transformation"
   ],
@@ -5632,7 +6151,7 @@
   "source": "repo"
  },
  {
-  "id": "p235",
+  "id": "p257",
   "topics": [
    "broadband"
   ],
@@ -5655,7 +6174,7 @@
   "source": "repo"
  },
  {
-  "id": "p236",
+  "id": "p258",
   "topics": [
    "dpi"
   ],
@@ -5678,7 +6197,7 @@
   "source": "repo"
  },
  {
-  "id": "p237",
+  "id": "p259",
   "topics": [
    "broadband"
   ],
@@ -5701,7 +6220,7 @@
   "source": "repo"
  },
  {
-  "id": "p238",
+  "id": "p260",
   "topics": [
    "transformation"
   ],
@@ -5725,7 +6244,7 @@
   "source": "new"
  },
  {
-  "id": "p239",
+  "id": "p261",
   "topics": [
    "broadband"
   ],
@@ -5748,7 +6267,7 @@
   "source": "repo"
  },
  {
-  "id": "p240",
+  "id": "p262",
   "topics": [
    "broadband"
   ],
@@ -5771,7 +6290,7 @@
   "source": "repo"
  },
  {
-  "id": "p241",
+  "id": "p263",
   "topics": [
    "broadband"
   ],
@@ -5794,7 +6313,7 @@
   "source": "repo"
  },
  {
-  "id": "p242",
+  "id": "p264",
   "topics": [
    "broadband"
   ],
@@ -5818,7 +6337,7 @@
   "source": "new"
  },
  {
-  "id": "p243",
+  "id": "p265",
   "topics": [
    "transformation"
   ],
@@ -5841,7 +6360,7 @@
   "source": "repo"
  },
  {
-  "id": "p244",
+  "id": "p266",
   "topics": [
    "dpi"
   ],
@@ -5865,7 +6384,7 @@
   "source": "repo"
  },
  {
-  "id": "p245",
+  "id": "p267",
   "topics": [
    "transformation",
    "datacenters"
@@ -5889,7 +6408,7 @@
   "source": "new"
  },
  {
-  "id": "p246",
+  "id": "p268",
   "topics": [
    "broadband"
   ],
@@ -5914,7 +6433,7 @@
   "source": "new"
  },
  {
-  "id": "p247",
+  "id": "p269",
   "topics": [
    "transformation"
   ],
@@ -5937,7 +6456,7 @@
   "source": "repo"
  },
  {
-  "id": "p248",
+  "id": "p270",
   "topics": [
    "broadband"
   ],
@@ -5960,7 +6479,7 @@
   "source": "repo"
  },
  {
-  "id": "p249",
+  "id": "p271",
   "topics": [
    "dpi"
   ],
@@ -5983,7 +6502,7 @@
   "source": "repo"
  },
  {
-  "id": "p250",
+  "id": "p272",
   "topics": [
    "transformation"
   ],
@@ -6006,7 +6525,7 @@
   "source": "repo"
  },
  {
-  "id": "p251",
+  "id": "p273",
   "topics": [
    "ai"
   ],
@@ -6029,7 +6548,7 @@
   "source": "new"
  },
  {
-  "id": "p252",
+  "id": "p274",
   "topics": [
    "dpi"
   ],
@@ -6055,7 +6574,7 @@
   "source": "new"
  },
  {
-  "id": "p253",
+  "id": "p275",
   "topics": [
    "broadband"
   ],
@@ -6078,7 +6597,7 @@
   "source": "repo"
  },
  {
-  "id": "p254",
+  "id": "p276",
   "topics": [
    "skills"
   ],
@@ -6101,7 +6620,7 @@
   "source": "repo"
  },
  {
-  "id": "p255",
+  "id": "p277",
   "topics": [
    "dpi"
   ],
@@ -6125,7 +6644,7 @@
   "source": "repo"
  },
  {
-  "id": "p256",
+  "id": "p278",
   "topics": [
    "broadband"
   ],
@@ -6148,7 +6667,7 @@
   "source": "repo"
  },
  {
-  "id": "p257",
+  "id": "p279",
   "topics": [
    "broadband"
   ],
@@ -6171,7 +6690,7 @@
   "source": "new"
  },
  {
-  "id": "p258",
+  "id": "p280",
   "topics": [
    "datagov"
   ],
@@ -6194,7 +6713,31 @@
   "source": "repo"
  },
  {
-  "id": "p259",
+  "id": "p281",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "growth"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences comparing EU vs. US/rest-of-world technology venture financing rounds",
+  "authors": "Jian Jia, Ginger Zhe Jin, Liad Wagman",
+  "year": 2021,
+  "title": "The Short-Run Effects of the General Data Protection Regulation on Technology Venture Investment",
+  "venue": "Marketing Science, 40(4): 661-684 (NBER Working Paper 25248)",
+  "url": "https://www.nber.org/papers/w25248",
+  "region": "European Union; United States; Global",
+  "countries": "EU member states compared with US and rest-of-world",
+  "period": "2015-2019 (around GDPR's May 2018 enforcement)",
+  "data": "Venture financing deal-level data (e.g., Crunchbase/PitchBook-style records) for technology ventures in the EU versus the US and rest of the world, before and after GDPR enforcement",
+  "findings": "After GDPR took effect in May 2018, EU technology ventures show significantly negative effects relative to their US and rest-of-world counterparts in both the number of financing deals and amounts raised. The pullback is more pronounced for newer ventures, data-related ventures, and business-to-consumer ventures, and is larger for investors located farther from the venture, consistent with GDPR raising the cost of cross-border and early-stage data-intensive investment in the short run.",
+  "magnitude": "EU tech ventures see significantly fewer financing deals and less capital raised relative to US/RoW peers after GDPR, concentrated in data-intensive, B2C, and early-stage startups",
+  "source": "new"
+ },
+ {
+  "id": "p282",
   "topics": [
    "datacenters"
   ],
@@ -6217,7 +6760,7 @@
   "source": "repo"
  },
  {
-  "id": "p260",
+  "id": "p283",
   "topics": [
    "broadband",
    "devices"
@@ -6242,7 +6785,7 @@
   "source": "new"
  },
  {
-  "id": "p261",
+  "id": "p284",
   "topics": [
    "dpi"
   ],
@@ -6266,7 +6809,7 @@
   "source": "new"
  },
  {
-  "id": "p262",
+  "id": "p285",
   "topics": [
    "ai",
    "transformation"
@@ -6291,7 +6834,7 @@
   "source": "new"
  },
  {
-  "id": "p263",
+  "id": "p286",
   "topics": [
    "ai",
    "transformation",
@@ -6317,7 +6860,7 @@
   "source": "new"
  },
  {
-  "id": "p264",
+  "id": "p287",
   "topics": [
    "broadband"
   ],
@@ -6340,7 +6883,7 @@
   "source": "repo"
  },
  {
-  "id": "p265",
+  "id": "p288",
   "topics": [
    "ai",
    "skills"
@@ -6365,7 +6908,31 @@
   "source": "new"
  },
  {
-  "id": "p266",
+  "id": "p289",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "welfare"
+  ],
+  "tier": "structural",
+  "design": "Theoretical model of firms as data-capital producers (buy vs. build) under privacy regulation",
+  "authors": "Mehmet Canayaz, Ilja Kantorovitch, Roxana Mihet",
+  "year": 2021,
+  "title": "Privacy Laws and the Value of Personal Data",
+  "venue": "Working paper (SSRN)",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3986562",
+  "region": "Global (theoretical)",
+  "countries": "Not applicable (theoretical model, calibrated illustratively)",
+  "period": "Not applicable (theoretical)",
+  "data": "Theoretical model calibrated with stylized facts on firm data holdings and M&A/data-acquisition patterns",
+  "findings": "The model treats consumer data as a form of intangible capital that firms can either produce in-house or acquire externally, subject to regulatory and technical frictions. Privacy laws that raise the cost of acquiring external data are shown to favor firms that already hold large in-house data stocks (typically large incumbents), shifting the equilibrium toward in-house data production and potentially raising data-driven firms' market value relative to a world with freer data trading.",
+  "magnitude": "Model shows privacy regulation that raises the cost of buying external data disproportionately benefits data-rich incumbents over data-poor challengers",
+  "source": "new"
+ },
+ {
+  "id": "p290",
   "topics": [
    "skills"
   ],
@@ -6388,7 +6955,7 @@
   "source": "repo"
  },
  {
-  "id": "p267",
+  "id": "p291",
   "topics": [
    "devices",
    "broadband"
@@ -6413,7 +6980,7 @@
   "source": "new"
  },
  {
-  "id": "p268",
+  "id": "p292",
   "topics": [
    "dpi",
    "transformation"
@@ -6438,7 +7005,7 @@
   "source": "new"
  },
  {
-  "id": "p269",
+  "id": "p293",
   "topics": [
    "skills"
   ],
@@ -6461,7 +7028,7 @@
   "source": "repo"
  },
  {
-  "id": "p270",
+  "id": "p294",
   "topics": [
    "ixp"
   ],
@@ -6485,7 +7052,7 @@
   "source": "new"
  },
  {
-  "id": "p271",
+  "id": "p295",
   "topics": [
    "broadband",
    "devices"
@@ -6510,7 +7077,7 @@
   "source": "new"
  },
  {
-  "id": "p272",
+  "id": "p296",
   "topics": [
    "skills"
   ],
@@ -6533,7 +7100,7 @@
   "source": "repo"
  },
  {
-  "id": "p273",
+  "id": "p297",
   "topics": [
    "devices"
   ],
@@ -6557,7 +7124,7 @@
   "source": "new"
  },
  {
-  "id": "p274",
+  "id": "p298",
   "topics": [
    "broadband"
   ],
@@ -6581,7 +7148,7 @@
   "source": "new"
  },
  {
-  "id": "p275",
+  "id": "p299",
   "topics": [
    "transformation"
   ],
@@ -6605,7 +7172,30 @@
   "source": "new"
  },
  {
-  "id": "p276",
+  "id": "p300",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Event study (stock returns, sales growth) around cyberattack disclosures",
+  "authors": "Shinichi Kamiya, Jun-Koo Kang, Jungmin Kim, Andreas Milidonis, René M. Stulz",
+  "year": 2021,
+  "title": "Risk Management, Firm Reputation, and the Impact of Successful Cyberattacks on Target Firms",
+  "venue": "Journal of Financial Economics (NBER Working Paper 24409)",
+  "url": "https://www.nber.org/papers/w24409",
+  "region": "Global (publicly listed firms)",
+  "countries": "Not specified in verified abstract; cross-country listed-firm sample",
+  "period": "Pre-2018 (NBER working paper posted 2018)",
+  "data": "Firm-level data on disclosed cyberattacks matched to stock returns, sales growth, leverage, and CEO compensation for publicly traded target firms",
+  "findings": "After a breach of customers' personal data, the average attacked firm loses 1.1% of its market value (about $607 million at mean equity value) and experiences a 3.2 percentage-point drop in year-on-year sales growth. Attacks on financial data are the most damaging to equity value and credit ratings. Firms with weaker board risk oversight and firms hit by repeat attacks suffer significantly larger losses, and targeted firms subsequently cut CEO risk-taking incentives and strengthen risk management.",
+  "magnitude": "Average cyberattack on personal data costs a target firm 1.1% of market value and 3.2pp of sales growth",
+  "source": "new"
+ },
+ {
+  "id": "p301",
   "topics": [
    "broadband"
   ],
@@ -6628,7 +7218,7 @@
   "source": "repo"
  },
  {
-  "id": "p277",
+  "id": "p302",
   "topics": [
    "transformation"
   ],
@@ -6653,7 +7243,32 @@
   "source": "new"
  },
  {
-  "id": "p278",
+  "id": "p303",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "govt",
+   "growth",
+   "inclusion"
+  ],
+  "tier": "review",
+  "design": "World Bank flagship report chapter synthesizing global data-governance institutions and policy",
+  "authors": "World Bank",
+  "year": 2021,
+  "title": "Institutions for Data Governance: Building Trust Through Collective Action (Chapter 8)",
+  "venue": "World Development Report 2021: Data for Better Lives",
+  "url": "https://doi.org/10.1596/978-1-4648-1600-0_ch8",
+  "region": "Global",
+  "countries": "Global, with emphasis on low- and middle-income countries",
+  "period": "2021 report, synthesizing evidence through 2020",
+  "data": "Cross-country synthesis of data-protection laws, cross-border data-flow regimes, and open-data policies, drawing on World Bank, OECD, and academic sources",
+  "findings": "The WDR 2021 argues that the value of data for development is only realized when supported by trusted institutions for data governance: it documents that as of 2020 fewer than half of developing countries had modern data-protection laws, and that fragmented, trust-deficient data governance (rather than lack of data per se) is the binding constraint on using data for development outcomes such as service delivery, poverty targeting, and firm productivity. It calls for an integrated national data governance framework balancing data use, protection, and cross-border flow.",
+  "magnitude": "Fewer than half of developing countries had a modern data-protection law as of the report's writing, identified as a key constraint on safe data reuse for development",
+  "source": "new"
+ },
+ {
+  "id": "p304",
   "topics": [
    "broadband"
   ],
@@ -6676,7 +7291,7 @@
   "source": "repo"
  },
  {
-  "id": "p279",
+  "id": "p305",
   "topics": [
    "ai",
    "datacenters"
@@ -6700,7 +7315,7 @@
   "source": "new"
  },
  {
-  "id": "p280",
+  "id": "p306",
   "topics": [
    "broadband"
   ],
@@ -6723,7 +7338,7 @@
   "source": "repo"
  },
  {
-  "id": "p281",
+  "id": "p307",
   "topics": [
    "dpi"
   ],
@@ -6746,7 +7361,7 @@
   "source": "repo"
  },
  {
-  "id": "p282",
+  "id": "p308",
   "topics": [
    "dpi"
   ],
@@ -6769,7 +7384,7 @@
   "source": "repo"
  },
  {
-  "id": "p283",
+  "id": "p309",
   "topics": [
    "devices",
    "broadband"
@@ -6794,7 +7409,7 @@
   "source": "new"
  },
  {
-  "id": "p284",
+  "id": "p310",
   "topics": [
    "ai"
   ],
@@ -6818,7 +7433,7 @@
   "source": "new"
  },
  {
-  "id": "p285",
+  "id": "p311",
   "topics": [
    "ai",
    "transformation"
@@ -6842,7 +7457,7 @@
   "source": "repo"
  },
  {
-  "id": "p286",
+  "id": "p312",
   "topics": [
    "ai",
    "transformation"
@@ -6866,7 +7481,7 @@
   "source": "repo"
  },
  {
-  "id": "p287",
+  "id": "p313",
   "topics": [
    "transformation"
   ],
@@ -6890,7 +7505,7 @@
   "source": "new"
  },
  {
-  "id": "p288",
+  "id": "p314",
   "topics": [
    "ai"
   ],
@@ -6913,7 +7528,7 @@
   "source": "new"
  },
  {
-  "id": "p289",
+  "id": "p315",
   "topics": [
    "broadband",
    "devices"
@@ -6938,7 +7553,7 @@
   "source": "new"
  },
  {
-  "id": "p290",
+  "id": "p316",
   "topics": [
    "dpi",
    "transformation"
@@ -6963,7 +7578,7 @@
   "source": "new"
  },
  {
-  "id": "p291",
+  "id": "p317",
   "topics": [
    "datacenters"
   ],
@@ -6986,7 +7601,7 @@
   "source": "new"
  },
  {
-  "id": "p292",
+  "id": "p318",
   "topics": [
    "broadband",
    "devices"
@@ -7011,7 +7626,7 @@
   "source": "new"
  },
  {
-  "id": "p293",
+  "id": "p319",
   "topics": [
    "ixp"
   ],
@@ -7036,7 +7651,7 @@
   "source": "new"
  },
  {
-  "id": "p294",
+  "id": "p320",
   "topics": [
    "broadband"
   ],
@@ -7059,7 +7674,7 @@
   "source": "repo"
  },
  {
-  "id": "p295",
+  "id": "p321",
   "topics": [
    "datagov"
   ],
@@ -7082,7 +7697,7 @@
   "source": "repo"
  },
  {
-  "id": "p296",
+  "id": "p322",
   "topics": [
    "skills"
   ],
@@ -7106,7 +7721,7 @@
   "source": "new"
  },
  {
-  "id": "p297",
+  "id": "p323",
   "topics": [
    "broadband"
   ],
@@ -7129,7 +7744,7 @@
   "source": "new"
  },
  {
-  "id": "p298",
+  "id": "p324",
   "topics": [
    "broadband"
   ],
@@ -7152,7 +7767,7 @@
   "source": "repo"
  },
  {
-  "id": "p299",
+  "id": "p325",
   "topics": [
    "ai"
   ],
@@ -7176,7 +7791,7 @@
   "source": "new"
  },
  {
-  "id": "p300",
+  "id": "p326",
   "topics": [
    "transformation"
   ],
@@ -7200,7 +7815,7 @@
   "source": "new"
  },
  {
-  "id": "p301",
+  "id": "p327",
   "topics": [
    "transformation"
   ],
@@ -7223,7 +7838,7 @@
   "source": "repo"
  },
  {
-  "id": "p302",
+  "id": "p328",
   "topics": [
    "dpi",
    "transformation"
@@ -7247,7 +7862,7 @@
   "source": "new"
  },
  {
-  "id": "p303",
+  "id": "p329",
   "topics": [
    "broadband"
   ],
@@ -7270,7 +7885,7 @@
   "source": "repo"
  },
  {
-  "id": "p304",
+  "id": "p330",
   "topics": [
    "dpi"
   ],
@@ -7295,7 +7910,7 @@
   "source": "new"
  },
  {
-  "id": "p305",
+  "id": "p331",
   "topics": [
    "devices",
    "broadband"
@@ -7320,7 +7935,7 @@
   "source": "new"
  },
  {
-  "id": "p306",
+  "id": "p332",
   "topics": [
    "devices"
   ],
@@ -7344,7 +7959,7 @@
   "source": "new"
  },
  {
-  "id": "p307",
+  "id": "p333",
   "topics": [
    "ixp",
    "broadband"
@@ -7369,7 +7984,7 @@
   "source": "new"
  },
  {
-  "id": "p308",
+  "id": "p334",
   "topics": [
    "ai"
   ],
@@ -7392,7 +8007,7 @@
   "source": "repo"
  },
  {
-  "id": "p309",
+  "id": "p335",
   "topics": [
    "ai",
    "transformation"
@@ -7417,7 +8032,7 @@
   "source": "new"
  },
  {
-  "id": "p310",
+  "id": "p336",
   "topics": [
    "broadband"
   ],
@@ -7440,7 +8055,7 @@
   "source": "repo"
  },
  {
-  "id": "p311",
+  "id": "p337",
   "topics": [
    "datagov"
   ],
@@ -7463,7 +8078,7 @@
   "source": "repo"
  },
  {
-  "id": "p312",
+  "id": "p338",
   "topics": [
    "ai"
   ],
@@ -7487,7 +8102,7 @@
   "source": "new"
  },
  {
-  "id": "p313",
+  "id": "p339",
   "topics": [
    "broadband"
   ],
@@ -7513,7 +8128,7 @@
   "source": "new"
  },
  {
-  "id": "p314",
+  "id": "p340",
   "topics": [
    "dpi"
   ],
@@ -7537,7 +8152,7 @@
   "source": "new"
  },
  {
-  "id": "p315",
+  "id": "p341",
   "topics": [
    "skills",
    "transformation"
@@ -7561,7 +8176,7 @@
   "source": "new"
  },
  {
-  "id": "p316",
+  "id": "p342",
   "topics": [
    "transformation"
   ],
@@ -7585,7 +8200,7 @@
   "source": "new"
  },
  {
-  "id": "p317",
+  "id": "p343",
   "topics": [
    "broadband"
   ],
@@ -7608,7 +8223,7 @@
   "source": "repo"
  },
  {
-  "id": "p318",
+  "id": "p344",
   "topics": [
    "dpi",
    "transformation"
@@ -7633,7 +8248,7 @@
   "source": "new"
  },
  {
-  "id": "p319",
+  "id": "p345",
   "topics": [
    "broadband",
    "devices",
@@ -7660,7 +8275,7 @@
   "source": "new"
  },
  {
-  "id": "p320",
+  "id": "p346",
   "topics": [
    "skills"
   ],
@@ -7683,7 +8298,31 @@
   "source": "repo"
  },
  {
-  "id": "p321",
+  "id": "p347",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "humancap",
+   "govt"
+  ],
+  "tier": "descriptive",
+  "design": "Retrospective quasi-experimental analysis of hospital operational data around a critical-infrastructure ransomware attack",
+  "authors": "Saira Ghafur, Sarah Kristensen, Kate Honeyford, Guy Martin, Ara Darzi, Paul Aylin",
+  "year": 2019,
+  "title": "A Retrospective Impact Analysis of the WannaCry Cyberattack on the NHS",
+  "venue": "npj Digital Medicine, 2: 98",
+  "url": "https://doi.org/10.1038/s41746-019-0161-6",
+  "region": "United Kingdom",
+  "countries": "United Kingdom",
+  "period": "May 2017 (WannaCry attack) and aftermath",
+  "data": "NHS hospital trust operational records (cancelled appointments, A&E diversions, IT system downtime) for trusts infected by WannaCry ransomware",
+  "findings": "The May 2017 WannaCry ransomware attack disrupted computer systems across at least 80 NHS trusts in England, forcing cancelled appointments and ambulance/A&E diversions. Widely-cited UK Department of Health follow-up accounting (reported contemporaneously in Computer Fraud & Security, 2018) put the total cost to the NHS at approximately £92 million, split between costs during the attack (lost output) and IT clean-up/upgrade costs afterward.",
+  "magnitude": "WannaCry ransomware attack on the NHS (May 2017) cost an estimated £92 million and disrupted care across 80+ hospital trusts",
+  "source": "new"
+ },
+ {
+  "id": "p348",
   "topics": [
    "broadband"
   ],
@@ -7706,7 +8345,7 @@
   "source": "repo"
  },
  {
-  "id": "p322",
+  "id": "p349",
   "topics": [
    "ai",
    "transformation"
@@ -7731,7 +8370,7 @@
   "source": "new"
  },
  {
-  "id": "p323",
+  "id": "p350",
   "topics": [
    "cloud"
   ],
@@ -7754,7 +8393,7 @@
   "source": "new"
  },
  {
-  "id": "p324",
+  "id": "p351",
   "topics": [
    "dpi",
    "transformation",
@@ -7780,7 +8419,7 @@
   "source": "new"
  },
  {
-  "id": "p325",
+  "id": "p352",
   "topics": [
    "transformation"
   ],
@@ -7803,7 +8442,7 @@
   "source": "repo"
  },
  {
-  "id": "p326",
+  "id": "p353",
   "topics": [
    "ai"
   ],
@@ -7828,7 +8467,7 @@
   "source": "new"
  },
  {
-  "id": "p327",
+  "id": "p354",
   "topics": [
    "ai"
   ],
@@ -7852,7 +8491,7 @@
   "source": "new"
  },
  {
-  "id": "p328",
+  "id": "p355",
   "topics": [
    "transformation"
   ],
@@ -7876,7 +8515,7 @@
   "source": "new"
  },
  {
-  "id": "p329",
+  "id": "p356",
   "topics": [
    "dpi"
   ],
@@ -7899,7 +8538,31 @@
   "source": "new"
  },
  {
-  "id": "p330",
+  "id": "p357",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms",
+   "welfare"
+  ],
+  "tier": "quasi",
+  "design": "Quasi-experimental analysis of individual customer transaction panel around a retailer data breach",
+  "authors": "Ramkumar Janakiraman, Joon Ho Lim, Rishika Rishika",
+  "year": 2018,
+  "title": "The Effect of a Data Breach Announcement on Customer Behavior: Evidence from a Multichannel Retailer",
+  "venue": "Journal of Marketing, 82(2): 85-105",
+  "url": "https://doi.org/10.1509/jm.16.0124",
+  "region": "United States",
+  "countries": "United States",
+  "period": "Around a major US multichannel retailer's data breach announ…",
+  "data": "Individual-level purchase transaction data (online and offline channels) for customers of a large multichannel retailer before and after a publicized data breach",
+  "findings": "Customer response to a data breach announcement is heterogeneous: some customers reduce spending and channel engagement (particularly online, the breached channel) after the announcement, while the overall effect on retailer revenue depends on whether affected customers shift toward offline channels rather than exit entirely. The study shows data breaches impose a customer-trust cost distinct from and additional to direct remediation costs.",
+  "magnitude": "Data breach announcements shift affected customers' channel mix and reduce engagement in the breached (online) channel",
+  "source": "new"
+ },
+ {
+  "id": "p358",
   "topics": [
    "broadband"
   ],
@@ -7922,7 +8585,7 @@
   "source": "repo"
  },
  {
-  "id": "p331",
+  "id": "p359",
   "topics": [
    "ixp"
   ],
@@ -7946,7 +8609,7 @@
   "source": "new"
  },
  {
-  "id": "p332",
+  "id": "p360",
   "topics": [
    "skills"
   ],
@@ -7970,7 +8633,7 @@
   "source": "new"
  },
  {
-  "id": "p333",
+  "id": "p361",
   "topics": [
    "ai"
   ],
@@ -7993,7 +8656,7 @@
   "source": "new"
  },
  {
-  "id": "p334",
+  "id": "p362",
   "topics": [
    "dpi"
   ],
@@ -8016,7 +8679,7 @@
   "source": "repo"
  },
  {
-  "id": "p335",
+  "id": "p363",
   "topics": [
    "devices"
   ],
@@ -8039,7 +8702,7 @@
   "source": "new"
  },
  {
-  "id": "p336",
+  "id": "p364",
   "topics": [
    "dpi"
   ],
@@ -8063,7 +8726,7 @@
   "source": "new"
  },
  {
-  "id": "p337",
+  "id": "p365",
   "topics": [
    "dpi"
   ],
@@ -8087,7 +8750,7 @@
   "source": "repo"
  },
  {
-  "id": "p338",
+  "id": "p366",
   "topics": [
    "dpi"
   ],
@@ -8112,7 +8775,7 @@
   "source": "new"
  },
  {
-  "id": "p339",
+  "id": "p367",
   "topics": [
    "cloud"
   ],
@@ -8135,7 +8798,7 @@
   "source": "repo"
  },
  {
-  "id": "p340",
+  "id": "p368",
   "topics": [
    "broadband"
   ],
@@ -8158,7 +8821,7 @@
   "source": "repo"
  },
  {
-  "id": "p341",
+  "id": "p369",
   "topics": [
    "dpi"
   ],
@@ -8182,7 +8845,7 @@
   "source": "new"
  },
  {
-  "id": "p342",
+  "id": "p370",
   "topics": [
    "dpi",
    "transformation"
@@ -8207,7 +8870,7 @@
   "source": "new"
  },
  {
-  "id": "p343",
+  "id": "p371",
   "topics": [
    "broadband"
   ],
@@ -8231,7 +8894,32 @@
   "source": "new"
  },
  {
-  "id": "p344",
+  "id": "p372",
+  "topics": [
+   "datagov",
+   "cyber"
+  ],
+  "outcomes": [
+   "welfare",
+   "firms"
+  ],
+  "tier": "review",
+  "design": "Literature review synthesizing theoretical and empirical economics of privacy",
+  "authors": "Alessandro Acquisti, Curtis Taylor, Liad Wagman",
+  "year": 2016,
+  "title": "The Economics of Privacy",
+  "venue": "Journal of Economic Literature, 54(2): 442-492",
+  "url": "https://doi.org/10.1257/jel.54.2.442",
+  "region": "Global (review)",
+  "countries": "Not applicable (literature review)",
+  "period": "Reviews literature through 2016",
+  "data": "Synthesis of theoretical and empirical economics-of-privacy literature, spanning consumer valuation of privacy, price discrimination, data as an asset, and privacy regulation",
+  "findings": "The review documents that consumers' stated valuations of privacy are highly context-dependent and manipulable by framing (the gap between willingness-to-pay to protect data and willingness-to-accept to disclose it), that data can act as a source of both efficiency (matching, price discrimination that can increase output) and inefficiency/consumer harm, and that welfare effects of privacy regulation are theoretically ambiguous and depend on market structure and the nature of data externalities across consumers.",
+  "magnitude": "Establishes that measured privacy valuations vary by an order of magnitude depending on elicitation framing (willingness-to-pay vs. willingness-to-accept)",
+  "source": "new"
+ },
+ {
+  "id": "p373",
   "topics": [
    "skills"
   ],
@@ -8254,7 +8942,7 @@
   "source": "repo"
  },
  {
-  "id": "p345",
+  "id": "p374",
   "topics": [
    "skills"
   ],
@@ -8277,7 +8965,31 @@
   "source": "repo"
  },
  {
-  "id": "p346",
+  "id": "p375",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms",
+   "growth"
+  ],
+  "tier": "descriptive",
+  "design": "Conceptual framework and case-based synthesis of open government data business models",
+  "authors": "Fatemeh Ahmadi Zeleti, Adegboyega Ojo, Edward Curry",
+  "year": 2016,
+  "title": "Exploring the Economic Value of Open Government Data",
+  "venue": "Government Information Quarterly, 33(3): 400-412",
+  "url": "https://doi.org/10.1016/j.giq.2016.01.008",
+  "region": "Global",
+  "countries": "Case studies drawn from multiple OECD countries",
+  "period": "Framework developed circa 2015-2016",
+  "data": "Case-study analysis of firms and business models built on open government data releases",
+  "findings": "Develops a taxonomy of five open-data business archetypes (suppliers, aggregators, enrichers, application developers, and enablers) and documents case examples of firms built substantially on reusing open government data, some reaching billion-dollar valuations. The paper is a conceptual/case-based contribution rather than a causal econometric estimate, illustrating the mechanisms through which open data can seed private-sector entrepreneurship, while noting that rigorous causal estimates of open data's productivity effects remain scarce relative to industry-consultancy projections (e.g., McKinsey Global Institute's oft-cited $3-5 trillion/year global estimate).",
+  "magnitude": "Identifies five distinct open-data business models and documents billion-dollar firms built on reusing open government data, though notes a scarcity of causal (vs. consultancy-projected) productivity estimates",
+  "source": "new"
+ },
+ {
+  "id": "p376",
   "topics": [
    "dpi",
    "devices"
@@ -8303,7 +9015,7 @@
   "source": "new"
  },
  {
-  "id": "p347",
+  "id": "p377",
   "topics": [
    "dpi"
   ],
@@ -8328,7 +9040,7 @@
   "source": "new"
  },
  {
-  "id": "p348",
+  "id": "p378",
   "topics": [
    "transformation"
   ],
@@ -8351,7 +9063,7 @@
   "source": "repo"
  },
  {
-  "id": "p349",
+  "id": "p379",
   "topics": [
    "dpi"
   ],
@@ -8374,7 +9086,7 @@
   "source": "repo"
  },
  {
-  "id": "p350",
+  "id": "p380",
   "topics": [
    "dpi"
   ],
@@ -8398,7 +9110,7 @@
   "source": "new"
  },
  {
-  "id": "p351",
+  "id": "p381",
   "topics": [
    "dpi"
   ],
@@ -8421,7 +9133,7 @@
   "source": "repo"
  },
  {
-  "id": "p352",
+  "id": "p382",
   "topics": [
    "dpi",
    "transformation",
@@ -8450,7 +9162,7 @@
   "source": "new"
  },
  {
-  "id": "p353",
+  "id": "p383",
   "topics": [
    "skills"
   ],
@@ -8473,7 +9185,7 @@
   "source": "repo"
  },
  {
-  "id": "p354",
+  "id": "p384",
   "topics": [
    "broadband"
   ],
@@ -8497,7 +9209,7 @@
   "source": "new"
  },
  {
-  "id": "p355",
+  "id": "p385",
   "topics": [
    "devices"
   ],
@@ -8520,7 +9232,7 @@
   "source": "new"
  },
  {
-  "id": "p356",
+  "id": "p386",
   "topics": [
    "dpi"
   ],
@@ -8544,7 +9256,7 @@
   "source": "new"
  },
  {
-  "id": "p357",
+  "id": "p387",
   "topics": [
    "transformation"
   ],
@@ -8568,7 +9280,7 @@
   "source": "new"
  },
  {
-  "id": "p358",
+  "id": "p388",
   "topics": [
    "ixp"
   ],
@@ -8592,7 +9304,31 @@
   "source": "new"
  },
  {
-  "id": "p359",
+  "id": "p389",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms",
+   "govt"
+  ],
+  "tier": "descriptive",
+  "design": "Empirical analysis of intrusion detection/honeypot data linking vulnerability disclosure policy to attack diffusion",
+  "authors": "Sabyasachi Mitra, Sam Ransbotham",
+  "year": 2015,
+  "title": "Information Disclosure and the Diffusion of Information Security Attacks",
+  "venue": "Information Systems Research, 26(3): 565-584",
+  "url": "https://doi.org/10.1287/isre.2015.0587",
+  "region": "Global",
+  "countries": "Global internet traffic/attack data",
+  "period": "Not precisely specified in verified abstract",
+  "data": "Intrusion detection system and honeypot data on attack volumes linked to the timing and completeness of security vulnerability disclosures",
+  "findings": "The paper (building on the authors' earlier work on 'The Impact of Immediate Disclosure on Attack Diffusion and Volume') shows that public disclosure of security vulnerabilities affects how quickly and widely attacks exploiting those vulnerabilities diffuse across the internet, informing the central policy tradeoff in coordinated vulnerability disclosure and disclosure-timing regulation: transparency for defenders versus a roadmap for attackers.",
+  "magnitude": "Timing and completeness of vulnerability disclosure systematically shapes the speed and volume of subsequent attack diffusion",
+  "source": "new"
+ },
+ {
+  "id": "p390",
   "topics": [
    "datacenters"
   ],
@@ -8615,7 +9351,7 @@
   "source": "repo"
  },
  {
-  "id": "p360",
+  "id": "p391",
   "topics": [
    "skills"
   ],
@@ -8638,7 +9374,32 @@
   "source": "repo"
  },
  {
-  "id": "p361",
+  "id": "p392",
+  "topics": [
+   "datagov",
+   "cloud"
+  ],
+  "outcomes": [
+   "growth",
+   "firms"
+  ],
+  "tier": "structural",
+  "design": "Computable general equilibrium (GTAP) modeling of data localization's economic effects across seven countries",
+  "authors": "Matthias Bauer, Hosuk Lee-Makiyama, Erik van der Marel, Bert Verschelde",
+  "year": 2014,
+  "title": "The Costs of Data Localisation: Friendly Fire in the War on Terror (methodology later published as \"A Methodology to Estimate the Costs of Data Regulations,\" International Economics, 2016)",
+  "venue": "ECIPE Occasional Paper; International Economics, 146: 12-39",
+  "url": "https://ecipe.org/publications/dataloc/",
+  "region": "Global",
+  "countries": "Brazil, China, European Union, India, Indonesia, South Korea, Vietnam",
+  "period": "2014 analysis (GTAP baseline calibrated to mid-2010s trade/i…",
+  "data": "A proxy index of data-localization/regulation barriers by country, fed into a GTAP computable general equilibrium trade model to simulate GDP, investment, and welfare effects",
+  "findings": "Data localization measures produce negative GDP effects in every country studied: GDP falls by an estimated 0.1% (India) to 1.7% (Vietnam), with China at -1.1% and the EU at -0.4%. Domestic investment falls even more sharply (e.g., -4.2% in Brazil, -3.9% in the EU, -1.8% in China). Aggregate welfare losses reach an estimated $63 billion for China and $193 billion for the EU, equivalent to 11-20% of the average monthly salary per worker across the countries studied. The authors conclude that any security or industrial-policy benefits of localization are too small to outweigh these output and welfare losses.",
+  "magnitude": "Data localization is estimated to cut GDP by 0.1-1.7% and domestic investment by up to 4.2% across 7 major economies, with welfare losses up to $193bn (EU) and $63bn (China)",
+  "source": "new"
+ },
+ {
+  "id": "p393",
   "topics": [
    "dpi"
   ],
@@ -8662,7 +9423,7 @@
   "source": "new"
  },
  {
-  "id": "p362",
+  "id": "p394",
   "topics": [
    "dpi",
    "transformation",
@@ -8689,7 +9450,31 @@
   "source": "new"
  },
  {
-  "id": "p363",
+  "id": "p395",
+  "topics": [
+   "cyber"
+  ],
+  "outcomes": [
+   "firms",
+   "welfare"
+  ],
+  "tier": "review",
+  "design": "Cost-accounting synthesis across categories of cybercrime (direct losses, indirect losses, defense expenditure)",
+  "authors": "Ross Anderson, Chris Barton, Rainer Böhme, Richard Clayton, Michel J.G. van Eeten, Michael Levi, Tyler Moore, Stefan Sav…",
+  "year": 2013,
+  "title": "Measuring the Cost of Cybercrime",
+  "venue": "The Economics of Information Security and Privacy (Springer)",
+  "url": "https://doi.org/10.1007/978-3-642-39498-0_12",
+  "region": "United Kingdom / Global",
+  "countries": "United Kingdom (primary), with global comparators",
+  "period": "Cost estimates as of early 2010s",
+  "data": "Synthesis and re-estimation of cost figures across categories of cybercrime (e.g., online banking fraud, fake antivirus, patent-medicine scams, cybercrime infrastructure) drawing on industry, law-enforcement, and survey data",
+  "findings": "The foundational study in this literature argues that societies systematically misallocate cybercrime-fighting resources: expenditure on anticipation/defense (antivirus, compliance) for many categories of 'traditional' crimes migrated online exceeds the direct losses those crimes cause, while genuinely new cybercrimes (e.g., large-scale card fraud infrastructure) impose the largest direct losses and receive comparatively little law-enforcement resource. The authors recommend shifting spending from purely defensive measures toward international law-enforcement response and takedown capacity.",
+  "magnitude": "Indirect and defense costs of cybercrime (antivirus, compliance) exceed direct losses for many traditional crimes migrated online, while a few large-scale cybercrime categories drive most direct losses",
+  "source": "new"
+ },
+ {
+  "id": "p396",
   "topics": [
    "devices"
   ],
@@ -8712,7 +9497,7 @@
   "source": "new"
  },
  {
-  "id": "p364",
+  "id": "p397",
   "topics": [
    "dpi"
   ],
@@ -8735,7 +9520,7 @@
   "source": "repo"
  },
  {
-  "id": "p365",
+  "id": "p398",
   "topics": [
    "broadband",
    "devices"
@@ -8760,7 +9545,7 @@
   "source": "new"
  },
  {
-  "id": "p366",
+  "id": "p399",
   "topics": [
    "dpi"
   ],
@@ -8784,7 +9569,7 @@
   "source": "new"
  },
  {
-  "id": "p367",
+  "id": "p400",
   "topics": [
    "dpi"
   ],
@@ -8808,7 +9593,7 @@
   "source": "new"
  },
  {
-  "id": "p368",
+  "id": "p401",
   "topics": [
    "skills"
   ],
@@ -8831,7 +9616,55 @@
   "source": "repo"
  },
  {
-  "id": "p369",
+  "id": "p402",
+  "topics": [
+   "datagov"
+  ],
+  "outcomes": [
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences exploiting the EU e-Privacy Directive's restriction on behavioral tracking",
+  "authors": "Avi Goldfarb, Catherine E. Tucker",
+  "year": 2011,
+  "title": "Privacy Regulation and Online Advertising",
+  "venue": "Management Science, 57(1): 57-71",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1600259",
+  "region": "European Union",
+  "countries": "European Union (vs. rest of world comparison)",
+  "period": "Around the EU e-Privacy Directive's implementation (mid-2000…",
+  "data": "Data on advertising effectiveness (stated purchase intent) for a large sample of display ad campaigns in the EU compared with non-EU markets, before and after the e-Privacy Directive restricted behaviorally targeted data use",
+  "findings": "The EU's e-Privacy Directive, which restricted the collection and use of data for behavioral ad targeting, reduced advertising effectiveness by an average of about 65% in the EU relative to the rest of the world, with the loss concentrated among general-content publishers, simple display ads, smaller ad formats, and ads lacking rich interactive/video features that could otherwise compensate for the loss of targeting data.",
+  "magnitude": "The EU e-Privacy Directive's restriction on behavioral tracking cut display-ad effectiveness by about 65% on average",
+  "source": "new"
+ },
+ {
+  "id": "p403",
+  "topics": [
+   "cyber",
+   "datagov"
+  ],
+  "outcomes": [
+   "welfare",
+   "firms"
+  ],
+  "tier": "quasi",
+  "design": "Difference-in-differences using staggered state adoption of data breach notification laws",
+  "authors": "Sasha Romanosky, Rahul Telang, Alessandro Acquisti",
+  "year": 2011,
+  "title": "Do Data Breach Disclosure Laws Reduce Identity Theft?",
+  "venue": "Journal of Policy Analysis and Management, 30(2): 256-286",
+  "url": "https://doi.org/10.1002/pam.20567",
+  "region": "United States",
+  "countries": "United States (state-level panel)",
+  "period": "2002-2009",
+  "data": "Panel of FTC identity-theft complaint rates by U.S. state and year matched to the staggered timing of state data breach notification law adoption",
+  "findings": "Using variation from the staggered rollout of state mandatory breach-notification laws, the study finds that such laws are associated with a reduction in identity theft, plausibly because notification prompts consumers to take protective action (e.g., monitoring accounts, replacing cards) after a breach. The paper is a foundational reference for the economics of breach-notification regulation, though the authors note the effect is difficult to estimate precisely and is likely modest relative to the total identity-theft problem.",
+  "magnitude": "State mandatory data-breach notification laws are associated with a measurable reduction in identity theft rates, using 2002-2009 state panel data",
+  "source": "new"
+ },
+ {
+  "id": "p404",
   "topics": [
    "transformation"
   ],
@@ -8855,7 +9688,7 @@
   "source": "new"
  },
  {
-  "id": "p370",
+  "id": "p405",
   "topics": [
    "broadband"
   ],
@@ -8879,7 +9712,7 @@
   "source": "new"
  },
  {
-  "id": "p371",
+  "id": "p406",
   "topics": [
    "broadband",
    "devices"
@@ -8905,7 +9738,7 @@
   "source": "new"
  },
  {
-  "id": "p372",
+  "id": "p407",
   "topics": [
    "dpi"
   ],
@@ -8928,7 +9761,7 @@
   "source": "repo"
  },
  {
-  "id": "p373",
+  "id": "p408",
   "topics": [
    "broadband"
   ],
@@ -8951,7 +9784,7 @@
   "source": "new"
  },
  {
-  "id": "p374",
+  "id": "p409",
   "topics": [
    "broadband"
   ],
@@ -8974,7 +9807,7 @@
   "source": "repo"
  },
  {
-  "id": "p375",
+  "id": "p410",
   "topics": [
    "cloud"
   ],
@@ -8997,7 +9830,7 @@
   "source": "repo"
  },
  {
-  "id": "p376",
+  "id": "p411",
   "topics": [
    "skills"
   ],
@@ -9020,7 +9853,7 @@
   "source": "repo"
  },
  {
-  "id": "p377",
+  "id": "p412",
   "topics": [
    "broadband"
   ],
@@ -9044,7 +9877,7 @@
   "source": "new"
  },
  {
-  "id": "p378",
+  "id": "p413",
   "topics": [
    "broadband"
   ],
@@ -9067,7 +9900,7 @@
   "source": "repo"
  },
  {
-  "id": "p379",
+  "id": "p414",
   "topics": [
    "broadband"
   ],
@@ -9090,7 +9923,7 @@
   "source": "repo"
  },
  {
-  "id": "p380",
+  "id": "p415",
   "topics": [
    "broadband"
   ],
@@ -9113,7 +9946,7 @@
   "source": "repo"
  },
  {
-  "id": "p381",
+  "id": "p416",
   "topics": [
    "broadband"
   ],
@@ -9137,7 +9970,7 @@
   "source": "new"
  },
  {
-  "id": "p382",
+  "id": "p417",
   "topics": [
    "transformation"
   ],
@@ -9160,7 +9993,7 @@
   "source": "repo"
  },
  {
-  "id": "p383",
+  "id": "p418",
   "topics": [
    "broadband"
   ],
@@ -9183,7 +10016,7 @@
   "source": "repo"
  },
  {
-  "id": "p384",
+  "id": "p419",
   "topics": [
    "transformation"
   ],
@@ -9206,7 +10039,7 @@
   "source": "repo"
  },
  {
-  "id": "p385",
+  "id": "p420",
   "topics": [
    "broadband"
   ],
@@ -9231,7 +10064,7 @@
   "source": "new"
  },
  {
-  "id": "p386",
+  "id": "p421",
   "topics": [
    "skills"
   ],
@@ -9254,7 +10087,7 @@
   "source": "repo"
  },
  {
-  "id": "p387",
+  "id": "p422",
   "topics": [
    "ixp"
   ],
