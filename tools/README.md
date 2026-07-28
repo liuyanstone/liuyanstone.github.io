@@ -54,8 +54,12 @@ Both axes are closed sets — the dashboard's matrix is built from them, so a ne
 value needs adding to `tools/build_dashboard.py` and to the `TOPICS` /
 `OUTCOMES` arrays in `tools/templates/body.html`.
 
-**Topics** — `broadband`, `devices`, `ixp`, `datacenters`, `cloud`, `dpi`,
-`skills`, `transformation`, `ai`, `cyber`, `datagov`
+**Topics** — `broadband`, `devices`, `ixp`, `datacenters`, `cloud`, `dpi`
+(foundational digital public infrastructure — ID, e-signature, data-exchange
+layers), `govplatforms` (digital government platforms & services — tax,
+procurement, land registries, service delivery), `payments` (digital payments
+& mobile money), `skills`, `transformation`, `ai`, `social` (social media),
+`cyber`, `datagov`
 
 **Outcomes** — `growth`, `labor`, `firms`, `welfare`, `inclusion`, `govt`,
 `humancap`, `environment`

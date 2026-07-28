@@ -318,7 +318,8 @@
  {
   "id": "p013",
   "topics": [
-   "datagov"
+   "datagov",
+   "social"
   ],
   "outcomes": [
    "firms",
@@ -365,7 +366,8 @@
  {
   "id": "p015",
   "topics": [
-   "dpi"
+   "govplatforms",
+   "payments"
   ],
   "outcomes": [
    "firms",
@@ -828,7 +830,8 @@
    "ai"
   ],
   "outcomes": [
-   "growth"
+   "growth",
+   "labor"
   ],
   "tier": "structural",
   "design": "Task-based macroeconomic model; Hulten's theorem decomposition of automation exposure and cost savings",
@@ -993,26 +996,27 @@
  {
   "id": "p041",
   "topics": [
-   "ai",
-   "skills"
+   "skills",
+   "transformation",
+   "ai"
   ],
   "outcomes": [
    "humancap",
    "inclusion"
   ],
   "tier": "rct",
-  "design": "Randomized controlled trial, after-school computer-lab AI tutoring sessions vs. control",
-  "authors": "De Simone, M.E., Barron, M., Mosuro, W., Dikoru, E., Manolio, F.",
+  "design": "Randomized controlled trial of a six-week generative-AI chatbot tutoring pilot",
+  "authors": "Martin E. De Simone, Federico Tiberti, Wuraola Mosuro, Federico Manolio, Maria Barron, Eliot Dikoru",
   "year": 2025,
-  "title": "From Chalkboards to Chatbots: Evaluating the Impact of Generative AI on Learning Outcomes in Nigeria",
-  "venue": "World Bank Policy Research / Education blog",
-  "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099548105192529324",
+  "title": "From Chalkboards to Chatbots: Transforming Learning in Nigeria, One Prompt at a Time",
+  "venue": "World Bank",
+  "url": "https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-Transforming-learning-in-Nigeria",
   "region": "Sub-Saharan Africa",
   "countries": "Nigeria (Edo State)",
-  "period": "June-July 2024 (6-week pilot)",
-  "data": "800 first-year senior secondary students (ages 16-17) randomly assigned to twice-weekly after-school English sessions using Microsoft Copilot (GPT-powered) with teacher guidance, versus a control group",
-  "findings": "Treatment students significantly outperformed controls across measured English-language domains, with an effect size of approximately 0.3 standard deviations achieved in six weeks -- described by the authors as comparable to gains that typically take about two years of conventional instruction. Female students showed accelerated gains relative to male students, suggesting the intervention narrowed gender gaps in learning, and each additional day of attendance was associated with further significant gains.",
-  "magnitude": "0.3 SD learning gain in six weeks from teacher-guided GPT tutoring, roughly two years' worth of typical learning gains",
+  "period": "June-July 2024, six weeks",
+  "data": "Randomized evaluation of a generative-AI chatbot tutoring pilot (English, AI knowledge, digital literacy) in an Edo State secondary school",
+  "findings": "The six-week AI chatbot tutoring pilot raised learning outcomes by about 0.3 standard deviations, described as equivalent to nearly two years of typical learning gained in six weeks, outperforming roughly 80% of RCT-evaluated education interventions in the developing world. Girls gained more than boys, each additional day of attendance was associated with further gains, and treated students also scored better on end-of-year exams covering material beyond the intervention.",
+  "magnitude": "0.3 SD learning gain in six weeks, equivalent to roughly two years of typical learning",
   "source": "new"
  },
  {
@@ -1166,32 +1170,9 @@
   "id": "p048",
   "topics": [
    "broadband",
-   "devices"
-  ],
-  "outcomes": [
-   "inclusion"
-  ],
-  "tier": "descriptive",
-  "design": "Descriptive survey analysis (17,000+ face-to-face interviews across 15 LMICs)",
-  "authors": "GSMA Connected Women Programme",
-  "year": 2025,
-  "title": "The Mobile Gender Gap Report 2025",
-  "venue": "GSMA Intelligence report",
-  "url": "https://www.gsma.com/gender-gap/",
-  "region": "Global (LMICs)",
-  "countries": "15 LMICs surveyed directly, global LMIC estimates modeled",
-  "period": "2024 survey year; trend since 2017",
-  "data": "17,000+ face-to-face nationally representative surveys across 15 LMICs plus supply-side mobile-operator data",
-  "findings": "Women in LMICs are 14% less likely than men to use mobile internet as of 2024, and progress on closing this gap stalled after narrowing from 19% (2022) to 15% (2023). About 885 million women in LMICs remain without mobile internet access, concentrated in South Asia and Sub-Saharan Africa; even when online, women use mobile internet less intensely than men due to affordability (handsets and data), safety, and digital-skills barriers.",
-  "magnitude": "Women are 14% less likely than men to use mobile internet in LMICs (2024); 885 million women remain offline",
-  "source": "new"
- },
- {
-  "id": "p049",
-  "topics": [
-   "broadband",
    "devices",
-   "transformation"
+   "transformation",
+   "social"
   ],
   "outcomes": [
    "growth",
@@ -1216,7 +1197,7 @@
   "source": "new"
  },
  {
-  "id": "p050",
+  "id": "p049",
   "topics": [
    "ai",
    "skills"
@@ -1241,13 +1222,14 @@
   "source": "new"
  },
  {
-  "id": "p051",
+  "id": "p050",
   "topics": [
    "ai",
    "datacenters"
   ],
   "outcomes": [
-   "environment"
+   "environment",
+   "growth"
   ],
   "tier": "descriptive",
   "design": "Energy-system demand modeling and scenario analysis",
@@ -1265,32 +1247,7 @@
   "source": "new"
  },
  {
-  "id": "p052",
-  "topics": [
-   "datacenters",
-   "ai"
-  ],
-  "outcomes": [
-   "environment",
-   "growth"
-  ],
-  "tier": "descriptive",
-  "design": "agency statistical modeling of global electricity demand",
-  "authors": "International Energy Agency (IEA)",
-  "year": 2025,
-  "title": "Energy and AI (incl. update: Data centre electricity use surged in 2025)",
-  "venue": "IEA",
-  "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
-  "region": "Global",
-  "countries": "Global",
-  "period": "2024-2035 (historical + projections)",
-  "data": "IEA global data centre electricity demand model built from national statistics, hyperscaler disclosures, and grid interconnection queues",
-  "findings": "Data centres consumed about 415 TWh of electricity in 2024, roughly 1.5% of global electricity consumption, after growing about 12% per year over the prior five years. Global data centre electricity demand grew 17% in 2025 alone, with AI-focused data centres surging about 50%. IEA's base case projects total data centre electricity use will roughly double to about 950 TWh by 2030 (about 3% of global electricity demand) and reach around 1,200 TWh by 2035.",
-  "magnitude": "Data centres = 1.5% of global electricity in 2024, projected to reach ~3% by 2030",
-  "source": "new"
- },
- {
-  "id": "p053",
+  "id": "p051",
   "topics": [
    "broadband",
    "datacenters",
@@ -1317,7 +1274,7 @@
   "source": "new"
  },
  {
-  "id": "p054",
+  "id": "p052",
   "topics": [
    "broadband",
    "datacenters"
@@ -1342,7 +1299,7 @@
   "source": "new"
  },
  {
-  "id": "p055",
+  "id": "p053",
   "topics": [
    "cyber"
   ],
@@ -1365,7 +1322,7 @@
   "source": "new"
  },
  {
-  "id": "p056",
+  "id": "p054",
   "topics": [
    "cloud"
   ],
@@ -1389,7 +1346,7 @@
   "source": "new"
  },
  {
-  "id": "p057",
+  "id": "p055",
   "topics": [
    "datagov"
   ],
@@ -1413,7 +1370,7 @@
   "source": "new"
  },
  {
-  "id": "p058",
+  "id": "p056",
   "topics": [
    "datagov"
   ],
@@ -1437,9 +1394,9 @@
   "source": "new"
  },
  {
-  "id": "p059",
+  "id": "p057",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -1460,7 +1417,7 @@
   "source": "new"
  },
  {
-  "id": "p060",
+  "id": "p058",
   "topics": [
    "ai",
    "skills"
@@ -1485,9 +1442,10 @@
   "source": "new"
  },
  {
-  "id": "p061",
+  "id": "p059",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -1510,9 +1468,10 @@
   "source": "new"
  },
  {
-  "id": "p062",
+  "id": "p060",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -1533,7 +1492,7 @@
   "source": "repo"
  },
  {
-  "id": "p063",
+  "id": "p061",
   "topics": [
    "transformation"
   ],
@@ -1556,7 +1515,7 @@
   "source": "new"
  },
  {
-  "id": "p064",
+  "id": "p062",
   "topics": [
    "ai"
   ],
@@ -1580,31 +1539,7 @@
   "source": "new"
  },
  {
-  "id": "p065",
-  "topics": [
-   "skills",
-   "transformation"
-  ],
-  "outcomes": [
-   "humancap"
-  ],
-  "tier": "rct",
-  "design": "Randomized controlled trial of a six-week generative-AI chatbot tutoring pilot",
-  "authors": "Martin E. De Simone, Federico Tiberti, Wuraola Mosuro, Federico Manolio, Maria Barron, Eliot Dikoru",
-  "year": 2025,
-  "title": "From Chalkboards to Chatbots: Transforming Learning in Nigeria, One Prompt at a Time",
-  "venue": "World Bank",
-  "url": "https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-Transforming-learning-in-Nigeria",
-  "region": "Sub-Saharan Africa",
-  "countries": "Nigeria (Edo State)",
-  "period": "June-July 2024, six weeks",
-  "data": "Randomized evaluation of a generative-AI chatbot tutoring pilot (English, AI knowledge, digital literacy) in an Edo State secondary school",
-  "findings": "The six-week AI chatbot tutoring pilot raised learning outcomes by about 0.3 standard deviations, described as equivalent to nearly two years of typical learning gained in six weeks, outperforming roughly 80% of RCT-evaluated education interventions in the developing world. Girls gained more than boys, each additional day of attendance was associated with further gains, and treated students also scored better on end-of-year exams covering material beyond the intervention.",
-  "magnitude": "0.3 SD learning gain in six weeks, equivalent to roughly two years of typical learning",
-  "source": "new"
- },
- {
-  "id": "p066",
+  "id": "p063",
   "topics": [
    "transformation"
   ],
@@ -1627,9 +1562,10 @@
   "source": "new"
  },
  {
-  "id": "p067",
+  "id": "p064",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -1650,7 +1586,7 @@
   "source": "repo"
  },
  {
-  "id": "p068",
+  "id": "p065",
   "topics": [
    "ai",
    "datacenters"
@@ -1675,7 +1611,7 @@
   "source": "new"
  },
  {
-  "id": "p069",
+  "id": "p066",
   "topics": [
    "transformation"
   ],
@@ -1698,7 +1634,7 @@
   "source": "new"
  },
  {
-  "id": "p070",
+  "id": "p067",
   "topics": [
    "ai",
    "transformation"
@@ -1723,7 +1659,7 @@
   "source": "new"
  },
  {
-  "id": "p071",
+  "id": "p068",
   "topics": [
    "ai"
   ],
@@ -1747,7 +1683,7 @@
   "source": "new"
  },
  {
-  "id": "p072",
+  "id": "p069",
   "topics": [
    "transformation"
   ],
@@ -1770,7 +1706,7 @@
   "source": "new"
  },
  {
-  "id": "p073",
+  "id": "p070",
   "topics": [
    "cyber"
   ],
@@ -1794,7 +1730,7 @@
   "source": "new"
  },
  {
-  "id": "p074",
+  "id": "p071",
   "topics": [
    "cloud"
   ],
@@ -1819,7 +1755,7 @@
   "source": "new"
  },
  {
-  "id": "p075",
+  "id": "p072",
   "topics": [
    "datacenters"
   ],
@@ -1843,7 +1779,7 @@
   "source": "new"
  },
  {
-  "id": "p076",
+  "id": "p073",
   "topics": [
    "ai",
    "transformation",
@@ -1869,7 +1805,7 @@
   "source": "new"
  },
  {
-  "id": "p077",
+  "id": "p074",
   "topics": [
    "cloud"
   ],
@@ -1893,7 +1829,7 @@
   "source": "new"
  },
  {
-  "id": "p078",
+  "id": "p075",
   "topics": [
    "ai",
    "transformation"
@@ -1918,9 +1854,9 @@
   "source": "new"
  },
  {
-  "id": "p079",
+  "id": "p076",
   "topics": [
-   "dpi",
+   "payments",
    "broadband"
   ],
   "outcomes": [
@@ -1943,7 +1879,7 @@
   "source": "new"
  },
  {
-  "id": "p080",
+  "id": "p077",
   "topics": [
    "datacenters"
   ],
@@ -1966,7 +1902,7 @@
   "source": "repo"
  },
  {
-  "id": "p081",
+  "id": "p078",
   "topics": [
    "ai"
   ],
@@ -1990,7 +1926,7 @@
   "source": "new"
  },
  {
-  "id": "p082",
+  "id": "p079",
   "topics": [
    "ai",
    "datacenters"
@@ -2014,7 +1950,7 @@
   "source": "new"
  },
  {
-  "id": "p083",
+  "id": "p080",
   "topics": [
    "ai",
    "skills"
@@ -2039,7 +1975,7 @@
   "source": "new"
  },
  {
-  "id": "p084",
+  "id": "p081",
   "topics": [
    "broadband"
   ],
@@ -2062,7 +1998,7 @@
   "source": "repo"
  },
  {
-  "id": "p085",
+  "id": "p082",
   "topics": [
    "broadband"
   ],
@@ -2086,7 +2022,7 @@
   "source": "new"
  },
  {
-  "id": "p086",
+  "id": "p083",
   "topics": [
    "ai"
   ],
@@ -2109,7 +2045,7 @@
   "source": "repo"
  },
  {
-  "id": "p087",
+  "id": "p084",
   "topics": [
    "ai"
   ],
@@ -2133,9 +2069,9 @@
   "source": "new"
  },
  {
-  "id": "p088",
+  "id": "p085",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -2156,7 +2092,7 @@
   "source": "repo"
  },
  {
-  "id": "p089",
+  "id": "p086",
   "topics": [
    "ai"
   ],
@@ -2180,7 +2116,7 @@
   "source": "new"
  },
  {
-  "id": "p090",
+  "id": "p087",
   "topics": [
    "broadband"
   ],
@@ -2203,7 +2139,7 @@
   "source": "repo"
  },
  {
-  "id": "p091",
+  "id": "p088",
   "topics": [
    "broadband"
   ],
@@ -2227,7 +2163,7 @@
   "source": "new"
  },
  {
-  "id": "p092",
+  "id": "p089",
   "topics": [
    "devices"
   ],
@@ -2250,7 +2186,7 @@
   "source": "repo"
  },
  {
-  "id": "p093",
+  "id": "p090",
   "topics": [
    "broadband",
    "devices"
@@ -2276,7 +2212,7 @@
   "source": "new"
  },
  {
-  "id": "p094",
+  "id": "p091",
   "topics": [
    "cloud"
   ],
@@ -2300,7 +2236,7 @@
   "source": "new"
  },
  {
-  "id": "p095",
+  "id": "p092",
   "topics": [
    "ai",
    "skills"
@@ -2327,7 +2263,7 @@
   "source": "new"
  },
  {
-  "id": "p096",
+  "id": "p093",
   "topics": [
    "broadband"
   ],
@@ -2350,7 +2286,7 @@
   "source": "repo"
  },
  {
-  "id": "p097",
+  "id": "p094",
   "topics": [
    "ai"
   ],
@@ -2373,7 +2309,7 @@
   "source": "repo"
  },
  {
-  "id": "p098",
+  "id": "p095",
   "topics": [
    "ai"
   ],
@@ -2397,7 +2333,7 @@
   "source": "new"
  },
  {
-  "id": "p099",
+  "id": "p096",
   "topics": [
    "skills"
   ],
@@ -2420,7 +2356,7 @@
   "source": "repo"
  },
  {
-  "id": "p100",
+  "id": "p097",
   "topics": [
    "broadband"
   ],
@@ -2443,10 +2379,11 @@
   "source": "repo"
  },
  {
-  "id": "p101",
+  "id": "p098",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "social"
   ],
   "outcomes": [
    "inclusion"
@@ -2467,14 +2404,15 @@
   "source": "new"
  },
  {
-  "id": "p102",
+  "id": "p099",
   "topics": [
    "ai",
    "transformation"
   ],
   "outcomes": [
    "growth",
-   "inclusion"
+   "inclusion",
+   "labor"
   ],
   "tier": "descriptive",
   "design": "Composite cross-country index construction plus task-based AI exposure analysis",
@@ -2492,7 +2430,7 @@
   "source": "new"
  },
  {
-  "id": "p103",
+  "id": "p100",
   "topics": [
    "datacenters"
   ],
@@ -2515,7 +2453,7 @@
   "source": "repo"
  },
  {
-  "id": "p104",
+  "id": "p101",
   "topics": [
    "broadband"
   ],
@@ -2539,31 +2477,7 @@
   "source": "new"
  },
  {
-  "id": "p105",
-  "topics": [
-   "ai"
-  ],
-  "outcomes": [
-   "growth",
-   "labor"
-  ],
-  "tier": "structural",
-  "design": "Task-based macro model calibrated via Hulten's theorem",
-  "authors": "Daron Acemoglu",
-  "year": 2024,
-  "title": "The Simple Macroeconomics of AI",
-  "venue": "NBER Working Paper 32487",
-  "url": "https://www.nber.org/papers/w32487",
-  "region": "Global",
-  "countries": "United States (calibration)",
-  "period": "10-year projection horizon",
-  "data": "Calibration combining existing task-exposure estimates (e.g., Eloundou et al.) and task-level productivity/cost-saving estimates (e.g., Noy & Zhang) within a task-based aggregation framework",
-  "findings": "Evaluates the macroeconomic implications of advances in AI. Using existing estimates on exposure to AI and productivity improvements at the task level, the macroeconomic effects of AI appear nontrivial but modest, with a GDP growth between 0.9-1.6% and no more than a 0.71% increase in total factor productivity over 10 years. The paper then argues that even these estimates could be exaggerated, because early evidence is from easy-to-learn tasks, whereas some of the future effects will come from hard-to-learn tasks, where there are many context-dependent factors affecting decision-making and no objective outcome measures from which to learn successful performance. Consequently, predicted TFP gains over the next 10 years are even more modest and are predicted to be less than 0.55%. The paper also explores AI's wage and inequality effects. It shows theoretically that even when AI improves the productivity of low-skill workers in certain tasks (without creating new tasks for them), this may increase rather than reduce inequality. Empirically, the paper finds that AI advances are unlikely to increase inequality as much as previous automation technologies because their impact is more equally distributed across demographic groups, but there is also no evidence that AI will reduce labor income inequality. AI is also predicted to widen the gap between capital and labor income.",
-  "magnitude": "Aggregate TFP gains capped at ≤0.66% over 10 years",
-  "source": "new"
- },
- {
-  "id": "p106",
+  "id": "p102",
   "topics": [
    "cloud"
   ],
@@ -2586,7 +2500,7 @@
   "source": "repo"
  },
  {
-  "id": "p107",
+  "id": "p103",
   "topics": [
    "skills"
   ],
@@ -2611,7 +2525,7 @@
   "source": "new"
  },
  {
-  "id": "p108",
+  "id": "p104",
   "topics": [
    "ai",
    "skills",
@@ -2637,7 +2551,7 @@
   "source": "new"
  },
  {
-  "id": "p109",
+  "id": "p105",
   "topics": [
    "ai",
    "transformation"
@@ -2662,7 +2576,7 @@
   "source": "new"
  },
  {
-  "id": "p110",
+  "id": "p106",
   "topics": [
    "datagov"
   ],
@@ -2685,7 +2599,7 @@
   "source": "repo"
  },
  {
-  "id": "p111",
+  "id": "p107",
   "topics": [
    "transformation"
   ],
@@ -2708,9 +2622,9 @@
   "source": "repo"
  },
  {
-  "id": "p112",
+  "id": "p108",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -2731,7 +2645,7 @@
   "source": "repo"
  },
  {
-  "id": "p113",
+  "id": "p109",
   "topics": [
    "broadband",
    "devices"
@@ -2756,7 +2670,7 @@
   "source": "new"
  },
  {
-  "id": "p114",
+  "id": "p110",
   "topics": [
    "broadband"
   ],
@@ -2779,9 +2693,9 @@
   "source": "repo"
  },
  {
-  "id": "p115",
+  "id": "p111",
   "topics": [
-   "dpi",
+   "payments",
    "devices"
   ],
   "outcomes": [
@@ -2804,7 +2718,7 @@
   "source": "new"
  },
  {
-  "id": "p116",
+  "id": "p112",
   "topics": [
    "cloud",
    "datacenters"
@@ -2830,7 +2744,7 @@
   "source": "new"
  },
  {
-  "id": "p117",
+  "id": "p113",
   "topics": [
    "broadband"
   ],
@@ -2853,7 +2767,7 @@
   "source": "repo"
  },
  {
-  "id": "p118",
+  "id": "p114",
   "topics": [
    "ai",
    "datacenters"
@@ -2878,7 +2792,7 @@
   "source": "new"
  },
  {
-  "id": "p119",
+  "id": "p115",
   "topics": [
    "broadband"
   ],
@@ -2902,7 +2816,7 @@
   "source": "new"
  },
  {
-  "id": "p120",
+  "id": "p116",
   "topics": [
    "devices"
   ],
@@ -2925,7 +2839,7 @@
   "source": "new"
  },
  {
-  "id": "p121",
+  "id": "p117",
   "topics": [
    "datacenters"
   ],
@@ -2948,7 +2862,7 @@
   "source": "repo"
  },
  {
-  "id": "p122",
+  "id": "p118",
   "topics": [
    "ai",
    "skills",
@@ -2974,7 +2888,7 @@
   "source": "new"
  },
  {
-  "id": "p123",
+  "id": "p119",
   "topics": [
    "broadband"
   ],
@@ -2997,7 +2911,7 @@
   "source": "repo"
  },
  {
-  "id": "p124",
+  "id": "p120",
   "topics": [
    "transformation"
   ],
@@ -3020,7 +2934,7 @@
   "source": "repo"
  },
  {
-  "id": "p125",
+  "id": "p121",
   "topics": [
    "ai"
   ],
@@ -3044,7 +2958,7 @@
   "source": "repo"
  },
  {
-  "id": "p126",
+  "id": "p122",
   "topics": [
    "cyber"
   ],
@@ -3068,7 +2982,7 @@
   "source": "new"
  },
  {
-  "id": "p127",
+  "id": "p123",
   "topics": [
    "broadband"
   ],
@@ -3091,7 +3005,7 @@
   "source": "new"
  },
  {
-  "id": "p128",
+  "id": "p124",
   "topics": [
    "devices",
    "transformation"
@@ -3115,7 +3029,7 @@
   "source": "new"
  },
  {
-  "id": "p129",
+  "id": "p125",
   "topics": [
    "transformation",
    "datacenters"
@@ -3139,7 +3053,7 @@
   "source": "new"
  },
  {
-  "id": "p130",
+  "id": "p126",
   "topics": [
    "datagov"
   ],
@@ -3162,7 +3076,7 @@
   "source": "new"
  },
  {
-  "id": "p131",
+  "id": "p127",
   "topics": [
    "broadband"
   ],
@@ -3185,7 +3099,7 @@
   "source": "repo"
  },
  {
-  "id": "p132",
+  "id": "p128",
   "topics": [
    "ai"
   ],
@@ -3209,7 +3123,7 @@
   "source": "new"
  },
  {
-  "id": "p133",
+  "id": "p129",
   "topics": [
    "ai"
   ],
@@ -3232,7 +3146,7 @@
   "source": "repo"
  },
  {
-  "id": "p134",
+  "id": "p130",
   "topics": [
    "skills"
   ],
@@ -3255,7 +3169,7 @@
   "source": "repo"
  },
  {
-  "id": "p135",
+  "id": "p131",
   "topics": [
    "datagov",
    "cloud"
@@ -3280,7 +3194,7 @@
   "source": "new"
  },
  {
-  "id": "p136",
+  "id": "p132",
   "topics": [
    "ai",
    "skills"
@@ -3305,33 +3219,7 @@
   "source": "new"
  },
  {
-  "id": "p137",
-  "topics": [
-   "ai",
-   "transformation"
-  ],
-  "outcomes": [
-   "labor",
-   "growth",
-   "inclusion"
-  ],
-  "tier": "descriptive",
-  "design": "Cross-country occupational AI-exposure/complementarity index applied to national employment structures",
-  "authors": "Mauro Cazzaniga, Florence Jaumotte, Longji Li, Giovanni Melina, Augustus J.",
-  "year": 2024,
-  "title": "Gen-AI: Artificial Intelligence and the Future of Work",
-  "venue": "IMF Staff Discussion Note SDN/2024/001",
-  "url": "https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379",
-  "region": "Global",
-  "countries": "Advanced, emerging market, and low-income economies",
-  "period": "2024",
-  "data": "Occupation-level AI exposure/complementarity index applied to employment structures across advanced, emerging, and low-income economies",
-  "findings": "Almost 40% of global employment is exposed to AI, but exposure is highly unequal: about 60% of jobs are exposed in advanced economies (roughly half likely to benefit from complementarity, half at risk of displacement or wage decline), versus 40% in emerging markets and 26% in low-income countries. Women and college-educated workers are more exposed on average but also better positioned to benefit; inequality could rise if AI strongly complements high earners and capital returns increase.",
-  "magnitude": "40% of global employment exposed to AI; 60% in advanced economies vs 26% in low-income countries",
-  "source": "new"
- },
- {
-  "id": "p138",
+  "id": "p133",
   "topics": [
    "ai"
   ],
@@ -3354,7 +3242,7 @@
   "source": "new"
  },
  {
-  "id": "p139",
+  "id": "p134",
   "topics": [
    "broadband"
   ],
@@ -3377,7 +3265,7 @@
   "source": "repo"
  },
  {
-  "id": "p140",
+  "id": "p135",
   "topics": [
    "cloud"
   ],
@@ -3400,7 +3288,7 @@
   "source": "repo"
  },
  {
-  "id": "p141",
+  "id": "p136",
   "topics": [
    "ai"
   ],
@@ -3423,7 +3311,7 @@
   "source": "repo"
  },
  {
-  "id": "p142",
+  "id": "p137",
   "topics": [
    "ai"
   ],
@@ -3448,9 +3336,9 @@
   "source": "new"
  },
  {
-  "id": "p143",
+  "id": "p138",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -3471,7 +3359,7 @@
   "source": "repo"
  },
  {
-  "id": "p144",
+  "id": "p139",
   "topics": [
    "datacenters"
   ],
@@ -3494,7 +3382,7 @@
   "source": "repo"
  },
  {
-  "id": "p145",
+  "id": "p140",
   "topics": [
    "skills"
   ],
@@ -3517,7 +3405,7 @@
   "source": "new"
  },
  {
-  "id": "p146",
+  "id": "p141",
   "topics": [
    "ai"
   ],
@@ -3541,9 +3429,9 @@
   "source": "new"
  },
  {
-  "id": "p147",
+  "id": "p142",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -3564,10 +3452,11 @@
   "source": "new"
  },
  {
-  "id": "p148",
+  "id": "p143",
   "topics": [
    "transformation",
-   "skills"
+   "skills",
+   "payments"
   ],
   "outcomes": [
    "welfare",
@@ -3589,7 +3478,7 @@
   "source": "new"
  },
  {
-  "id": "p149",
+  "id": "p144",
   "topics": [
    "cloud"
   ],
@@ -3612,7 +3501,7 @@
   "source": "new"
  },
  {
-  "id": "p150",
+  "id": "p145",
   "topics": [
    "cyber"
   ],
@@ -3636,7 +3525,7 @@
   "source": "new"
  },
  {
-  "id": "p151",
+  "id": "p146",
   "topics": [
    "datagov"
   ],
@@ -3660,9 +3549,10 @@
   "source": "new"
  },
  {
-  "id": "p152",
+  "id": "p147",
   "topics": [
-   "dpi",
+   "govplatforms",
+   "payments",
    "transformation"
   ],
   "outcomes": [
@@ -3685,9 +3575,9 @@
   "source": "new"
  },
  {
-  "id": "p153",
+  "id": "p148",
   "topics": [
-   "dpi",
+   "payments",
    "transformation"
   ],
   "outcomes": [
@@ -3710,7 +3600,7 @@
   "source": "new"
  },
  {
-  "id": "p154",
+  "id": "p149",
   "topics": [
    "ai"
   ],
@@ -3734,31 +3624,7 @@
   "source": "new"
  },
  {
-  "id": "p155",
-  "topics": [
-   "ai"
-  ],
-  "outcomes": [
-   "firms",
-   "growth"
-  ],
-  "tier": "quasi",
-  "design": "Resume-based firm-level AI investment measure with instrumental-variables strategy",
-  "authors": "Tania Babina, Anastassia Fedyk, Alex Xi He, James Hodson",
-  "year": 2024,
-  "title": "Artificial Intelligence, Firm Growth, and Product Innovation",
-  "venue": "Journal of Financial Economics, Vol. 151",
-  "url": "https://ideas.repec.org/a/eee/jfinec/v151y2024ics0304405x2300185x.html",
-  "region": "North America",
-  "countries": "United States",
-  "period": "2010-2018",
-  "data": "Novel firm-level AI investment measure built from ~535 million individual resumes (Cognism) and Burning Glass job postings (~180 million vacancies)",
-  "findings": "AI-investing firms show a sharp rise in AI-related hiring across sectors and subsequently experience higher growth in sales, employment, and market valuation, driven primarily by increased product innovation. Results are robust to instrumenting AI investment with firms' historical exposure to universities' local supply of AI graduates; AI-driven growth concentrates among larger firms, consistent with rising industry concentration.",
-  "magnitude": "AI investment linked to higher firm sales/employment/valuation growth via product innovation, concentrated among larger firms",
-  "source": "new"
- },
- {
-  "id": "p156",
+  "id": "p150",
   "topics": [
    "datacenters"
   ],
@@ -3781,7 +3647,7 @@
   "source": "repo"
  },
  {
-  "id": "p157",
+  "id": "p151",
   "topics": [
    "cloud"
   ],
@@ -3806,7 +3672,7 @@
   "source": "new"
  },
  {
-  "id": "p158",
+  "id": "p152",
   "topics": [
    "ai"
   ],
@@ -3829,7 +3695,7 @@
   "source": "new"
  },
  {
-  "id": "p159",
+  "id": "p153",
   "topics": [
    "broadband",
    "devices"
@@ -3854,7 +3720,7 @@
   "source": "new"
  },
  {
-  "id": "p160",
+  "id": "p154",
   "topics": [
    "transformation"
   ],
@@ -3878,7 +3744,7 @@
   "source": "new"
  },
  {
-  "id": "p161",
+  "id": "p155",
   "topics": [
    "cloud"
   ],
@@ -3902,9 +3768,9 @@
   "source": "new"
  },
  {
-  "id": "p162",
+  "id": "p156",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "welfare"
@@ -3925,7 +3791,7 @@
   "source": "repo"
  },
  {
-  "id": "p163",
+  "id": "p157",
   "topics": [
    "broadband"
   ],
@@ -3948,7 +3814,7 @@
   "source": "repo"
  },
  {
-  "id": "p164",
+  "id": "p158",
   "topics": [
    "datacenters",
    "ai"
@@ -3972,7 +3838,7 @@
   "source": "new"
  },
  {
-  "id": "p165",
+  "id": "p159",
   "topics": [
    "broadband"
   ],
@@ -3995,7 +3861,7 @@
   "source": "repo"
  },
  {
-  "id": "p166",
+  "id": "p160",
   "topics": [
    "ai"
   ],
@@ -4018,7 +3884,7 @@
   "source": "repo"
  },
  {
-  "id": "p167",
+  "id": "p161",
   "topics": [
    "ai",
    "skills"
@@ -4043,7 +3909,7 @@
   "source": "new"
  },
  {
-  "id": "p168",
+  "id": "p162",
   "topics": [
    "broadband"
   ],
@@ -4067,9 +3933,9 @@
   "source": "repo"
  },
  {
-  "id": "p169",
+  "id": "p163",
   "topics": [
-   "dpi"
+   "payments"
   ],
   "outcomes": [
    "welfare"
@@ -4090,7 +3956,7 @@
   "source": "repo"
  },
  {
-  "id": "p170",
+  "id": "p164",
   "topics": [
    "transformation"
   ],
@@ -4113,9 +3979,10 @@
   "source": "repo"
  },
  {
-  "id": "p171",
+  "id": "p165",
   "topics": [
-   "transformation"
+   "transformation",
+   "payments"
   ],
   "outcomes": [
    "welfare"
@@ -4136,7 +4003,7 @@
   "source": "repo"
  },
  {
-  "id": "p172",
+  "id": "p166",
   "topics": [
    "datacenters"
   ],
@@ -4161,9 +4028,10 @@
   "source": "new"
  },
  {
-  "id": "p173",
+  "id": "p167",
   "topics": [
-   "dpi"
+   "dpi",
+   "payments"
   ],
   "outcomes": [
    "welfare"
@@ -4184,7 +4052,7 @@
   "source": "repo"
  },
  {
-  "id": "p174",
+  "id": "p168",
   "topics": [
    "ai",
    "transformation"
@@ -4209,7 +4077,7 @@
   "source": "repo"
  },
  {
-  "id": "p175",
+  "id": "p169",
   "topics": [
    "broadband"
   ],
@@ -4233,7 +4101,7 @@
   "source": "repo"
  },
  {
-  "id": "p176",
+  "id": "p170",
   "topics": [
    "broadband"
   ],
@@ -4256,9 +4124,9 @@
   "source": "repo"
  },
  {
-  "id": "p177",
+  "id": "p171",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -4279,7 +4147,7 @@
   "source": "repo"
  },
  {
-  "id": "p178",
+  "id": "p172",
   "topics": [
    "cyber"
   ],
@@ -4302,7 +4170,7 @@
   "source": "new"
  },
  {
-  "id": "p179",
+  "id": "p173",
   "topics": [
    "skills"
   ],
@@ -4325,9 +4193,9 @@
   "source": "repo"
  },
  {
-  "id": "p180",
+  "id": "p174",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -4348,7 +4216,7 @@
   "source": "repo"
  },
  {
-  "id": "p181",
+  "id": "p175",
   "topics": [
    "ai"
   ],
@@ -4371,7 +4239,7 @@
   "source": "repo"
  },
  {
-  "id": "p182",
+  "id": "p176",
   "topics": [
    "broadband"
   ],
@@ -4394,7 +4262,7 @@
   "source": "repo"
  },
  {
-  "id": "p183",
+  "id": "p177",
   "topics": [
    "cloud"
   ],
@@ -4417,9 +4285,10 @@
   "source": "repo"
  },
  {
-  "id": "p184",
+  "id": "p178",
   "topics": [
-   "transformation"
+   "transformation",
+   "payments"
   ],
   "outcomes": [
    "welfare"
@@ -4440,7 +4309,7 @@
   "source": "repo"
  },
  {
-  "id": "p185",
+  "id": "p179",
   "topics": [
    "broadband"
   ],
@@ -4463,9 +4332,10 @@
   "source": "new"
  },
  {
-  "id": "p186",
+  "id": "p180",
   "topics": [
-   "cyber"
+   "cyber",
+   "payments"
   ],
   "outcomes": [
    "inclusion",
@@ -4487,43 +4357,13 @@
   "source": "new"
  },
  {
-  "id": "p187",
+  "id": "p181",
   "topics": [
-   "ai"
+   "transformation"
   ],
   "outcomes": [
    "labor",
    "firms"
-  ],
-  "tier": "quasi",
-  "design": "Staggered rollout of AI tool across agents/teams, difference-in-differences",
-  "authors": "Erik Brynjolfsson, Danielle Li, Lindsey R. Raymond",
-  "year": 2023,
-  "title": "Generative AI at Work",
-  "venue": "NBER Working Paper 31161 (published Quarterly Journal of Economics, 2025)",
-  "url": "https://www.nber.org/papers/w31161",
-  "region": "North America",
-  "countries": "United States",
-  "period": "2020-2021",
-  "data": "Administrative productivity data on 5,179 customer support agents at a Fortune 500 software firm during staggered introduction of a generative AI conversational assistant",
-  "findings": "Study the staggered introduction of a generative AI-based conversational assistant using data from 5,179 customer support agents. Access to the tool increases productivity, as measured by issues resolved per hour, by 14% on average, including a 34% improvement for novice and low-skilled workers but with minimal impact on experienced and highly skilled workers. The paper provides suggestive evidence that the AI model disseminates the best practices of more able workers and helps newer workers move down the experience curve. In addition, the paper finds that AI assistance improves customer sentiment, increases employee retention, and may lead to worker learning. The results suggest that access to generative AI can increase productivity, with large heterogeneity in effects across workers.",
-  "magnitude": "14% average productivity gain; 34% gain for novice agents vs near-zero for experienced agents",
-  "source": "new"
- },
- {
-  "id": "p188",
-  "topics": [
-   "transformation",
-   "broadband",
-   "dpi"
-  ],
-  "outcomes": [
-   "labor",
-   "firms",
-   "growth",
-   "inclusion",
-   "welfare",
-   "govt"
   ],
   "tier": "rct",
   "design": "Field experiment with firms on an online job portal, randomizing paid advertising and applicant identity verification",
@@ -4536,12 +4376,12 @@
   "countries": "India",
   "period": "Field experiment, early 2020s",
   "data": "Field experiment with firms using an online job portal, randomizing access to paid advertising and applicant identity verification",
-  "findings": "Conduct an in-depth case study of Aadhaar, the world’s largest biometric identity platform used by millions of poor in India. They find that Aadhaar enables more efficient and targeted delivery of government services and welfare benefits, especially to the poor, by facilitating direct benefit transfers to bank accounts and reducing leakages. Aadhaar authentication allows telecom and banking sectors to verify customer identity more easily, expanding access to services. The platform’s open architecture and ecosystem approach has enabled rapid scaling, with over 1.17 billion Indians enrolled in 5.5 years, enrolling a million people a day (30 people per second). Aadhaar-based e-KYC saves mobile operators 22 rupees ($0.34) per customer acquisition.",
+  "findings": "Run a field experiment with firms recruiting through an online job portal in India, randomizing access to paid job advertising and to a feature that verifies applicants’ identity and credentials. Both frictions bind: firms offered paid advertising together with applicant identity verification increased hiring by 68 percent relative to control, showing that information frictions — not merely a shortage of applicants — hold back formal-sector hiring on digital job platforms.",
   "magnitude": "Advertising plus identity verification on a job portal raised firm hiring by 68%",
   "source": "new"
  },
  {
-  "id": "p189",
+  "id": "p182",
   "topics": [
    "datagov"
   ],
@@ -4564,7 +4404,7 @@
   "source": "new"
  },
  {
-  "id": "p190",
+  "id": "p183",
   "topics": [
    "datacenters"
   ],
@@ -4587,7 +4427,7 @@
   "source": "repo"
  },
  {
-  "id": "p191",
+  "id": "p184",
   "topics": [
    "broadband"
   ],
@@ -4610,7 +4450,7 @@
   "source": "repo"
  },
  {
-  "id": "p192",
+  "id": "p185",
   "topics": [
    "datagov"
   ],
@@ -4634,9 +4474,10 @@
   "source": "new"
  },
  {
-  "id": "p193",
+  "id": "p186",
   "topics": [
-   "transformation"
+   "transformation",
+   "payments"
   ],
   "outcomes": [
    "inclusion",
@@ -4658,7 +4499,7 @@
   "source": "new"
  },
  {
-  "id": "p194",
+  "id": "p187",
   "topics": [
    "cyber"
   ],
@@ -4681,7 +4522,7 @@
   "source": "new"
  },
  {
-  "id": "p195",
+  "id": "p188",
   "topics": [
    "broadband"
   ],
@@ -4706,9 +4547,10 @@
   "source": "new"
  },
  {
-  "id": "p196",
+  "id": "p189",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "labor",
@@ -4731,9 +4573,9 @@
   "source": "new"
  },
  {
-  "id": "p197",
+  "id": "p190",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -4754,7 +4596,7 @@
   "source": "repo"
  },
  {
-  "id": "p198",
+  "id": "p191",
   "topics": [
    "ai"
   ],
@@ -4777,7 +4619,7 @@
   "source": "new"
  },
  {
-  "id": "p199",
+  "id": "p192",
   "topics": [
    "broadband"
   ],
@@ -4800,7 +4642,7 @@
   "source": "repo"
  },
  {
-  "id": "p200",
+  "id": "p193",
   "topics": [
    "broadband"
   ],
@@ -4823,7 +4665,7 @@
   "source": "repo"
  },
  {
-  "id": "p201",
+  "id": "p194",
   "topics": [
    "ai"
   ],
@@ -4846,9 +4688,10 @@
   "source": "new"
  },
  {
-  "id": "p202",
+  "id": "p195",
   "topics": [
-   "broadband"
+   "broadband",
+   "social"
   ],
   "outcomes": [
    "welfare",
@@ -4871,7 +4714,7 @@
   "source": "new"
  },
  {
-  "id": "p203",
+  "id": "p196",
   "topics": [
    "transformation"
   ],
@@ -4894,7 +4737,7 @@
   "source": "repo"
  },
  {
-  "id": "p204",
+  "id": "p197",
   "topics": [
    "ai",
    "datacenters"
@@ -4918,7 +4761,7 @@
   "source": "new"
  },
  {
-  "id": "p205",
+  "id": "p198",
   "topics": [
    "datacenters"
   ],
@@ -4941,7 +4784,7 @@
   "source": "repo"
  },
  {
-  "id": "p206",
+  "id": "p199",
   "topics": [
    "skills"
   ],
@@ -4964,7 +4807,7 @@
   "source": "repo"
  },
  {
-  "id": "p207",
+  "id": "p200",
   "topics": [
    "transformation"
   ],
@@ -4988,7 +4831,7 @@
   "source": "new"
  },
  {
-  "id": "p208",
+  "id": "p201",
   "topics": [
    "skills"
   ],
@@ -5011,7 +4854,7 @@
   "source": "repo"
  },
  {
-  "id": "p209",
+  "id": "p202",
   "topics": [
    "ai"
   ],
@@ -5034,7 +4877,7 @@
   "source": "repo"
  },
  {
-  "id": "p210",
+  "id": "p203",
   "topics": [
    "ai"
   ],
@@ -5057,7 +4900,7 @@
   "source": "repo"
  },
  {
-  "id": "p211",
+  "id": "p204",
   "topics": [
    "ai"
   ],
@@ -5081,9 +4924,9 @@
   "source": "new"
  },
  {
-  "id": "p212",
+  "id": "p205",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -5104,7 +4947,7 @@
   "source": "new"
  },
  {
-  "id": "p213",
+  "id": "p206",
   "topics": [
    "datagov"
   ],
@@ -5127,32 +4970,7 @@
   "source": "new"
  },
  {
-  "id": "p214",
-  "topics": [
-   "ai",
-   "transformation"
-  ],
-  "outcomes": [
-   "labor",
-   "inclusion"
-  ],
-  "tier": "descriptive",
-  "design": "GPT-4-assisted occupational/task exposure scoring applied to global employment data",
-  "authors": "Pawel Gmyrek, Janine Berg, David Bescond",
-  "year": 2023,
-  "title": "Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality",
-  "venue": "ILO Working Paper 96",
-  "url": "https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and",
-  "region": "Global",
-  "countries": "Global, by country income group",
-  "period": "2023",
-  "data": "GPT-4-based task exposure scoring applied to occupational task inventories, aggregated with ILOSTAT global employment data",
-  "findings": "Clerical work is by far the most exposed occupational group, with 24% of clerical tasks highly exposed and another 58% at medium exposure, versus only 1-4% highly-exposed tasks in other occupation groups. The report concludes augmentation (task transformation), not automation, is the most likely near-term effect, with impacts concentrated in high- and upper-middle-income countries and gendered because clerical work is female-dominated.",
-  "magnitude": "24% of clerical tasks highly exposed to generative AI vs 1-4% in other occupational groups",
-  "source": "new"
- },
- {
-  "id": "p215",
+  "id": "p207",
   "topics": [
    "broadband"
   ],
@@ -5177,7 +4995,7 @@
   "source": "new"
  },
  {
-  "id": "p216",
+  "id": "p208",
   "topics": [
    "ai"
   ],
@@ -5201,7 +5019,7 @@
   "source": "new"
  },
  {
-  "id": "p217",
+  "id": "p209",
   "topics": [
    "devices"
   ],
@@ -5226,7 +5044,7 @@
   "source": "new"
  },
  {
-  "id": "p218",
+  "id": "p210",
   "topics": [
    "ai",
    "skills"
@@ -5251,9 +5069,10 @@
   "source": "new"
  },
  {
-  "id": "p219",
+  "id": "p211",
   "topics": [
-   "dpi"
+   "govplatforms",
+   "payments"
   ],
   "outcomes": [
    "govt",
@@ -5275,7 +5094,7 @@
   "source": "new"
  },
  {
-  "id": "p220",
+  "id": "p212",
   "topics": [
    "ai"
   ],
@@ -5298,7 +5117,7 @@
   "source": "repo"
  },
  {
-  "id": "p221",
+  "id": "p213",
   "topics": [
    "transformation"
   ],
@@ -5321,7 +5140,7 @@
   "source": "repo"
  },
  {
-  "id": "p222",
+  "id": "p214",
   "topics": [
    "transformation"
   ],
@@ -5344,7 +5163,7 @@
   "source": "new"
  },
  {
-  "id": "p223",
+  "id": "p215",
   "topics": [
    "broadband",
    "devices"
@@ -5370,7 +5189,7 @@
   "source": "new"
  },
  {
-  "id": "p224",
+  "id": "p216",
   "topics": [
    "ai"
   ],
@@ -5394,7 +5213,7 @@
   "source": "new"
  },
  {
-  "id": "p225",
+  "id": "p217",
   "topics": [
    "transformation",
    "broadband"
@@ -5418,7 +5237,7 @@
   "source": "new"
  },
  {
-  "id": "p226",
+  "id": "p218",
   "topics": [
    "ai"
   ],
@@ -5441,31 +5260,32 @@
   "source": "repo"
  },
  {
-  "id": "p227",
+  "id": "p219",
   "topics": [
+   "govplatforms",
    "ai"
   ],
   "outcomes": [
    "welfare",
    "govt"
   ],
-  "tier": "quasi",
-  "design": "Algorithmic poverty-targeting model trained on survey data, validated against a real cash-transfer rollout",
-  "authors": "Aiken, E., Bellue, S., Karlan, D., Udry, C., Blumenstock, J.E.",
+  "tier": "descriptive",
+  "design": "Machine-learning targeting model trained on satellite and mobile-phone metadata, validated against household survey ground truth",
+  "authors": "Emily Aiken, Suzanne Bellue, Joshua E. Blumenstock, Dean Karlan, Christopher Udry",
   "year": 2022,
   "title": "Machine Learning and Phone Data Can Improve Targeting of Humanitarian Aid",
-  "venue": "Nature (also NBER Working Paper 29070)",
-  "url": "https://www.nber.org/papers/w29070",
+  "venue": "Nature, 603, 864-870",
+  "url": "https://www.nature.com/articles/s41586-022-04484-9",
   "region": "Sub-Saharan Africa",
   "countries": "Togo",
-  "period": "COVID-19 pandemic, 2020-2021",
-  "data": "Mobile phone call-detail-record metadata and machine-learning poverty models applied to Togo's Novissi emergency cash-transfer program, benchmarked against geographic targeting and a hypothetical comprehensive social registry",
-  "findings": "The machine-learning/mobile-phone targeting approach reduced errors of exclusion by 4-21% relative to geographic targeting alone. However, it performed worse than a hypothetical comprehensive social registry, with 9-35% higher exclusion errors, showing that ML-based targeting is a meaningful but imperfect substitute for high-quality administrative data. This is a rare rigorously quantified, partly null/mixed result on an AI-for-development tool.",
-  "magnitude": "ML/mobile-phone targeting cut exclusion errors 4-21% vs. geographic targeting, but was 9-35% worse than a full social registry",
+  "period": "2020",
+  "data": "Mobile network operator call-detail records, satellite imagery, and household survey data used to target Togo's COVID-19 Novissi emergency cash-transfer program",
+  "findings": "Using machine-learning models trained on mobile-phone metadata and satellite imagery to identify the poorest mobile subscribers, Togo's government digitally targeted emergency cash transfers to roughly 140,000 additional people in the country's poorest cantons within weeks of program design, entirely remotely, without door-to-door enumeration.",
+  "magnitude": "ML+phone-data targeting delivered COVID cash aid to ~140,000 additional poor residents within weeks",
   "source": "new"
  },
  {
-  "id": "p228",
+  "id": "p220",
   "topics": [
    "broadband"
   ],
@@ -5488,9 +5308,9 @@
   "source": "repo"
  },
  {
-  "id": "p229",
+  "id": "p221",
   "topics": [
-   "dpi",
+   "payments",
    "broadband"
   ],
   "outcomes": [
@@ -5513,7 +5333,7 @@
   "source": "new"
  },
  {
-  "id": "p230",
+  "id": "p222",
   "topics": [
    "broadband"
   ],
@@ -5536,7 +5356,7 @@
   "source": "repo"
  },
  {
-  "id": "p231",
+  "id": "p223",
   "topics": [
    "datagov"
   ],
@@ -5559,7 +5379,7 @@
   "source": "repo"
  },
  {
-  "id": "p232",
+  "id": "p224",
   "topics": [
    "broadband",
    "devices"
@@ -5584,7 +5404,7 @@
   "source": "new"
  },
  {
-  "id": "p233",
+  "id": "p225",
   "topics": [
    "broadband"
   ],
@@ -5607,7 +5427,7 @@
   "source": "repo"
  },
  {
-  "id": "p234",
+  "id": "p226",
   "topics": [
    "datagov"
   ],
@@ -5630,7 +5450,7 @@
   "source": "new"
  },
  {
-  "id": "p235",
+  "id": "p227",
   "topics": [
    "transformation",
    "ai",
@@ -5656,9 +5476,10 @@
   "source": "new"
  },
  {
-  "id": "p236",
+  "id": "p228",
   "topics": [
-   "dpi"
+   "dpi",
+   "payments"
   ],
   "outcomes": [
    "govt",
@@ -5680,7 +5501,7 @@
   "source": "repo"
  },
  {
-  "id": "p237",
+  "id": "p229",
   "topics": [
    "transformation"
   ],
@@ -5704,7 +5525,7 @@
   "source": "new"
  },
  {
-  "id": "p238",
+  "id": "p230",
   "topics": [
    "ai"
   ],
@@ -5728,7 +5549,7 @@
   "source": "new"
  },
  {
-  "id": "p239",
+  "id": "p231",
   "topics": [
    "broadband"
   ],
@@ -5751,31 +5572,7 @@
   "source": "repo"
  },
  {
-  "id": "p240",
-  "topics": [
-   "dpi"
-  ],
-  "outcomes": [
-   "welfare",
-   "govt"
-  ],
-  "tier": "descriptive",
-  "design": "Machine-learning targeting model trained on satellite and mobile-phone metadata, validated against household survey ground truth",
-  "authors": "Emily Aiken, Suzanne Bellue, Joshua E. Blumenstock, Dean Karlan, Christopher Udry",
-  "year": 2022,
-  "title": "Machine Learning and Phone Data Can Improve Targeting of Humanitarian Aid",
-  "venue": "Nature, 603, 864-870",
-  "url": "https://www.nature.com/articles/s41586-022-04484-9",
-  "region": "Sub-Saharan Africa",
-  "countries": "Togo",
-  "period": "2020",
-  "data": "Mobile network operator call-detail records, satellite imagery, and household survey data used to target Togo's COVID-19 Novissi emergency cash-transfer program",
-  "findings": "Using machine-learning models trained on mobile-phone metadata and satellite imagery to identify the poorest mobile subscribers, Togo's government digitally targeted emergency cash transfers to roughly 140,000 additional people in the country's poorest cantons within weeks of program design, entirely remotely, without door-to-door enumeration.",
-  "magnitude": "ML+phone-data targeting delivered COVID cash aid to ~140,000 additional poor residents within weeks",
-  "source": "new"
- },
- {
-  "id": "p241",
+  "id": "p232",
   "topics": [
    "skills"
   ],
@@ -5798,7 +5595,7 @@
   "source": "repo"
  },
  {
-  "id": "p242",
+  "id": "p233",
   "topics": [
    "broadband"
   ],
@@ -5821,9 +5618,9 @@
   "source": "repo"
  },
  {
-  "id": "p243",
+  "id": "p234",
   "topics": [
-   "dpi"
+   "payments"
   ],
   "outcomes": [
    "inclusion"
@@ -5844,7 +5641,7 @@
   "source": "repo"
  },
  {
-  "id": "p244",
+  "id": "p235",
   "topics": [
    "cloud"
   ],
@@ -5867,9 +5664,10 @@
   "source": "repo"
  },
  {
-  "id": "p245",
+  "id": "p236",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -5890,7 +5688,7 @@
   "source": "repo"
  },
  {
-  "id": "p246",
+  "id": "p237",
   "topics": [
    "ai",
    "skills"
@@ -5915,9 +5713,10 @@
   "source": "new"
  },
  {
-  "id": "p247",
+  "id": "p238",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -5939,10 +5738,11 @@
   "source": "repo"
  },
  {
-  "id": "p248",
+  "id": "p239",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "social"
   ],
   "outcomes": [
    "welfare",
@@ -5964,7 +5764,7 @@
   "source": "new"
  },
  {
-  "id": "p249",
+  "id": "p240",
   "topics": [
    "broadband"
   ],
@@ -5988,9 +5788,11 @@
   "source": "new"
  },
  {
-  "id": "p250",
+  "id": "p241",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms",
+   "payments"
   ],
   "outcomes": [
    "welfare"
@@ -6011,7 +5813,7 @@
   "source": "repo"
  },
  {
-  "id": "p251",
+  "id": "p242",
   "topics": [
    "broadband"
   ],
@@ -6034,9 +5836,9 @@
   "source": "repo"
  },
  {
-  "id": "p252",
+  "id": "p243",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -6058,7 +5860,7 @@
   "source": "new"
  },
  {
-  "id": "p253",
+  "id": "p244",
   "topics": [
    "datagov"
   ],
@@ -6082,7 +5884,7 @@
   "source": "new"
  },
  {
-  "id": "p254",
+  "id": "p245",
   "topics": [
    "datagov"
   ],
@@ -6105,7 +5907,7 @@
   "source": "new"
  },
  {
-  "id": "p255",
+  "id": "p246",
   "topics": [
    "skills"
   ],
@@ -6128,7 +5930,7 @@
   "source": "new"
  },
  {
-  "id": "p256",
+  "id": "p247",
   "topics": [
    "transformation"
   ],
@@ -6151,7 +5953,7 @@
   "source": "repo"
  },
  {
-  "id": "p257",
+  "id": "p248",
   "topics": [
    "broadband"
   ],
@@ -6174,9 +5976,9 @@
   "source": "repo"
  },
  {
-  "id": "p258",
+  "id": "p249",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -6197,7 +5999,7 @@
   "source": "repo"
  },
  {
-  "id": "p259",
+  "id": "p250",
   "topics": [
    "broadband"
   ],
@@ -6220,31 +6022,7 @@
   "source": "repo"
  },
  {
-  "id": "p260",
-  "topics": [
-   "transformation"
-  ],
-  "outcomes": [
-   "firms",
-   "growth"
-  ],
-  "tier": "descriptive",
-  "design": "Novel cross-country firm-level survey (Firm-level Adoption of Technology, FAT) with descriptive/comparative analysis",
-  "authors": "Xavier Cirera, Diego Comin, Marcio Cruz",
-  "year": 2022,
-  "title": "Bridging the Technological Divide: Technology Adoption by Firms in Developing Countries",
-  "venue": "World Bank Productivity Project, World Bank Publications",
-  "url": "https://ideas.repec.org/b/wbk/wbpubs/37527.html",
-  "region": "Global (developing countries)",
-  "countries": "Multiple developing countries covered by FAT surveys",
-  "period": "Survey rounds through ~2021",
-  "data": "Firm-level Adoption of Technology (FAT) surveys measuring general and business-function-specific technology use across firms in developing countries",
-  "findings": "The book documents wide within-country and within-sector heterogeneity in firm technology sophistication, showing that most firms in developing countries operate with markedly less advanced technology than the global frontier in core business functions (business administration, production, marketing), and that firm management/capabilities, not just access or cost, are central constraints on adoption.",
-  "magnitude": "Documents large, persistent technology gaps between typical firms and the frontier within the same country and sector",
-  "source": "new"
- },
- {
-  "id": "p261",
+  "id": "p251",
   "topics": [
    "broadband"
   ],
@@ -6267,7 +6045,7 @@
   "source": "repo"
  },
  {
-  "id": "p262",
+  "id": "p252",
   "topics": [
    "broadband"
   ],
@@ -6290,7 +6068,7 @@
   "source": "repo"
  },
  {
-  "id": "p263",
+  "id": "p253",
   "topics": [
    "broadband"
   ],
@@ -6313,31 +6091,7 @@
   "source": "repo"
  },
  {
-  "id": "p264",
-  "topics": [
-   "broadband"
-  ],
-  "outcomes": [
-   "labor",
-   "welfare"
-  ],
-  "tier": "quasi",
-  "design": "Difference-in-differences (panel household survey x geospatial 3G coverage rollout)",
-  "authors": "Bahia, Castells, Cruz, Masaki, Rodriguez-Castelan, and Sanfelice",
-  "year": 2021,
-  "title": "Mobile Broadband Internet, Poverty and Labor Outcomes in Tanzania",
-  "venue": "World Bank Policy Research Working Paper 9749",
-  "url": "https://documents1.worldbank.org/curated/en/457061629220877366/pdf/Mobile-Broadband-Internet-Poverty-and-Labor-Outcomes-in-Tanzania.pdf",
-  "region": "Sub-Saharan Africa",
-  "countries": "Tanzania",
-  "period": "2010s (Tanzania National Panel Survey waves)",
-  "data": "Tanzania National Panel Survey household panel combined with geospatial mobile-operator 3G coverage rollout data",
-  "findings": "Being covered by 3G networks raises total household consumption and reduces poverty, operating mainly through higher labor force participation, wage employment, and non-farm self-employment, alongside a decline in farm employment. Gains are largest for younger, more-skilled men (higher LFP/wage employment), while high-skilled women shift from self-employed farm work into non-farm employment.",
-  "magnitude": "3G coverage significantly raises household consumption and cuts poverty via labor-market channels, concentrated among younger/skilled men and skilled women",
-  "source": "new"
- },
- {
-  "id": "p265",
+  "id": "p254",
   "topics": [
    "transformation"
   ],
@@ -6360,9 +6114,9 @@
   "source": "repo"
  },
  {
-  "id": "p266",
+  "id": "p255",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -6384,7 +6138,7 @@
   "source": "repo"
  },
  {
-  "id": "p267",
+  "id": "p256",
   "topics": [
    "transformation",
    "datacenters"
@@ -6408,7 +6162,7 @@
   "source": "new"
  },
  {
-  "id": "p268",
+  "id": "p257",
   "topics": [
    "broadband"
   ],
@@ -6433,30 +6187,32 @@
   "source": "new"
  },
  {
-  "id": "p269",
+  "id": "p258",
   "topics": [
    "transformation"
   ],
   "outcomes": [
-   "welfare"
+   "welfare",
+   "growth",
+   "firms"
   ],
   "tier": "rct",
   "design": "Randomized experiment",
   "authors": "Couture et al.",
   "year": 2021,
-  "title": "",
-  "venue": "",
+  "title": "Connecting the Countryside via E-Commerce: Evidence from China",
+  "venue": "American Economic Review: Insights (NBER Working Paper 24384)",
   "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20190382",
   "region": "China",
-  "countries": "",
-  "period": "",
-  "data": "",
+  "countries": "China",
+  "period": "2015-2017",
+  "data": "RCT combined with e-commerce transaction-level administrative data and household surveys covering rural villages in China's Taobao e-commerce expansion program",
   "findings": "Estimates the impact of the first nationwide e-commerce expansion program on rural households. The paper combines a randomized control trial with new survey and administrative microdata. In contrast to existing case studies, the paper finds little evidence for income gains to rural producers and workers. Instead, the gains are driven by a reduction in cost of living for a minority of rural households that tend to be younger, richer, and in more remote markets. These effects are mainly due to overcoming logistical barriers to e-commerce rather than additional investments to adapt e-commerce to the rural population.",
-  "magnitude": "",
+  "magnitude": "Rural e-commerce mainly cut cost of living for younger, richer early adopters; little income gain for the average rural worker",
   "source": "repo"
  },
  {
-  "id": "p270",
+  "id": "p259",
   "topics": [
    "broadband"
   ],
@@ -6479,9 +6235,9 @@
   "source": "repo"
  },
  {
-  "id": "p271",
+  "id": "p260",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt"
@@ -6502,7 +6258,7 @@
   "source": "repo"
  },
  {
-  "id": "p272",
+  "id": "p261",
   "topics": [
    "transformation"
   ],
@@ -6525,7 +6281,7 @@
   "source": "repo"
  },
  {
-  "id": "p273",
+  "id": "p262",
   "topics": [
    "ai"
   ],
@@ -6548,9 +6304,10 @@
   "source": "new"
  },
  {
-  "id": "p274",
+  "id": "p263",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "labor",
@@ -6574,7 +6331,7 @@
   "source": "new"
  },
  {
-  "id": "p275",
+  "id": "p264",
   "topics": [
    "broadband"
   ],
@@ -6597,7 +6354,7 @@
   "source": "repo"
  },
  {
-  "id": "p276",
+  "id": "p265",
   "topics": [
    "skills"
   ],
@@ -6620,9 +6377,9 @@
   "source": "repo"
  },
  {
-  "id": "p277",
+  "id": "p266",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "labor",
@@ -6644,7 +6401,7 @@
   "source": "repo"
  },
  {
-  "id": "p278",
+  "id": "p267",
   "topics": [
    "broadband"
   ],
@@ -6667,30 +6424,31 @@
   "source": "repo"
  },
  {
-  "id": "p279",
+  "id": "p268",
   "topics": [
    "broadband"
   ],
   "outcomes": [
-   "govt"
+   "govt",
+   "inclusion"
   ],
   "tier": "quasi",
-  "design": "Difference-in-differences (staggered 3G rollout, cross-country)",
-  "authors": "Guriev, Melnikov, and Zhuravskaya",
+  "design": "difference-in-differences exploiting staggered rollout of 3G internet across subnational regions",
+  "authors": "Sergei Guriev, Nikita Melnikov, Ekaterina Zhuravskaya",
   "year": 2021,
   "title": "3G Internet and Confidence in Government",
-  "venue": "Quarterly Journal of Economics 136(4): 2533-2613",
-  "url": "https://doi.org/10.1093/qje/qjaa040",
+  "venue": "Quarterly Journal of Economics",
+  "url": "https://academic.oup.com/qje/article-abstract/136/4/2533/6039350",
   "region": "Global",
   "countries": "116 countries",
   "period": "2008-2017",
-  "data": "Gallup World Poll surveys of 840,537 individuals across 2,232 subnational regions in 116 countries, matched to 3G network rollout",
-  "findings": "3G internet arrival reduces approval of national government on average, an effect driven by revelation of negative information about governance quality (corruption, poor public services) rather than exposure to global culture. Effects are concentrated in countries with objectively poor governance and are largest where traditional media is heavily censored.",
-  "magnitude": "3G arrival reduces government approval on average across 116 countries (2008-2017); effect is an information/accountability channel, strongest under weak governance and censored media",
+  "data": "Individual-level survey data (840,537 respondents) across 2,232 subnational regions in 116 countries, matched to 3G network rollout timing",
+  "findings": "The arrival of 3G internet access causally reduces citizens' trust in national government and their assessment of the honesty of national elections, an effect concentrated in countries with initially high trust and driven by greater exposure to information about corruption and poor governance; effects are not present for confidence in local government or in institutions less tied to information flows.",
+  "magnitude": "3G rollout causally reduced confidence in national government across a 116-country, 2,232-region panel",
   "source": "new"
  },
  {
-  "id": "p280",
+  "id": "p269",
   "topics": [
    "datagov"
   ],
@@ -6713,7 +6471,7 @@
   "source": "repo"
  },
  {
-  "id": "p281",
+  "id": "p270",
   "topics": [
    "datagov"
   ],
@@ -6737,7 +6495,7 @@
   "source": "new"
  },
  {
-  "id": "p282",
+  "id": "p271",
   "topics": [
    "datacenters"
   ],
@@ -6760,10 +6518,11 @@
   "source": "repo"
  },
  {
-  "id": "p283",
+  "id": "p272",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "social"
   ],
   "outcomes": [
    "welfare",
@@ -6785,9 +6544,9 @@
   "source": "new"
  },
  {
-  "id": "p284",
+  "id": "p273",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -6809,7 +6568,7 @@
   "source": "new"
  },
  {
-  "id": "p285",
+  "id": "p274",
   "topics": [
    "ai",
    "transformation"
@@ -6834,7 +6593,7 @@
   "source": "new"
  },
  {
-  "id": "p286",
+  "id": "p275",
   "topics": [
    "ai",
    "transformation",
@@ -6860,7 +6619,7 @@
   "source": "new"
  },
  {
-  "id": "p287",
+  "id": "p276",
   "topics": [
    "broadband"
   ],
@@ -6883,7 +6642,7 @@
   "source": "repo"
  },
  {
-  "id": "p288",
+  "id": "p277",
   "topics": [
    "ai",
    "skills"
@@ -6908,7 +6667,7 @@
   "source": "new"
  },
  {
-  "id": "p289",
+  "id": "p278",
   "topics": [
    "datagov"
   ],
@@ -6932,7 +6691,7 @@
   "source": "new"
  },
  {
-  "id": "p290",
+  "id": "p279",
   "topics": [
    "skills"
   ],
@@ -6955,7 +6714,7 @@
   "source": "repo"
  },
  {
-  "id": "p291",
+  "id": "p280",
   "topics": [
    "devices",
    "broadband"
@@ -6980,9 +6739,10 @@
   "source": "new"
  },
  {
-  "id": "p292",
+  "id": "p281",
   "topics": [
-   "dpi",
+   "govplatforms",
+   "payments",
    "transformation"
   ],
   "outcomes": [
@@ -7005,7 +6765,7 @@
   "source": "new"
  },
  {
-  "id": "p293",
+  "id": "p282",
   "topics": [
    "skills"
   ],
@@ -7028,7 +6788,7 @@
   "source": "repo"
  },
  {
-  "id": "p294",
+  "id": "p283",
   "topics": [
    "ixp"
   ],
@@ -7052,10 +6812,11 @@
   "source": "new"
  },
  {
-  "id": "p295",
+  "id": "p284",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "social"
   ],
   "outcomes": [
    "welfare",
@@ -7077,7 +6838,7 @@
   "source": "new"
  },
  {
-  "id": "p296",
+  "id": "p285",
   "topics": [
    "skills"
   ],
@@ -7100,7 +6861,7 @@
   "source": "repo"
  },
  {
-  "id": "p297",
+  "id": "p286",
   "topics": [
    "devices"
   ],
@@ -7124,31 +6885,7 @@
   "source": "new"
  },
  {
-  "id": "p298",
-  "topics": [
-   "broadband"
-  ],
-  "outcomes": [
-   "govt",
-   "inclusion"
-  ],
-  "tier": "quasi",
-  "design": "difference-in-differences exploiting staggered rollout of 3G internet across subnational regions",
-  "authors": "Sergei Guriev, Nikita Melnikov, Ekaterina Zhuravskaya",
-  "year": 2021,
-  "title": "3G Internet and Confidence in Government",
-  "venue": "Quarterly Journal of Economics",
-  "url": "https://academic.oup.com/qje/article-abstract/136/4/2533/6039350",
-  "region": "Global",
-  "countries": "116 countries",
-  "period": "2008-2017",
-  "data": "Individual-level survey data (840,537 respondents) across 2,232 subnational regions in 116 countries, matched to 3G network rollout timing",
-  "findings": "The arrival of 3G internet access causally reduces citizens' trust in national government and their assessment of the honesty of national elections, an effect concentrated in countries with initially high trust and driven by greater exposure to information about corruption and poor governance; effects are not present for confidence in local government or in institutions less tied to information flows.",
-  "magnitude": "3G rollout causally reduced confidence in national government across a 116-country, 2,232-region panel",
-  "source": "new"
- },
- {
-  "id": "p299",
+  "id": "p287",
   "topics": [
    "transformation"
   ],
@@ -7172,7 +6909,7 @@
   "source": "new"
  },
  {
-  "id": "p300",
+  "id": "p288",
   "topics": [
    "cyber"
   ],
@@ -7195,7 +6932,7 @@
   "source": "new"
  },
  {
-  "id": "p301",
+  "id": "p289",
   "topics": [
    "broadband"
   ],
@@ -7218,32 +6955,7 @@
   "source": "repo"
  },
  {
-  "id": "p302",
-  "topics": [
-   "transformation"
-  ],
-  "outcomes": [
-   "growth",
-   "welfare",
-   "firms"
-  ],
-  "tier": "rct",
-  "design": "Randomized rollout of nationwide e-commerce expansion program combined with transaction-level administrative data and household surveys",
-  "authors": "Victor Couture, Benjamin Faber, Yizhen Gu, Lizhi Liu",
-  "year": 2021,
-  "title": "Connecting the Countryside via E-Commerce: Evidence from China",
-  "venue": "American Economic Review: Insights (NBER Working Paper 24384)",
-  "url": "https://www.nber.org/papers/w24384",
-  "region": "East Asia & Pacific",
-  "countries": "China",
-  "period": "2015-2017",
-  "data": "RCT combined with e-commerce transaction-level administrative data and household surveys covering rural villages in China's Taobao e-commerce expansion program",
-  "findings": "Gains from rural e-commerce integration are sizable but accrue mainly to a minority of rural households who are younger, richer, and located in more remote markets; the paper finds little evidence of income gains for the average rural producer or worker. Benefits are concentrated on the consumption side, via a significant reduction in cost of living from overcoming rural logistics barriers, rather than from new production or income opportunities.",
-  "magnitude": "Rural e-commerce mainly cut cost of living for younger, richer early adopters; little income gain for the average rural worker",
-  "source": "new"
- },
- {
-  "id": "p303",
+  "id": "p290",
   "topics": [
    "datagov"
   ],
@@ -7268,7 +6980,7 @@
   "source": "new"
  },
  {
-  "id": "p304",
+  "id": "p291",
   "topics": [
    "broadband"
   ],
@@ -7291,7 +7003,7 @@
   "source": "repo"
  },
  {
-  "id": "p305",
+  "id": "p292",
   "topics": [
    "ai",
    "datacenters"
@@ -7315,7 +7027,7 @@
   "source": "new"
  },
  {
-  "id": "p306",
+  "id": "p293",
   "topics": [
    "broadband"
   ],
@@ -7338,9 +7050,9 @@
   "source": "repo"
  },
  {
-  "id": "p307",
+  "id": "p294",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "welfare"
@@ -7361,9 +7073,10 @@
   "source": "repo"
  },
  {
-  "id": "p308",
+  "id": "p295",
   "topics": [
-   "dpi"
+   "govplatforms",
+   "payments"
   ],
   "outcomes": [
    "growth"
@@ -7384,7 +7097,7 @@
   "source": "repo"
  },
  {
-  "id": "p309",
+  "id": "p296",
   "topics": [
    "devices",
    "broadband"
@@ -7409,9 +7122,11 @@
   "source": "new"
  },
  {
-  "id": "p310",
+  "id": "p297",
   "topics": [
-   "ai"
+   "ai",
+   "payments",
+   "devices"
   ],
   "outcomes": [
    "inclusion",
@@ -7433,7 +7148,7 @@
   "source": "new"
  },
  {
-  "id": "p311",
+  "id": "p298",
   "topics": [
    "ai",
    "transformation"
@@ -7457,7 +7172,7 @@
   "source": "repo"
  },
  {
-  "id": "p312",
+  "id": "p299",
   "topics": [
    "ai",
    "transformation"
@@ -7481,7 +7196,7 @@
   "source": "repo"
  },
  {
-  "id": "p313",
+  "id": "p300",
   "topics": [
    "transformation"
   ],
@@ -7505,7 +7220,7 @@
   "source": "new"
  },
  {
-  "id": "p314",
+  "id": "p301",
   "topics": [
    "ai"
   ],
@@ -7528,10 +7243,11 @@
   "source": "new"
  },
  {
-  "id": "p315",
+  "id": "p302",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "social"
   ],
   "outcomes": [
    "govt",
@@ -7553,9 +7269,9 @@
   "source": "new"
  },
  {
-  "id": "p316",
+  "id": "p303",
   "topics": [
-   "dpi",
+   "govplatforms",
    "transformation"
   ],
   "outcomes": [
@@ -7578,7 +7294,7 @@
   "source": "new"
  },
  {
-  "id": "p317",
+  "id": "p304",
   "topics": [
    "datacenters"
   ],
@@ -7601,10 +7317,11 @@
   "source": "new"
  },
  {
-  "id": "p318",
+  "id": "p305",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "social"
   ],
   "outcomes": [
    "welfare",
@@ -7626,7 +7343,7 @@
   "source": "new"
  },
  {
-  "id": "p319",
+  "id": "p306",
   "topics": [
    "ixp"
   ],
@@ -7651,7 +7368,7 @@
   "source": "new"
  },
  {
-  "id": "p320",
+  "id": "p307",
   "topics": [
    "broadband"
   ],
@@ -7674,7 +7391,7 @@
   "source": "repo"
  },
  {
-  "id": "p321",
+  "id": "p308",
   "topics": [
    "datagov"
   ],
@@ -7697,7 +7414,7 @@
   "source": "repo"
  },
  {
-  "id": "p322",
+  "id": "p309",
   "topics": [
    "skills"
   ],
@@ -7721,7 +7438,7 @@
   "source": "new"
  },
  {
-  "id": "p323",
+  "id": "p310",
   "topics": [
    "broadband"
   ],
@@ -7744,7 +7461,7 @@
   "source": "new"
  },
  {
-  "id": "p324",
+  "id": "p311",
   "topics": [
    "broadband"
   ],
@@ -7767,7 +7484,7 @@
   "source": "repo"
  },
  {
-  "id": "p325",
+  "id": "p312",
   "topics": [
    "ai"
   ],
@@ -7791,7 +7508,7 @@
   "source": "new"
  },
  {
-  "id": "p326",
+  "id": "p313",
   "topics": [
    "transformation"
   ],
@@ -7815,7 +7532,7 @@
   "source": "new"
  },
  {
-  "id": "p327",
+  "id": "p314",
   "topics": [
    "transformation"
   ],
@@ -7838,9 +7555,9 @@
   "source": "repo"
  },
  {
-  "id": "p328",
+  "id": "p315",
   "topics": [
-   "dpi",
+   "payments",
    "transformation"
   ],
   "outcomes": [
@@ -7862,7 +7579,7 @@
   "source": "new"
  },
  {
-  "id": "p329",
+  "id": "p316",
   "topics": [
    "broadband"
   ],
@@ -7885,9 +7602,9 @@
   "source": "repo"
  },
  {
-  "id": "p330",
+  "id": "p317",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -7910,7 +7627,7 @@
   "source": "new"
  },
  {
-  "id": "p331",
+  "id": "p318",
   "topics": [
    "devices",
    "broadband"
@@ -7935,31 +7652,7 @@
   "source": "new"
  },
  {
-  "id": "p332",
-  "topics": [
-   "devices"
-  ],
-  "outcomes": [
-   "welfare",
-   "inclusion"
-  ],
-  "tier": "descriptive",
-  "design": "Predictive-modeling exercise validated out-of-sample against actual loan-repayment outcomes (not a causal design)",
-  "authors": "Bjorkegren and Grissen",
-  "year": 2019,
-  "title": "Behavior Revealed in Mobile Phone Usage Predicts Credit Repayment",
-  "venue": "World Bank Economic Review 34(3): 618-634",
-  "url": "https://doi.org/10.1093/wber/lhz006",
-  "region": "Global (developing-country mobile lending contexts)",
-  "countries": "Not specified in accessible abstract",
-  "period": "2010s",
-  "data": "Call-detail-record (CDR) behavioral features (call/text/airtime patterns) matched to actual micro-loan repayment records",
-  "findings": "Behavioral signatures in mobile-phone usage (e.g., regularity of calls, social-network structure, airtime top-up patterns) predict loan default risk for borrowers who lack formal credit histories, suggesting mobile metadata can substitute for traditional credit-bureau data to expand access to credit in settings where formal financial records are scarce.",
-  "magnitude": "Mobile usage metadata alone meaningfully predicts loan default, offering a potential credit-scoring substitute where formal credit histories are absent",
-  "source": "new"
- },
- {
-  "id": "p333",
+  "id": "p319",
   "topics": [
    "ixp",
    "broadband"
@@ -7984,7 +7677,7 @@
   "source": "new"
  },
  {
-  "id": "p334",
+  "id": "p320",
   "topics": [
    "ai"
   ],
@@ -8007,7 +7700,7 @@
   "source": "repo"
  },
  {
-  "id": "p335",
+  "id": "p321",
   "topics": [
    "ai",
    "transformation"
@@ -8032,7 +7725,7 @@
   "source": "new"
  },
  {
-  "id": "p336",
+  "id": "p322",
   "topics": [
    "broadband"
   ],
@@ -8055,7 +7748,7 @@
   "source": "repo"
  },
  {
-  "id": "p337",
+  "id": "p323",
   "topics": [
    "datagov"
   ],
@@ -8078,7 +7771,7 @@
   "source": "repo"
  },
  {
-  "id": "p338",
+  "id": "p324",
   "topics": [
    "ai"
   ],
@@ -8102,7 +7795,7 @@
   "source": "new"
  },
  {
-  "id": "p339",
+  "id": "p325",
   "topics": [
    "broadband"
   ],
@@ -8128,9 +7821,9 @@
   "source": "new"
  },
  {
-  "id": "p340",
+  "id": "p326",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -8152,7 +7845,7 @@
   "source": "new"
  },
  {
-  "id": "p341",
+  "id": "p327",
   "topics": [
    "skills",
    "transformation"
@@ -8176,7 +7869,7 @@
   "source": "new"
  },
  {
-  "id": "p342",
+  "id": "p328",
   "topics": [
    "transformation"
   ],
@@ -8200,7 +7893,7 @@
   "source": "new"
  },
  {
-  "id": "p343",
+  "id": "p329",
   "topics": [
    "broadband"
   ],
@@ -8223,9 +7916,9 @@
   "source": "repo"
  },
  {
-  "id": "p344",
+  "id": "p330",
   "topics": [
-   "dpi",
+   "payments",
    "transformation"
   ],
   "outcomes": [
@@ -8248,7 +7941,7 @@
   "source": "new"
  },
  {
-  "id": "p345",
+  "id": "p331",
   "topics": [
    "broadband",
    "devices",
@@ -8275,7 +7968,7 @@
   "source": "new"
  },
  {
-  "id": "p346",
+  "id": "p332",
   "topics": [
    "skills"
   ],
@@ -8298,7 +7991,7 @@
   "source": "repo"
  },
  {
-  "id": "p347",
+  "id": "p333",
   "topics": [
    "cyber"
   ],
@@ -8322,7 +8015,7 @@
   "source": "new"
  },
  {
-  "id": "p348",
+  "id": "p334",
   "topics": [
    "broadband"
   ],
@@ -8345,7 +8038,7 @@
   "source": "repo"
  },
  {
-  "id": "p349",
+  "id": "p335",
   "topics": [
    "ai",
    "transformation"
@@ -8370,7 +8063,7 @@
   "source": "new"
  },
  {
-  "id": "p350",
+  "id": "p336",
   "topics": [
    "cloud"
   ],
@@ -8393,9 +8086,9 @@
   "source": "new"
  },
  {
-  "id": "p351",
+  "id": "p337",
   "topics": [
-   "dpi",
+   "payments",
    "transformation",
    "broadband"
   ],
@@ -8419,7 +8112,7 @@
   "source": "new"
  },
  {
-  "id": "p352",
+  "id": "p338",
   "topics": [
    "transformation"
   ],
@@ -8442,7 +8135,7 @@
   "source": "repo"
  },
  {
-  "id": "p353",
+  "id": "p339",
   "topics": [
    "ai"
   ],
@@ -8467,7 +8160,7 @@
   "source": "new"
  },
  {
-  "id": "p354",
+  "id": "p340",
   "topics": [
    "ai"
   ],
@@ -8491,7 +8184,7 @@
   "source": "new"
  },
  {
-  "id": "p355",
+  "id": "p341",
   "topics": [
    "transformation"
   ],
@@ -8515,9 +8208,10 @@
   "source": "new"
  },
  {
-  "id": "p356",
+  "id": "p342",
   "topics": [
-   "dpi"
+   "govplatforms",
+   "payments"
   ],
   "outcomes": [
    "inclusion"
@@ -8538,7 +8232,7 @@
   "source": "new"
  },
  {
-  "id": "p357",
+  "id": "p343",
   "topics": [
    "cyber"
   ],
@@ -8562,7 +8256,7 @@
   "source": "new"
  },
  {
-  "id": "p358",
+  "id": "p344",
   "topics": [
    "broadband"
   ],
@@ -8585,7 +8279,7 @@
   "source": "repo"
  },
  {
-  "id": "p359",
+  "id": "p345",
   "topics": [
    "ixp"
   ],
@@ -8609,7 +8303,7 @@
   "source": "new"
  },
  {
-  "id": "p360",
+  "id": "p346",
   "topics": [
    "skills"
   ],
@@ -8633,7 +8327,7 @@
   "source": "new"
  },
  {
-  "id": "p361",
+  "id": "p347",
   "topics": [
    "ai"
   ],
@@ -8656,9 +8350,9 @@
   "source": "new"
  },
  {
-  "id": "p362",
+  "id": "p348",
   "topics": [
-   "dpi"
+   "payments"
   ],
   "outcomes": [
    "inclusion"
@@ -8679,7 +8373,7 @@
   "source": "repo"
  },
  {
-  "id": "p363",
+  "id": "p349",
   "topics": [
    "devices"
   ],
@@ -8702,9 +8396,9 @@
   "source": "new"
  },
  {
-  "id": "p364",
+  "id": "p350",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "firms",
@@ -8726,9 +8420,10 @@
   "source": "new"
  },
  {
-  "id": "p365",
+  "id": "p351",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "inclusion",
@@ -8750,9 +8445,10 @@
   "source": "repo"
  },
  {
-  "id": "p366",
+  "id": "p352",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "welfare",
@@ -8775,7 +8471,7 @@
   "source": "new"
  },
  {
-  "id": "p367",
+  "id": "p353",
   "topics": [
    "cloud"
   ],
@@ -8798,7 +8494,7 @@
   "source": "repo"
  },
  {
-  "id": "p368",
+  "id": "p354",
   "topics": [
    "broadband"
   ],
@@ -8821,9 +8517,10 @@
   "source": "repo"
  },
  {
-  "id": "p369",
+  "id": "p355",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -8845,9 +8542,9 @@
   "source": "new"
  },
  {
-  "id": "p370",
+  "id": "p356",
   "topics": [
-   "dpi",
+   "payments",
    "transformation"
   ],
   "outcomes": [
@@ -8870,7 +8567,7 @@
   "source": "new"
  },
  {
-  "id": "p371",
+  "id": "p357",
   "topics": [
    "broadband"
   ],
@@ -8894,7 +8591,7 @@
   "source": "new"
  },
  {
-  "id": "p372",
+  "id": "p358",
   "topics": [
    "datagov",
    "cyber"
@@ -8919,7 +8616,7 @@
   "source": "new"
  },
  {
-  "id": "p373",
+  "id": "p359",
   "topics": [
    "skills"
   ],
@@ -8942,7 +8639,7 @@
   "source": "repo"
  },
  {
-  "id": "p374",
+  "id": "p360",
   "topics": [
    "skills"
   ],
@@ -8965,7 +8662,7 @@
   "source": "repo"
  },
  {
-  "id": "p375",
+  "id": "p361",
   "topics": [
    "datagov"
   ],
@@ -8989,9 +8686,9 @@
   "source": "new"
  },
  {
-  "id": "p376",
+  "id": "p362",
   "topics": [
-   "dpi",
+   "payments",
    "devices"
   ],
   "outcomes": [
@@ -9015,9 +8712,10 @@
   "source": "new"
  },
  {
-  "id": "p377",
+  "id": "p363",
   "topics": [
-   "dpi"
+   "dpi",
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -9040,7 +8738,7 @@
   "source": "new"
  },
  {
-  "id": "p378",
+  "id": "p364",
   "topics": [
    "transformation"
   ],
@@ -9063,9 +8761,9 @@
   "source": "repo"
  },
  {
-  "id": "p379",
+  "id": "p365",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "firms"
@@ -9086,9 +8784,9 @@
   "source": "repo"
  },
  {
-  "id": "p380",
+  "id": "p366",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -9110,9 +8808,9 @@
   "source": "new"
  },
  {
-  "id": "p381",
+  "id": "p367",
   "topics": [
-   "dpi"
+   "payments"
   ],
   "outcomes": [
    "welfare"
@@ -9133,9 +8831,10 @@
   "source": "repo"
  },
  {
-  "id": "p382",
+  "id": "p368",
   "topics": [
-   "dpi",
+   "govplatforms",
+   "payments",
    "transformation",
    "devices"
   ],
@@ -9162,7 +8861,7 @@
   "source": "new"
  },
  {
-  "id": "p383",
+  "id": "p369",
   "topics": [
    "skills"
   ],
@@ -9185,7 +8884,7 @@
   "source": "repo"
  },
  {
-  "id": "p384",
+  "id": "p370",
   "topics": [
    "broadband"
   ],
@@ -9209,7 +8908,7 @@
   "source": "new"
  },
  {
-  "id": "p385",
+  "id": "p371",
   "topics": [
    "devices"
   ],
@@ -9232,9 +8931,9 @@
   "source": "new"
  },
  {
-  "id": "p386",
+  "id": "p372",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -9256,7 +8955,7 @@
   "source": "new"
  },
  {
-  "id": "p387",
+  "id": "p373",
   "topics": [
    "transformation"
   ],
@@ -9280,7 +8979,7 @@
   "source": "new"
  },
  {
-  "id": "p388",
+  "id": "p374",
   "topics": [
    "ixp"
   ],
@@ -9304,7 +9003,7 @@
   "source": "new"
  },
  {
-  "id": "p389",
+  "id": "p375",
   "topics": [
    "cyber"
   ],
@@ -9328,7 +9027,7 @@
   "source": "new"
  },
  {
-  "id": "p390",
+  "id": "p376",
   "topics": [
    "datacenters"
   ],
@@ -9351,7 +9050,7 @@
   "source": "repo"
  },
  {
-  "id": "p391",
+  "id": "p377",
   "topics": [
    "skills"
   ],
@@ -9374,7 +9073,7 @@
   "source": "repo"
  },
  {
-  "id": "p392",
+  "id": "p378",
   "topics": [
    "datagov",
    "cloud"
@@ -9399,9 +9098,9 @@
   "source": "new"
  },
  {
-  "id": "p393",
+  "id": "p379",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "govt",
@@ -9423,9 +9122,9 @@
   "source": "new"
  },
  {
-  "id": "p394",
+  "id": "p380",
   "topics": [
-   "dpi",
+   "payments",
    "transformation",
    "devices"
   ],
@@ -9450,7 +9149,7 @@
   "source": "new"
  },
  {
-  "id": "p395",
+  "id": "p381",
   "topics": [
    "cyber"
   ],
@@ -9474,7 +9173,7 @@
   "source": "new"
  },
  {
-  "id": "p396",
+  "id": "p382",
   "topics": [
    "devices"
   ],
@@ -9497,9 +9196,10 @@
   "source": "new"
  },
  {
-  "id": "p397",
+  "id": "p383",
   "topics": [
-   "dpi"
+   "dpi",
+   "payments"
   ],
   "outcomes": [
    "inclusion"
@@ -9520,7 +9220,7 @@
   "source": "repo"
  },
  {
-  "id": "p398",
+  "id": "p384",
   "topics": [
    "broadband",
    "devices"
@@ -9545,9 +9245,9 @@
   "source": "new"
  },
  {
-  "id": "p399",
+  "id": "p385",
   "topics": [
-   "dpi"
+   "govplatforms"
   ],
   "outcomes": [
    "firms",
@@ -9569,9 +9269,10 @@
   "source": "new"
  },
  {
-  "id": "p400",
+  "id": "p386",
   "topics": [
-   "dpi"
+   "dpi",
+   "payments"
   ],
   "outcomes": [
    "inclusion",
@@ -9593,7 +9294,7 @@
   "source": "new"
  },
  {
-  "id": "p401",
+  "id": "p387",
   "topics": [
    "skills"
   ],
@@ -9616,7 +9317,7 @@
   "source": "repo"
  },
  {
-  "id": "p402",
+  "id": "p388",
   "topics": [
    "datagov"
   ],
@@ -9639,7 +9340,7 @@
   "source": "new"
  },
  {
-  "id": "p403",
+  "id": "p389",
   "topics": [
    "cyber",
    "datagov"
@@ -9664,9 +9365,10 @@
   "source": "new"
  },
  {
-  "id": "p404",
+  "id": "p390",
   "topics": [
-   "transformation"
+   "transformation",
+   "payments"
   ],
   "outcomes": [
    "inclusion",
@@ -9688,7 +9390,7 @@
   "source": "new"
  },
  {
-  "id": "p405",
+  "id": "p391",
   "topics": [
    "broadband"
   ],
@@ -9712,10 +9414,11 @@
   "source": "new"
  },
  {
-  "id": "p406",
+  "id": "p392",
   "topics": [
    "broadband",
-   "devices"
+   "devices",
+   "payments"
   ],
   "outcomes": [
    "growth",
@@ -9738,9 +9441,10 @@
   "source": "new"
  },
  {
-  "id": "p407",
+  "id": "p393",
   "topics": [
-   "dpi"
+   "govplatforms",
+   "social"
   ],
   "outcomes": [
    "welfare"
@@ -9761,7 +9465,7 @@
   "source": "repo"
  },
  {
-  "id": "p408",
+  "id": "p394",
   "topics": [
    "broadband"
   ],
@@ -9784,7 +9488,7 @@
   "source": "new"
  },
  {
-  "id": "p409",
+  "id": "p395",
   "topics": [
    "broadband"
   ],
@@ -9807,7 +9511,7 @@
   "source": "repo"
  },
  {
-  "id": "p410",
+  "id": "p396",
   "topics": [
    "cloud"
   ],
@@ -9830,7 +9534,7 @@
   "source": "repo"
  },
  {
-  "id": "p411",
+  "id": "p397",
   "topics": [
    "skills"
   ],
@@ -9853,7 +9557,7 @@
   "source": "repo"
  },
  {
-  "id": "p412",
+  "id": "p398",
   "topics": [
    "broadband"
   ],
@@ -9877,7 +9581,7 @@
   "source": "new"
  },
  {
-  "id": "p413",
+  "id": "p399",
   "topics": [
    "broadband"
   ],
@@ -9900,7 +9604,7 @@
   "source": "repo"
  },
  {
-  "id": "p414",
+  "id": "p400",
   "topics": [
    "broadband"
   ],
@@ -9923,7 +9627,7 @@
   "source": "repo"
  },
  {
-  "id": "p415",
+  "id": "p401",
   "topics": [
    "broadband"
   ],
@@ -9946,7 +9650,7 @@
   "source": "repo"
  },
  {
-  "id": "p416",
+  "id": "p402",
   "topics": [
    "broadband"
   ],
@@ -9970,7 +9674,7 @@
   "source": "new"
  },
  {
-  "id": "p417",
+  "id": "p403",
   "topics": [
    "transformation"
   ],
@@ -9993,7 +9697,7 @@
   "source": "repo"
  },
  {
-  "id": "p418",
+  "id": "p404",
   "topics": [
    "broadband"
   ],
@@ -10016,7 +9720,7 @@
   "source": "repo"
  },
  {
-  "id": "p419",
+  "id": "p405",
   "topics": [
    "transformation"
   ],
@@ -10039,7 +9743,7 @@
   "source": "repo"
  },
  {
-  "id": "p420",
+  "id": "p406",
   "topics": [
    "broadband"
   ],
@@ -10064,7 +9768,7 @@
   "source": "new"
  },
  {
-  "id": "p421",
+  "id": "p407",
   "topics": [
    "skills"
   ],
@@ -10087,7 +9791,7 @@
   "source": "repo"
  },
  {
-  "id": "p422",
+  "id": "p408",
   "topics": [
    "ixp"
   ],
