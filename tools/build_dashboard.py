@@ -39,7 +39,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 TOPICS = ['broadband', 'devices', 'ixp', 'datacenters', 'cloud', 'dpi',
-          'skills', 'transformation', 'ai', 'cyber', 'datagov']
+          'govplatforms', 'payments', 'skills', 'transformation', 'ai',
+          'social', 'cyber', 'datagov']
 OUTCOMES = ['growth', 'labor', 'firms', 'welfare', 'inclusion', 'govt', 'humancap', 'environment']
 TIERS = ['rct', 'quasi', 'structural', 'descriptive', 'review']
 CAUSAL_TIERS = ('rct', 'quasi')
@@ -90,7 +91,6 @@ def build():
         '__NCAUSAL__': str(causal),
         '__UPDATED__': today.strftime('%-d %B %Y'),
         '__YEAR__': str(today.year),
-        '__HOMELINK__': '<a href="index.html">&larr; Yan Liu</a>',
     }.items():
         body = body.replace(key, val)
 
