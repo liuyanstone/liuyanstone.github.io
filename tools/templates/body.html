@@ -4,7 +4,7 @@
         <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch color theme">Theme</button>
       </div>
       <p class="eyebrow">Evidence repository</p>
-      <h1>The Development Impact of Digital Transformation&nbsp;and&nbsp;AI</h1>
+      <h1>The Development Impact of Digital Transformation and&nbsp;AI</h1>
       <p class="lede">
         A searchable repository of __N__ studies on what digital technology actually does to growth, jobs, firms,
         welfare, inclusion, the public sector and the environment — organized by digital topic and outcome, by
@@ -34,6 +34,7 @@
       </p>
       <div class="lever-switch" id="leverSwitch" role="group" aria-label="Show the evidence map for one category of evidence"></div>
       <p class="matrix-scope" id="matrixScope" aria-live="polite"></p>
+      <p class="matrix-hint" aria-hidden="true">Swipe the table sideways to see every outcome &rarr;</p>
       <div class="matrix-scroll">
         <table class="matrix" id="matrix">
           <caption class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Study counts by digital topic and outcome</caption>
@@ -353,10 +354,10 @@ __SUMMARY__
       });
       TOPICS.forEach(function (t) { OUTCOMES.forEach(function (o) { max = Math.max(max, counts[t[0]][o[0]].n); }); });
 
+      function alpha(n) { return n ? 0.09 + 0.72 * Math.pow(n / max, 0.55) : 0; }
       function shade(n) {
         if (!n) return 'transparent';
-        var a = 0.09 + 0.72 * Math.pow(n / max, 0.55);
-        return 'rgba(42,110,160,' + a.toFixed(3) + ')';
+        return 'rgba(42,110,160,' + alpha(n).toFixed(3) + ')';
       }
       var html = '<thead><tr><th scope="col">Topic ↓ &nbsp;/&nbsp; Outcome →</th>';
       OUTCOMES.forEach(function (o) { html += '<th scope="col">' + o[1] + '</th>'; });
@@ -370,7 +371,7 @@ __SUMMARY__
           rowTot += c.n; rowCau += c.c;
           var on = state.topics.length === 1 && state.topics[0] === t[0] &&
                    state.outcomes.length === 1 && state.outcomes[0] === o[0];
-          html += '<td><button class="cell' + (on ? ' on' : '') + '" style="background:' + shade(c.n) + '"' +
+          html += '<td style="background:' + shade(c.n) + '"><button class="cell' + (on ? ' on' : '') + (alpha(c.n) > 0.55 ? ' deep' : '') + '"' +
                   (c.n ? '' : ' disabled') +
                   ' data-t="' + t[0] + '" data-o="' + o[0] + '"' +
                   ' aria-label="' + c.n + ' studies, ' + c.c + ' causal">' +
@@ -378,7 +379,7 @@ __SUMMARY__
                   (c.n ? '<span class="caus">' + c.c + ' causal</span>' : '') +
                   '</button></td>';
         });
-        html += '<td><button class="cell" disabled style="background:var(--surface-2)">' +
+        html += '<td style="background:var(--surface-2)"><button class="cell" disabled>' +
                 '<span class="tot">' + rowTot + '</span><span class="caus">' + rowCau + ' causal</span></button></td></tr>';
       });
       html += '</tbody>';
