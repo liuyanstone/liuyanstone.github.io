@@ -253,9 +253,9 @@ def render_summaries(papers):
             for l, lbl in LEVERS)
         blocks.append(
             f'<details class="sum" id="sum-{slug}" data-topic="{slug}">'
-            f'<summary><span class="sum-title">{html.escape(label)}</span>'
+            f'<summary><span class="sum-head"><span class="sum-title">{html.escape(label)}</span>'
             f'<span class="sum-stats"><b>{n}</b> studies &middot; <b>{c}</b> causal</span>'
-            f'<span class="sum-headline">{render_text(s.get("headline", ""), keymap, slug + ".headline")}</span></summary>'
+            f'<span class="sum-headline">{render_text(s.get("headline", ""), keymap, slug + ".headline")}</span></span></summary>'
             f'<div class="sum-body">'
             f'{items("findings", "findings", "What the evidence shows")}'
             f'<div class="sum-side">{items("mechanisms", "mechanisms", "Mechanisms")}'
