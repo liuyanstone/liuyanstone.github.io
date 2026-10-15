@@ -8042,13 +8042,13 @@
   ],
   "tier": "rct",
   "design": "Randomized experiment",
-  "authors": "Banderjee et al.",
+  "authors": "Banerjee, Duflo, Imbert, Mathew and Pande",
   "year": 2020,
-  "title": "",
-  "venue": "",
+  "title": "E-governance, Accountability, and Leakage in Public Programs: Experimental Evidence from a Financial Management Reform in India",
+  "venue": "American Economic Journal: Applied Economics 12(4): 39-72",
   "url": "https://www.aeaweb.org/articles?id=10.1257/app.20180302",
   "region": "India",
-  "countries": "",
+  "countries": "India",
   "period": "",
   "data": "",
   "findings": "Analyze a large field experiment and the nationwide scale-up of a reform to India's workfare program. Advance payments were replaced by \"just-in-time\" payments, triggered by e-invoicing, making it easier to detect misreporting. Leakages went down: program expenditures dropped by 24 percent, while employment slightly increased; there were fewer fake households in the official database; and program officials' personal wealth fell by 10 percent. However, payment delays increased. The nationwide scale-up resulted in a persistent 19 percent reduction in program expenditure.",
@@ -8058,8 +8058,8 @@
    "policy",
    "investment"
   ],
-  "key": "banderjee-2020",
-  "cite": "Banderjee et al. (2020)"
+  "key": "banerjee-2020",
+  "cite": "Banerjee et al. (2020)"
  },
  {
   "id": "p296",
