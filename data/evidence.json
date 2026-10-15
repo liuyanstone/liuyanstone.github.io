@@ -8,7 +8,7 @@
    "welfare",
    "inclusion"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Cross-country panel combining peering port pricing with proprietary IP-transit pricing data, 2019-2024",
   "authors": "Anirudh Tagat, Amreesh Phokeer",
   "year": 2026,
@@ -654,7 +654,7 @@
    "environment",
    "welfare"
   ],
-  "tier": "quasi",
+  "tier": "structural",
   "design": "Hourly, unit-level least-cost dispatch model of continental US wholesale electricity markets, with projections under high- and moderate-utilization data-center build-out scenarios",
   "authors": "Owen Kay, Robert Reaser, Reid Taylor",
   "year": 2026,
@@ -1581,7 +1581,7 @@
    "firms",
    "growth"
   ],
-  "tier": "quasi",
+  "tier": "structural",
   "design": "Panel of high-frequency CPU utilization data with a structural learning model of within-firm productivity dynamics after cloud adoption",
   "authors": "James M. Brand, Mert Demirer, Connor Finucane, Avner Kreps",
   "year": 2025,
@@ -4762,7 +4762,7 @@
   "outcomes": [
    "firms"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Textual analysis of 10-K/10-Q risk disclosures to build firm-level cyber-risk factor; asset-pricing tests",
   "authors": "Chris Florackis, Christodoulos Louca, Roni Michaely, Michael Weber",
   "year": 2023,
@@ -8103,7 +8103,7 @@
    "inclusion",
    "welfare"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Predictive modeling of loan default from mobile phone usage metadata, validated out-of-sample",
   "authors": "Björkegren, D., Grissen, D.",
   "year": 2020,
@@ -8890,7 +8890,7 @@
    "welfare",
    "humancap"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Prospective diagnostic-accuracy validation study vs. expert manual grading",
   "authors": "Gulshan, V., Rajan, R.P., Widner, K., Wu, D., Wubbels, P., Rhodes, T., Whitehouse, K., Coram, M., Corrado, G., Kim, R.,…",
   "year": 2019,
@@ -10509,7 +10509,7 @@
    "inclusion",
    "govt"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Panel fixed-effects analysis (cross-country, Sub-Saharan African mobile markets)",
   "authors": "Jentzsch",
   "year": 2012,
@@ -10888,7 +10888,7 @@
   "outcomes": [
    "labor"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Cross-sectional association",
   "authors": "Garrido et al",
   "year": 2009,
@@ -10917,7 +10917,7 @@
    "govt",
    "welfare"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Cross-country comparative welfare/efficiency analysis of spectrum-allocation mechanisms across 28 mobile markets",
   "authors": "Hazlett and Munoz",
   "year": 2009,
@@ -13914,7 +13914,7 @@
   "levers": [
    "policy"
   ],
-  "tier": "quasi",
+  "tier": "descriptive",
   "design": "Cross-country panel regressions of telecom sector performance on privatisation, competition and independent-regulator reforms, including policy interactions and reform sequencing",
   "authors": "Fink, Mattoo and Rathindran",
   "year": 2003,
