@@ -296,7 +296,8 @@ def build():
     summary_html, n_sum = render_summaries(papers)
     causal = sum(1 for p in papers if p['tier'] in CAUSAL_TIERS)
     today = datetime.date.today()
-    data_json = json.dumps(papers, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
+    page_rows = [{k: v for k, v in p.items() if k != 'source'} for p in papers]   # provenance stays in the data file
+    data_json = json.dumps(page_rows, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 
     for key, val in {
         '__SUMMARY__': summary_html,
@@ -307,9 +308,9 @@ def build():
     }.items():
         body = body.replace(key, val)
 
-    desc = ('A searchable repository of %d rigorous economic studies on the development impact of '
-            'digital transformation and AI, organized by digital topic, outcome and what each study '
-            'evaluates, and graded by strength of causal identification.' % len(papers))
+    desc = ('A searchable repository of %d economic studies on the development impact of digital '
+            'transformation and AI, organized by digital topic, outcome and what each study evaluates, '
+            'and graded by strength of causal identification.' % len(papers))
     esc_desc = html.escape(desc, quote=True)
 
     page = f'''<!DOCTYPE html>
